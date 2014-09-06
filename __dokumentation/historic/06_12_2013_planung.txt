@@ -1,0 +1,115 @@
+﻿## !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+##   !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+##     !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+
+02. Im Javascript-Teil :
+	Alle console-Aufrufe herausnehmen und die Alerts auskommentieren. MS-Explorer kompatibilität !!
+
+03 Die in Webformen vorhandenen Klassen in die Datei tls_WbFrmClasses verschieben
+	wbf_activemap/create_map_user.aspx (!!)
+	To get a little more peformance
+
+
+##     !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+##   !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+## !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+##  ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##    ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##      ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+
+01. http://localhost:3463/njb_2/wbf_account/user_abonnement.aspx
+	WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!
+	Nochmal checken ob beim Löschen eines Beitrages auch alle Abos gelöscht werden. Scheint nicht so zu sein !!!
+	WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!
+
+
+05 Headline-Beschreibungen / Erklärungen kommentieren
+	Kommentare und kurzhilfen zu den einzelnen Fenstern neu schreiben
+
+
+07. Beim Warten-DIV (mit der GIF-Animation) sollte auch die letzte Warning-Message gehidden werden.
+
+08. Job-Liste :
+	Wenn keine Stadt/PLZ ausgewählt wurde sollte eine Fehlermeldung kommen
+
+09. nejoba LOGO ändern : Beta-Status kenntlich machen !
+
+10. show_for_strangers:
+	die Headline wird nicht angezeigt !!
+
+11. /wbf_activemap/create_map_user.aspx
+	Im Edit-Mode (Änderung des Passwortes wird NICHT angezeigt wenn das Passwort geändert wurde)
+
+12. Nicht erfgolgreiche Anmeldung: 
+	Wenn seitens Masterpage ein LogIn nicht erfolgt ist sollte eine fehlerseite aufgerufen werden.
+
+
+
+##      ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##    ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##  ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+##   work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+##     work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+
+06 Das teilen funktioniert noch NICHT:
+	Folgender Link wird immer wieder ausgespuckt : SliceActive=0, danach dann nix mehr
+
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+
+##     work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+##   work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+## work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+
+
+
+

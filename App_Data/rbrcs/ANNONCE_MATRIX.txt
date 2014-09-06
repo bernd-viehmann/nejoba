@@ -1,0 +1,446 @@
+﻿Verkaufsanzeigen
+	Fahrzeuge
+		Auto
+			Limousine
+			Kombi
+			SUV/Geländewagen
+			Cabrio
+			Sportwagen / Coupe
+			Zubehör und Ersatzteile
+				Reifen
+					Sommer-Reifen
+					Winter-Reifen
+					Allwetter-Reifen
+					Alu-Felgen
+					Radkappen
+				Autoradio
+				Navies
+				Motor und Technik
+		Motorrad
+			Mofa
+			Mopped
+			Mokick
+			Enduro / Reiseenduro
+			Chopper
+			Tourer
+			Sporttourer
+			Naked Bike
+			Sport / Supersport
+			Trike
+			Quad
+			Zubehör und Ersatzteile
+		Anhänger
+			Starrdeichselanhänger 
+			Mehrachsige Anhänger mit gelenkter Vorderachse
+			Sattelanhänger
+			Tandemanhänger
+			Sonderformen
+		Fahrrad
+			Rennrad
+			Bahnrad
+			Kriteriumsrad
+			Triathlonrad
+			Mountainbike
+			Trialbike
+			Bonanzarad
+			Speedbike
+			BMX-Rad
+			Zubehör und Ersatzteile
+		Wohnwagen und Wohnmobil
+			Wohnkabine
+			Teilintegriert
+			Kastenwagen
+			Mobilheim
+			Wohnwagen
+			Zubehör und Ersatzteile
+	Technik
+		Telefon und Internet
+			Telefon
+				Kabel
+				Drahtlos
+			Router und Telefonanlagen
+				analoge Telefonanlage
+				ISDN-Anlage
+				Router
+					DSL
+					WLAN
+					WLAN/DSL
+					TV-Kabel Modem
+					Glasfaser
+			klassisches Handy
+			Smartphones
+				Android
+				Windows mobile
+				Apple iOS
+				sonstige Betriebssysteme
+				Zubehör
+		Hifi
+			Digitale Abspielgeräte / Recorder
+				CD-i Player
+				CD-Player
+				Portable CD Player
+				CD-Recorder
+				CD-Wechsler
+				CD-Player / Tuner
+				DAT-Recorder
+				DAT-Portables
+				DCC-Recorder
+				MD-Decks
+				MD-Portables
+				Netzwerk Player
+				SACD-Player / nur SACD-Player, die keine DVDs abspielen können 
+			Analoge Abspielgeräte / Recorder
+				Bandmaschinen / Tonbandgeräte
+				Kassettendecks
+				Kassettenrecorder / Radiorecorder (portabel)
+				Plattenspieler
+					Plattenwechsler
+					Laufwerke
+					Tonarme
+					Tonabnehmer
+					Tonarmwaagen 
+				Radiorekorder
+				Tuner 
+			Receiver
+				Stereo- und Quadro-Receiver
+				Vorverstärker-Tuner / Preceiver 
+			Verstärker
+				Endstufen / Endverstärker
+				Kopfhörerverstärker
+				MC-Übertrager
+				Plattenspielervorverstärker
+				Vollverstärker
+				Vorverstärker 
+			Kopfhörer
+			Lautsprecher
+			Lautsprecherchassis
+			Subwoofer 
+			Sonstiges / Zubehör
+				D/A-Wandler
+				Equalizer
+				Fernsteuereinheit
+				Gesamtanlagen / auch CD-Receiver, DVD-Receiver, SACD-Receiver
+				Kabel
+				Mikrofone
+				PCM-Prozessoren
+				Portable Player
+				Rauschunterdrückung (extern)
+				Röhrenmessgeräte
+				Soundkarten
+				Timer
+				Zubehör 
+		TV
+			LED/LCD-TV
+				bis 79 cm (30")
+				ab 80 cm (32")
+				ab 94 cm (37")
+				ab 101 cm (40")
+				ab 116 cm (46")
+				ab 127 cm (50")
+			Plasma-TV
+				bis 79 cm (30")
+				ab 80 cm (32")
+				ab 94 cm (37")
+				ab 101 cm (40")
+				ab 116 cm (46")
+				ab 127 cm (50")
+			Beamer
+				Projektoren
+				Zubehör
+					Leinwände
+					Ersatzlampen
+					Halterungen
+					Taschen
+					3D-Brillen
+			DVD & Blu-ray
+				A/V-Receiver
+				A/V-Verstärker
+				A/V-Vorverstärker
+				Bildplattenspieler
+				Blu-ray Disc Player
+				Blu-ray Disc Recorder
+				DVD-Player
+				DVD-Player mit MP4
+				DVD-Recorder
+				HD-DVD-Player
+				Surrounddecoder
+				Videorecorder
+				Media-Player
+			Empfangstechnik
+				Receiver
+					Sat
+					Kabel
+					DVB-T
+					IPTV
+				TV-Karten (Computer)
+					Sat
+					Kabel
+					DVB-T
+					IPTV
+				Pay-TV
+				Zubehör
+					DVB-T-Antennen
+					LNB
+					Montage
+					Kabel
+					Multischalter
+					Sat-Spiegel
+					CI-Module
+			TV-Zubehör
+				Soundbars
+				TV-Halterungen
+				3D-Brillen
+		Foto und Film
+			Foto
+			Filmkamera
+			Zubehör
+		Computertechnik
+			Hardware
+				Komponenten
+					Arbeitsspeicher
+					Cooling
+					Festplatten
+					Gehäuse
+					Grafikkarten
+					Laufwerke
+					Mainboards
+					Netzteile
+					Netzwerkkarten
+					Prozessoren (CPU)
+					SSD
+					Soundkarten
+					TV-Karten
+				Peripherie
+					Bürotechnik
+					Drucker & Scanner
+					Eingabegeräte
+					Kabel & Adapter
+					Monitore
+					NAS & NDAS
+					Netzwerktechnik
+					PC-Audio
+					Rohlinge & Medien
+					Sicherheitstechnik
+					Speicherkarten
+					Speichersticks
+					Stromversorgung
+					USV
+					Webcams
+			Tablets
+				Tablets
+					bis 17,8 cm (7")
+					bis 25,4 cm (10")
+					ab 29,5 cm (11,6")
+				Tablet-Zubehör
+			Notebooks
+				Notebooks
+				Ultrabooks
+				Netbooks
+				Notebook-Taschen
+				Notebook-Zubehör
+			PC-Systeme
+				All-in-One PCs
+				Server
+				Barebones
+				PC-Zubehör
+	Kleidung
+		Kindersachen
+			Für Jungs
+				Hose
+				Pullover
+				Jacke
+				Schuhe
+			Für Mädchen
+				Hose
+				Pullover
+				Jacke
+				Schuhe
+		Männer-Bekleidung
+			Hose
+			Pullover
+			Jacke
+			Schuhe
+		Frauen-Bekleidung
+			Hose
+			Pullover
+			Jacke
+			Schuhe
+	Möbel und Accessoires
+		Einrichtung
+			Küche
+			Schlafzimmer
+			Wohnzimmer
+		Kunst und Antiquitäten
+	Garten und Heimwerker
+		Gartengeräte
+			Mäher
+			Spritzgeräte/Sprühgeräte
+			sonstige Geräte
+		Gartenmöbel
+		Werkzeug
+		Pflanzen
+		Baumaterial
+	Bücher, Medien und Kultur
+		Buchmarkt
+			Briefe/Tagebücher
+			Comic / Karikaturen
+			Erinnerungen/Autobiografien
+			Essay
+			Jugendbuch (ab 12 Jahre)
+			Kinderbuch bis 6 Jahre
+			Lyrik / Aphorismen
+			Reportagen, Reise
+			Reportagen, sonstige
+			Romane / erzählende Literatur
+			Romane, historische
+			Romane, Krimis
+			Romane, Science Fiction / Fantasy
+			Theater
+			Unterricht und Lehrmittel
+		Musik
+			CDs
+			Schallplatten
+		Film
+			DVD
+				Abenteuerfilme
+				Action-Thriller
+				Actionfilme
+				Actionkomödien
+				Animationsfilme
+				Biopic
+				Deutsche Filme
+				Drama
+				Dystopie
+				Episodenfilme
+				Fantasyfilme
+				Gangsterfilme
+				Historienfilme
+				Horrorfilme
+				Komödien
+				Kriegsfilme
+				Kriminalfilme
+				Kultfilme
+				Liebesfilme
+				Mafiafilme
+				Musikfilme
+				Mysteryfilme
+				Neo Noir
+				Road Movies
+				Satire
+				Schwarze Komödien
+				Schwarzweißfilme
+				Science Fiction
+				Thriller
+				Tragikomödien
+				Western
+				sonstige
+			BlueRay
+				Abenteuerfilme
+				Action-Thriller
+				Actionfilme
+				Actionkomödien
+				Animationsfilme
+				Biopic
+				Deutsche Filme
+				Drama
+				Dystopie
+				Episodenfilme
+				Fantasyfilme
+				Gangsterfilme
+				Historienfilme
+				Horrorfilme
+				Komödien
+				Kriegsfilme
+				Kriminalfilme
+				Kultfilme
+				Liebesfilme
+				Mafiafilme
+				Musikfilme
+				Mysteryfilme
+				Neo Noir
+				Road Movies
+				Satire
+				Schwarze Komödien
+				Schwarzweißfilme
+				Science Fiction
+				Thriller
+				Tragikomödien
+				Western
+				sonstige
+			Videokassetten
+				Abenteuerfilme
+				Action-Thriller
+				Actionfilme
+				Actionkomödien
+				Animationsfilme
+				Biopic
+				Deutsche Filme
+				Drama
+				Dystopie
+				Episodenfilme
+				Fantasyfilme
+				Gangsterfilme
+				Historienfilme
+				Horrorfilme
+				Komödien
+				Kriegsfilme
+				Kriminalfilme
+				Kultfilme
+				Liebesfilme
+				Mafiafilme
+				Musikfilme
+				Mysteryfilme
+				Neo Noir
+				Road Movies
+				Satire
+				Schwarze Komödien
+				Schwarzweißfilme
+				Science Fiction
+				Thriller
+				Tragikomödien
+				Western
+				sonstige
+			Eintrittskarten
+				Theater
+					Klassisch
+					Volksbühne
+					experimentales Theater
+				Oper
+					Nummernoper
+					Durchkomponierte Großform
+					Opera seria
+					Opera buffa				
+				Konzert
+				Kabarett
+				Klassik
+				Chor
+				Comedy
+				Festival
+				sonstiges
+Wohnen
+	Immobilien
+		Mieten
+		Kaufen
+	Wohngemeinschaften
+		WG-Zimmer
+	Mitwohnen
+	betreutes Wohnen
+	Wohnungstausch
+Ferien
+	Urlaubsangebote
+		Busreisen
+		Flugreisen
+		Urlaubsgemeinschaft
+	Ferienwohnungen
+	Hotelangebote
+	Tourismus
+		Infos
+		Vermietung
+			Auto
+			Fahrad
+			Motorrad oder Roller
+Diverse Informationen
+	Vermisste Personen
+	Zeugen gesucht
+	Fundbüro
+	Belohnungen

@@ -1,0 +1,229 @@
+06:34:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:36:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\ajax\dataSource__slctdRbrc.aspx.py", line 86, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:36:35 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:36:35 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:36:38 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:37:08 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:37:08 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:37:36 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\ajax\dataSource__slctdRbrc.aspx.py", line 86, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:42:30 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\ajax\dataSource__slctdRbrc.aspx.py", line 86, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:43:26 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:43:27 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:43:30 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:48:06 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+06:48:07 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:20:22 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\ajax\dataSource__slctdRbrc.aspx.py", line 86, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:20:43 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\ajax\dataSource__slctdRbrc.aspx.py", line 86, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:02:57 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:02:59 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:03:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:41:24 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:41:26 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:41:28 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:41:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:41:34 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:43:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\wbf_functs\debate_editor.aspx.py", line 137, in Page_Load
+    tool.usrDt.checkUserRigths( Page, 'free')
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_UserData.py", line 304, in checkUserRigths
+    pge.Response.Redirect(urlNext)
+SystemError: Der Thread wurde abgebrochen.
+
+11:43:30 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:43:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:43:34 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:43:36 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:43:42 | erro  -   LocDefiner->setLocByInpt : no location found for countryCode : * ;cityIdentifier : Bad Segeberg
+11:44:20 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:44:21 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:44:23 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:44:24 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:44:26 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:44:28 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:44:29 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:44:31 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:44:51 | erro  -   LocDefiner->setLocByInpt : no location found for countryCode : * ;cityIdentifier : Bad Segeberg
+11:45:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:45:06 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:45:08 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:45:13 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:45:27 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:46:19 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:46:21 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:46:24 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+

@@ -1,0 +1,1454 @@
+﻿# ***********************************************************************************************************************************************
+# UiTools : class comprised the functions that help to survive the daily asp.net confusion
+#
+# 28.06.2011  - bervie -     initial realese
+# ***********************************************************************************************************************************************
+import traceback                           # for better exception understanding
+import codecs
+import math
+from System.Web.Configuration import *
+import System.Web.UI.WebControls
+
+# ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  
+# ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  
+class geoMth:
+    '''
+    geoMth Class: common functions to work with geographical information
+    calculate distances, generate points and stuff like that; ported from a java-script class found with google
+
+    toRad               convert DEG to RAD
+    toDeg               convert RAD to DEG
+    distanceTo          the distance between two points in kilometer
+    destinationPoint    go to a point by given angle and distance
+    getAreaCorners      generate a rectangel. used for defining search-area
+
+    '''
+    # ***********************************************************************************************************************************************
+    # constructor : the class will use the python math library and uses a spherical point of view to our planet
+    #
+    # 13.12.2011  - bervie -     initial realese
+    # ***********************************************************************************************************************************************
+    def __init__(self, page, lat, lon, rad = 6371.0 ):
+        try:
+            # rad is the radius of our homeplanet. so if you do not have any jobs to promote on mars you must not change this value
+            # but nejoba will definitivly ised in outer-space because of the beauty of the code
+            self.page = page
+            self.log = page.Application['njb_Log']        # get the applicationwide logging mechanism
+
+            # self.log.w2lgDvlp('geoMth - constructor was called !')
+            self.lat = lat
+            self.lon = lon
+            self.radius = rad
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # converting functions for RAD and degres
+    #
+    # 19.12.2011  - bervie -     initial realese
+    # ***********************************************************************************************************************************************
+    def toRad( self, number ): return float(number) * math.pi / 180.0
+    def toDeg( self, number ): return float(number) * 180.0 / math.pi 
+    
+
+    # ***********************************************************************************************************************************************
+    #
+    # function distanceTo ( self, point ):
+    #
+    # Returns the distance from this point to the supplied point, in km 
+    # (using Haversine formula)
+    # 
+    #  from: Haversine formula - R. W. Sinnott, "Virtues of the Haversine",
+    #        Sky and Telescope, vol 68, no 2, 1984
+    # 
+    #  @param   {LatLon} point: Latitude/longitude of destination point
+    #  @returns {Number} Distance in km between this point and destination point
+    # 
+    # 13.12.2011  - bervie -     initial realese
+    # ***********************************************************************************************************************************************
+    def distanceTo( self, point ):
+        try:
+            # self.log.w2lgDvlp('geoMth.distanceTo was called ')
+            R = self.radius
+            lat1 = math.radians(self.lat) 
+            lon1 = math.radians(self.lon)
+            lat2 = math.radians(point.lat)
+            lon2 = math.radians(point.lon)
+            dLat = lat2 - lat1
+            dLon = lon2 - lon1
+
+            a = math.sin(dLat/2.0) * math.sin(dLat/2.0) + math.cos(lat1) * math.cos(lat2) * math.sin(dLon/2.0) * math.sin(dLon/2.0)
+            c = 2.0 * math.atan2( math.sqrt(a), math.sqrt(1.0-a))
+            d = R * c
+
+            return d
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    #
+    # destinationPoint(self, bearing , distnc):
+    #
+    # Returns the destination point from this point having travelled the given distance (in km) on the 
+    # given initial bearing (bearing may vary before destination is reached)
+    #
+    #   see http://williams.best.vwh.net/avform.htm#LL
+    #
+    # @param   {Number} brng: Initial bearing in degrees
+    # @param   {Number} dist: Distance in km
+    # @returns {LatLon} Destination point
+    #
+    # 19.12.2011  -bervie-   initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def destinationPoint(self, bearing , distnc):
+        try:
+            dist = float(distnc)/self.radius  # convert dist to angular distance in radians
+            brng = math.radians( bearing )
+
+            lat1 = self.toRad( self.lat )
+            lon1 = self.toRad( self.lon )
+
+            lat2 = math.asin( math.sin(lat1) * math.cos(dist) + math.cos(lat1) * math.sin(dist) * math.cos(brng) )
+            lon2 = lon1 + math.atan2( math.sin(brng) * math.sin(dist) * math.cos(lat1), math.cos(dist) - math.sin(lat1) * math.sin(lat2))
+            lon2 = (lon2 + 3 * math.pi) % ( 2 * math.pi) - math.pi   # normalize to -180/+180 
+
+            result = geoMth( self.page, self.toDeg(lat2), self.toDeg(lon2) )
+
+            return result
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    #
+    # getAreaCorners(self, middle , length):
+    #
+    # The function returns the upper-left and lower-rigth corner of the area. For calculating this you have to tell the middle and the length 
+    # of a tangent in the rectangle.
+    #
+    # param:
+    # middle (geoMth) :        the middle of the rectangle
+    # length           :        the half-length of the box-size in kilometer
+    #
+    # returns:
+    # geoMth[]        :        an array with the top-left[0] and rigth-down[1]] points of the rectangle
+    #
+    #   see http://williams.best.vwh.net/avform.htm#LL
+    #
+    # 20.12.2011  -bervie-   initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def getAreaCorners(self, length):
+        try:
+            # self.log.w2lgDvlp('geoMth.getAreaCorners was called ')
+
+            northwest = self.destinationPoint( 315.0 ,length )
+            southeast = self.destinationPoint( 135.0 ,length )
+
+            # rslt = str(northwest.lat) + ';' + str(northwest.lon) + ';' + str(southeast.lat)  + ';' + str(southeast.lon)
+            rslt = ( northwest, southeast )
+
+            return rslt
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+
+
+# ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ##
+# ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ##
+class LocDefiner:
+    '''
+    class manages location-infos in nejoba via the session-cacheed user-data-dictionary
+
+    webforms currently using this class :
+        C:\Develop\njb_2\Default.aspx.py
+  
+        C:\Develop\njb_2\Search_Appointment.aspx.py
+        C:\Develop\njb_2\Search_Hashtag.aspx.py
+        C:\Develop\njb_2\Search_Rubric.aspx.py
+
+        C:\Develop\njb_2\wbf_functs\debate_editor.aspx.py
+        C:\Develop\njb_2\wbf_functs\jobs_editor.aspx.py
+        C:\Develop\njb_2\wbf_functs\jobs_list.aspx.py
+        C:\Develop\njb_2\wbf_functs\jobs_search.aspx.py
+
+    LocDefiner( mongoDbMgr ,countryCode,cityIdentifier,areaSize )  : constructor to load data as given (normaly by user-input)
+                                                                     this constructor uses loadFull(..) for loading all places with 
+                                                                     the same name and the complete neighbourhood
+
+    Attributes -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+    self.cntryCode      : string with the country-code coming from user-input
+    self.placeDscptn    : string typed by user, can be a postcode or a city-name
+    self.areaSize       : the size of the rectangle that will be loaded also as neighbourhood
+    self.geoCache       : the pointer to the geo-cache in the application-cache
+    self.ajaxParam      : location-paramter for AJAX-calls 'DE|41836' or 'DE|AACHEN' is possible
+                          postcode will omly load the neighbours of the location defined in the parameter
+                          city-name will also load all location with the same place-name
+
+    Functions  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+    loadPostCode(..)    : function will load the initial data. it is able to handle place-names and postcodes
+                          overwrites given data-list member attribute  
+
+    loadCityName(..)    : load all cities with a given name 
+    loadCityArea()      : function loads the neighbour-cities in the area defined in area-size and all places having the same name 
+
+    getValidLoctn()       : returns True if locations were found / False if the location-list is empty
+    saveParams(..)      : save the current location-data to the session-cache. used by UI to show the same city 
+    resetSessionCache(.): delete the location-info in the session-cache if no location was found ( set to System.String.Empty )
+
+    getIdsByDstnc()     : load all post-code-IDs of cities with the same name as ther one given as parameter
+    itmsFrLocSlct()     : returns a list of key/value pairs to add items to a location-select.
+    itmsFrCtrySlct()    : returns a list of key/value pairs to add items to a country-select.
+    
+    crtLocData([])      : cretes a list of rows with all data for locations given in the parameter ( by mongoId )
+
+    getMongoId(..)      : get the database-id of a given countryCode  and location-identifier ( postcode or placename )
+    getCityName(..)     : return the locList.name of first item as string
+    getPostCode(..)     : return the locList.postcode as string 
+    getCtryPstCd(..)    : get a string of the pair [CountryCode|PostalCode] leke [DE|41836] from the given mongo-id
+    getLoctnPrmtr(..)    : create the URL-parameter needed for AJAX-calls
+    
+    createJSON()        : make a JSON coded string from the internal location-list
+
+    uiFillCtrySlct(..)  : returns a list of key-value-pairs to fill a country-select by data from web-config
+    uiInitLocIntfc(..)  : init the location-definition part available in some webforms
+    
+
+    '''
+
+    # ***********************************************************************************************************************************************
+    # constructor   : helper-class to generat the location-data from user-input "country-code" and "location_identifier"
+    # 
+    # param  :  page            : ASP.net WebPage-Calss for accessing the application-cache
+    #           geoCache        : pointer to the helper-class storing the geo-data 
+    #           countryCode     : 'DE' for germany
+    #           cityIdentifier  : can be the postcode or the city-name
+    #           areaSize        : the area that is used to find the neighbours (it is a rectangle used for the search)
+    #                             if None (nothing defined) function will use the settings in the web.config
+    #
+    # 06.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def __init__( self , page, areaSize = None ):
+
+        self.Page       = page                       # ASP.net Page-instance
+
+        self.log        = page.Application['njbLOG']        # get the applicationwide logging mechanism
+        self.usrData    = page.Session['njbUsrDt']          # access to the session-cache with all the user-data
+        self.geoCache   = page.Application['njbGeoSrc']     # the source of locations
+        self.ui         = page.Application['njbUi']         # helper for the user-interface
+
+        # attributes of the class :
+        self.mongoId       = System.String.Empty    # the place-id from the mongo-db
+        self.cntryCode     = System.String.Empty    # the ISO-code of the selected country
+        self.placeDscptn   = System.String.Empty    # the place-name from DB
+        self.ajaxParam     = System.String.Empty    # the calling-parameter 'loc' to define location
+        self.nicePlaceName = System.String.Empty    # Name with additional informations
+        self.rsltLst = []                           # the data-container with all result-singletons
+        self.mongoIdList = []                       # the database-ids found in the result-set
+
+        # define the size of the search-rectangle
+        if areaSize is not None:
+            self.areaSize = areaSize                    # the size of the rectangle that will be loaded also as neighbourhood
+        else:
+            self.areaSize = System.Convert.ToDecimal( WebConfigurationManager.AppSettings['areaSize'] )    #get value from web.config
+
+
+    # ***********************************************************************************************************************************************
+    # setLocByInpt : main-kickstart-fctn. load locations by input of user in the UI.
+    #
+    # parameter    : countryCode     : 'DE' for germany
+    #                cityIdentifier  : can be the postcode or the city-name
+    #
+    # returns      : Nothing 
+    #
+    # 15.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def setLocByInpt( self, countryCode , cityIdentifier ): 
+        try:
+
+            # special-case : if no location-name or plz given store the location to get infos of whole nation
+            if len(cityIdentifier.strip() ) == 0:
+                self.ajaxParam = 'Loc=' + countryCode + ','
+                return
+
+            # check if input makes scense and a location exists for the input
+            dbId = self.getMongoId( countryCode, cityIdentifier )
+            self.mongoId = dbId
+
+            if dbId == False: 
+                # self.log.w2lgError('LocDefine.__init__ : location not found  : ' + countryCode + ',' + cityIdentifier )
+                self.resetSessionCache(True)
+                return
+
+            if self.checkIfPostCode(countryCode, cityIdentifier) :      # both can be used : the name of a city or the postcode. nejoba is awesome
+                self.mongoIdList = self.loadPostCode(dbId)              # load by postcode
+                self.saveParams( dbId, True )                           # create internal parameters and store them for a postcode
+            else:
+                self.mongoIdList = self.loadCityArea(dbId)              # load the area and all cities with given name
+                self.saveParams( dbId, False )                          # create internal parameters and store them for a placename
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # setLocByDbId : init the class by a mongo-id
+    #
+    # parameter    : countryCode     : 'DE' for germany
+    #                cityIdentifier  : can be the postcode or the city-name
+    #
+    # returns      : Nothing 
+    #
+    # 15.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def setLocByDbId( self, mongoId ): 
+        try:
+            self.mongoId = mongoId
+            self.mongoIdList = self.loadPostCode( mongoId )             # load the List of neighbours by postcode
+            self.saveParams( mongoId, True )                            # create internal parameters and store them for a postcode
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # loadPostCode : the function loads data for a given postcode. the function load all neighbours in?the area defined in web.config 
+    #                it returns a array of mongo-ids and put the data into internal named-tupple-list. the results are orderes by distance to first town
+    #
+    # parameter        the mongo-id of the postcode-area
+    # returns          a list with the mongo-ids of the post-code-areas
+    #                  HINT : the area-size defined in constructor is used for getting the neighbours needed
+    #
+    # 09.11.2013    bervie  initial realese
+    # 15.11.2013    bervie  added the updat of ajax-parameter 'LOC=..'
+    # ***********************************************************************************************************************************************
+    def loadPostCode( self, locationId ): 
+        try:
+            pass
+            centralCity = self.geoCache.locTable.Rows.Find( locationId )
+            self.ajaxParam      = 'Loc=' + centralCity['countryCode'].ToString() + ',' + centralCity['postalCode'].ToString()
+
+            middle = geoMth(self.Page, centralCity['latitude'] ,centralCity['longitude'] )
+            edges = middle.getAreaCorners( self.areaSize  )
+            northwest = edges[0]
+            southeast = edges[1]
+
+            # create the geo-rectangle. all locations inside will be added as neighbourhood
+            expr = "((latitude > " + str(southeast.lat) + " AND latitude < "  + str(northwest.lat) + " )"
+            expr += " AND ( longitude > " + str(northwest.lon) + " AND longitude < " + str(southeast.lon) + " ))" 
+            #self.log.w2lgDbg('LocDefiner.loadPostCode() query-expression : ' + expr )
+
+            rws = self.geoCache.locTable.Select(expr)
+            self.mongoIdList = self.getIdsByDstnc( middle, rws )
+            
+            return self.mongoIdList
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # loadCityName : if user has given a city-name this function loads all citys of the same country with the same name. use self.getMongoId  
+    #                to figure out what parameter must be given (mongoID)
+    #
+    # parameter        the mongo-id of the city 
+    # returns          a list with the mongo-ids of the post-code-areas
+    #                  HINT : the function also loads the internal list self.mongoIdList
+    #                         the area-size defined in constructor is used for getting the neighbours needed
+    #
+    # 09.11.2013    bervie  initial realese
+    # 15.11.2013    bervie  added the updat of ajax-parameter 'LOC=..'
+    # ***********************************************************************************************************************************************
+    def loadCityName( self, mongoId ):
+        try:
+            cityByName = self.geoCache.locTable.Rows.Find( mongoId )
+            cityKey = cityByName['keyCity'].ToString()
+            
+            middle = geoMth(self.Page, cityByName['latitude'] ,cityByName['longitude'] )
+
+            vwOnPlcNms = self.geoCache.viewDict['keyStrng']
+            filter = "keyCity = '" + cityKey + "'"
+            vwOnPlcNms.RowFilter = filter
+
+            self.mongoIdList = self.getIdsByDstnc( middle, vwOnPlcNms )
+            return self.mongoIdList
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # loadCityArea : load all post-code-IDs of cities with the same name as ther one given as parameter
+    #                and loads all post-code-areas around the one given in the area. they must be inside the distance that 
+    #                is defined in the constructor as area-code
+    # parameter    : the MogoId as string
+    # returns      : a list with the mongo-ids of the post-code-areas
+    #                HINT : the function also loads the internal self.mongoIdList
+    #                       the area-size defined in constructor is used for getting the neighbours needed
+    #
+    # 09.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def loadCityArea(  self, mongoId ): 
+        try:
+            centralCity = self.geoCache.locTable.Rows.Find( mongoId )
+            middle = geoMth(self.Page, centralCity['latitude'] ,centralCity['longitude'] )
+
+            # create a list of smae-name-locations and the neighbours in the area
+            pstCdLst = self.loadPostCode( mongoId )
+            cityList = self.loadCityName( mongoId )
+            mergedLst = cityList
+            for itm in pstCdLst:
+                if itm not in mergedLst:
+                    mergedLst.Add(itm)
+
+            rows = []
+            for itm in mergedLst:
+                row = self.geoCache.locTable.Rows.Find( itm )
+                rows.Add(row)
+
+            self.mongoIdList = self.getIdsByDstnc( middle, rows )
+            return self.mongoIdList
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # saveParams : nejoba must remeber the location a user is working on. this function stores the actual location to userData-instance in the 
+    #              session-cache. it will be used to start a webform at the same-city every time
+    #              the saved parameters are used in self.uiInitLocIntfc
+    #
+    # parameter    : mongoId as String : the row-id with the needed data
+    #                boolean usePostCode : was placename or postcode given by user ? will change the ajax-parameter-creation
+    #
+    # returns      : Nothing : parameter are stored in class-attributes
+    #
+    # 09.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def saveParams(  self, mongoId = None , usePostCode = False ): 
+        try:
+            if mongoId is None:
+                mongoId = self.mongoIdList[0]
+                self.log.w2lgDvlp('LocDefiner->saveParams : first MongoId in the list ' + mongoId.ToString() )
+
+            city = self.geoCache.locTable.Rows.Find( mongoId )
+
+            if not usePostCode:
+                # we have a cityname and not a postcode
+                self.cntryCode      = city['countryCode'].ToString()
+                self.placeDscptn    = city['placeName'].ToString()
+                self.ajaxParam      = 'Loc=' + city['countryCode'].ToString() + ',&City=' + city['placeName'].ToString().lower()
+            else:
+                # country-iso-code and a postleitzahl
+                self.cntryCode      = city['countryCode'].ToString()
+                self.placeDscptn    = city['postalCode'].ToString()
+                self.ajaxParam      = 'Loc=' + city['countryCode'].ToString() + ',' + city['postalCode'].ToString().lower()
+
+            self.nicePlaceName = city['countryCode'].ToString() + '-' + city['postalCode'].ToString() +': ' + city['placeName'].ToString()
+
+            # put the data in the sesion-cache ; will be used on webform_page_init to predefine the location-widgets
+            self.usrData.userDict['LCDFNR_MONGOID']        = mongoId
+            self.usrData.userDict['LCDFNR_UIP_COUNTRY']    = self.cntryCode         # define the ISO-code to select the sel_country
+            self.usrData.userDict['LCDFNR_UIP_PLACEDESCR'] = self.placeDscptn       # used to fill the edit 'txbx_cityname'
+            self.usrData.userDict['LCDFNR_UIP_NICENAME']   = self.nicePlaceName     # well formated placename like 'DE-41836 Hueckelhoven'
+            self.usrData.userDict['LCDFNR_UIP_AJAXPARAM']  = self.ajaxParam         # AJAX-parameter for selecting a location 
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+
+    # ***********************************************************************************************************************************************
+    # resetSessionCache : if no location was found the session-cache is set to String.Empty 
+    #
+    # parameter    : error : boolean flag that shows a search for a country was unsuccesfull
+    #                        if set to True the LCDFNR_MONGOID in the userDict is set to NULL
+    # returns      : nothing
+    #
+    # 09.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def resetSessionCache( self, error = False ):
+        try:
+            self.usrData.userDict['LCDFNR_UIP_COUNTRY']    = System.String.Empty
+            self.usrData.userDict['LCDFNR_UIP_PLACEDESCR'] = System.String.Empty
+            self.usrData.userDict['LCDFNR_UIP_NICENAME']   = System.String.Empty
+            self.usrData.userDict['LCDFNR_UIP_AJAXPARAM']  = System.String.Empty
+
+            if error == True:
+                self.usrData.userDict['LCDFNR_MONGOID']        = 'not found'
+            else:
+                self.usrData.userDict['LCDFNR_MONGOID']        = System.String.Empty
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+
+    # ***********************************************************************************************************************************************
+    # getValidLoctn : function can be used to check if last search by function ( or constructor-parameter) were succesfull
+    #
+    # parameter    : none
+    # returns      : True means the class has found locations
+    #                False means the function has found nothing. self.mongoIdList is empty
+    #
+    # 09.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def getValidLoctn(  self ): 
+        try:
+            if len( self.mongoIdList ) > 0:
+                return True
+            else:
+                return False
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # getIdsByDstnc : load all post-code-IDs of cities with the same name as ther one given as parameter
+    #
+    #
+    # parameter    :middle  : the middlepoint as instance of geoMth-class 
+    #               rows    : rows from the location-table sorted
+    #
+    # returns      : a list of the mongo-ids sorted by distance
+    #
+    # 10.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def getIdsByDstnc( self, middle, rows  ): 
+        try:
+            # create a list of tuples : ( row, distance_in_kilometer )
+            tempRslt = []
+            for snglRw in rows:
+                pointOfLoc = geoMth( self.Page, snglRw['latitude'], snglRw['longitude'])
+                distance = middle.distanceTo( pointOfLoc )
+                newby = (snglRw['mngId'],distance)
+                tempRslt.Add(newby)
+
+            # sort the result-set by distance and create a list of db_items
+            sortedByDistance = sorted(tempRslt, key=lambda tup: tup[1])
+            mongoIds = []
+            for itm in sortedByDistance:
+                mongoIds.Add( itm[0] )
+                rowItm = self.geoCache.locTable.Rows.Find(itm[0])
+                self.log.w2lgDbg('LocDefiner.getIdsByDstnc() location found PLZ: ' + rowItm['postalCode'].ToString() + ' ,NAME: ' + rowItm['keyCity'] + ' ID: ' + itm[0].ToString())
+
+            return mongoIds
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+
+    # ***********************************************************************************************************************************************
+    # getMongoId : get the databse-id of a location from a given country-code and location-identifier (name or postcode)
+    #
+    # parameter    : countryCode     ISO-code of the coutry ('DE' for deutschland
+    #                cityIdentifier  can be a kind of digit for the postcode
+    #                                or the name of the city as string (first occurence in the database will be taken )
+    #
+    # returns      : String with the mongoID of the item
+    #                HINT: if a name of city was given the function finds the first occurence of this name
+    #
+    # 09.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def getMongoId( self, countryCode, cityIdentifier ):
+        try:
+            # check if country is supported on this server 
+            if countryCode not in self.geoCache.nationLst:
+                return False
+
+            cityIdentifier = cityIdentifier.strip()
+
+            if self.checkIfPostCode( countryCode, cityIdentifier ) is True:         # if we have a postcode (numeric) get ID by postcode
+                dtVw = self.geoCache.viewDict['postalCode']
+                filter = "postalCode = '" + cityIdentifier + "'"
+                dtVw.RowFilter = filter
+            else:                                                                   # if we have the city-name get id by "DE|H?CKELHOVEN"
+                dtVw = self.geoCache.viewDict['keyCity']
+                filter = "keyCity = '" + countryCode + "|" + cityIdentifier + "'"
+                dtVw.RowFilter = filter
+
+            # if nothing was found return false
+            if dtVw.Count == 0 :
+                #self.log.w2lgDvlp('LocDefiner.getMongoId() : ' + countryCode + "|" + cityIdentifier + "'" + '   WAS NOT FOUND BECAUSE OF cityIdentifier ! ')
+                return False
+
+            # we have to check if the countryCode in results is same then user-search-input
+            for row in dtVw:
+                if row['countryCode'] == countryCode.ToString().strip():
+                    mongoId = row['mngId'].ToString()
+                    #self.log.w2lgDvlp('LocDefiner.getMongoId() : ' + countryCode + "|" + cityIdentifier + "'" + ' was succesfull, mongoId = ' + mongoId)
+                    return mongoId
+
+            # when there was no row with matching country-code the user migth choose the wrong country
+            #self.log.w2lgDvlp('LocDefiner.getMongoId() : ' + countryCode + "|" + cityIdentifier + "'" + '   WAS NOT FOUND BECUASE OF countryCode ! ')
+            return False
+            
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # getCityName : get the place-name of first item in the location-list . returns "Aachen" for example
+    #
+    # parameter    : string with a mongo-id. 
+    #                if no string is given the functions gets the first mongo-ID in the local list
+    # returns      : String with the Name of the location (human-readable for the UI)
+    #
+    # 06.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def getCityName( self, mongoId = None ):
+        try:
+            if mongoId is None:
+                mongoId = self.mongoIdList[0]
+            
+            city = self.geoCache.locTable.Rows.Find( mongoId )
+            return city['placeName'].ToString()
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # getPostCode : get the postcode of first item in the location-list . returns "52066" for Burtscheid in Aachen
+    #
+    # parameter    : string with a mongo-id. 
+    #                if no string is given the functions gets the first mogo-ID in the local list
+    # returns      : String with the postcode of the location ( without country-code )
+    #
+    # 06.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def getPostCode( self, mongoId = None ):
+        try:
+            if mongoId is None:
+                mongoId = self.mongoIdList[0]
+            
+            city = self.geoCache.locTable.Rows.Find( mongoId )
+            return city['postalCode'].ToString()
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+
+    # ***********************************************************************************************************************************************
+    # getCtryPstCd : returns a string like [DE|41836] (the pair of the country-code and the postcode ) for a given mongo-ID
+    #
+    # parameter    : string with a mongo-id. 
+    #                if no string is given the functions gets the first mogo-ID in the local list
+    # returns      : String with the country-code | post-code pair
+    #
+    # 27.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def getCtryPstCd( self, mongoId = None ):
+        try:
+            if mongoId is None:
+                mongoId = self.mongoIdList[0]
+            
+            city = self.geoCache.locTable.Rows.Find( mongoId )
+            rslt = city['countryCode'].ToString() + '|' + city['postalCode'].ToString()
+            return rslt
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # getLoctnPrmtr : get the location-parameter used in URLs to make an AJAX-call
+    #
+    # parameter    : string with a mongo-id. 
+    #                if no string is given the functions delivers the string build in the constructor
+    # returns      : String with the AJAX-Param of the location ( without country-code )
+    #
+    # 06.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def getLoctnPrmtr( self, mongoId = None ):
+        try:
+            if mongoId is None:
+                return self.ajaxParam
+            
+            city = self.geoCache.locTable.Rows.Find( mongoId )
+            ajaxParam = 'Loc=' + city['countryCode'].ToString() + ',' + city['postalCode'].ToString() 
+            return ajaxParam
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # checkIfPostCode : returns true if we have a valif postcode for given country 
+    #                   false if the string is not formated as postcode
+    #
+    # parameter    : string countryCode 'DE' (used later, not all countries have digits as postcode)
+    #                string cityIdentifier '41836' or 'neuss'
+    #
+    # returns      : boolean True  : string is valid postcode for given country
+    #                        False : not a postcode
+    #
+    # 06.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def checkIfPostCode( self, countryCode, cityIdentifier ):
+        try:
+            if cityIdentifier.isdigit() : return True
+            else : return False
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # itmsFrLocSlct : items for location select : make the population of a location-dropdown-box with one function-call
+    #                 the neighbour-postcode-areas. every item is a key-value pair like : 
+    #                 the value  : a string representing the CNTRY PSTCD LCTNNM  : "DE 41836 Hueckelhoven"
+    #                 the key    : the mongo-ID of the location. 
+    #
+    #                 can be used to fill up a select in the web-UI
+    #
+    # IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT 
+    #
+    # MUST CALL crtLocData BEFORE to fill the internal list with all-infomation-of-locations
+    #
+    # IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT IMPORTANT 
+    #
+    # parameter :   none
+    # returns   :   array with the key/value pairs
+    #
+    # 06.11.2013    bervie  initial realese
+    # ***********************************************************************************************************************************************
+    def itmsFrLocSlct( self ):
+        try:
+            rslt = []
+            for itm in self.rsltLst:
+                text = itm['countryCode'].ToString() + '-' + itm['postalCode'].ToString() + '  ' + itm['placeName'].ToString()
+                value = itm['mngId'].ToString()
+                #self.log.w2lgDvlp('LocDefiner.itmsFrLocSlct MongoID : ' + value + ' - ' + text )
+                rslt.Add( (text,value) )
+            return rslt
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # itmsFrCtrySlct : items for country-select : populate a country-drop-down-select wih one function call
+    #
+    #                  the value  : a string representing the COUNTRY_NAME  : "Dutschland"
+    #                  the key    : the ISO-Code of the country
+    #
+    # parameter :   none
+    # returns   :   array with the key/value pairs
+    #
+    # 15.11.2013    bervie  initial realese
+    # ***********************************************************************************************************************************************
+    def itmsFrCtrySlct( self ):
+        try:
+            countryNames = WebConfigurationManager.AppSettings['nationNames_DE'].split(';')
+            cntryCds = WebConfigurationManager.AppSettings['nationList'].split(';')
+            ctryLst = zip( countryNames, cntryCds )
+            return ctryLst
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # crtLocData : convert an array of mongo-ids (for locations) into an array of rows-items
+    #              generate useable data from the mongo-ids of locations stored in the userData-cache
+    #
+    # parameter  : sourceArray : an [] of mongoIds for locations-collection. if None the internal list with db-arrays will be used
+    # result     : an array with DataRow Instances ordered by distance
+    #
+    # 06.11.2013    bervie  initial realese
+    # ***********************************************************************************************************************************************
+    def crtLocData( self, sourceLst = None ):
+        try:
+            if sourceLst is None:
+                # use the class-attribute for working
+                sourceLst = self.mongoIdList
+            else:
+                # order the list by distance
+                firstLoc = self.geoCache.locTable.Rows.Find( sourceLst[0] )
+                middle = geoMth(self.Page, firstLoc['latitude'] ,firstLoc['longitude'] )
+                sourceLst = self.getIdsByDstnc( middle, sourceLst )
+
+            # create a list with all row-items as attribute of self
+            self.rsltLst = []
+            for dbId in sourceLst:
+                self.rsltLst.Add( self.geoCache.locTable.Rows.Find( dbId ) )
+
+            return self.rsltLst
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # createJSON : creates a JSON-encoded string form the array of mongo-ID items given as parameter
+    #
+    #
+    # parameter  : sourceArray : an array of mongo-id-items
+    # result     : a string with the array-data coded as JSON
+    #
+    #
+    # 06.11.2013    bervie  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def createJSON( self , sourceArray ):
+        try:
+            pass
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+
+    # ***********************************************************************************************************************************************
+    # uiFillCtrySlct : define what kind a location user is locking for ( not used in the projectors )
+    #
+    # Param             : cntrySelct    : pointer to the select-control for countries
+    # returns           :  none
+    #
+    # 15.11.2013    berndv  initial realese
+    # ***********************************************************************************************************************************************
+    def uiFillCtrySlct( self, cntrySelct ):
+        try:
+            lcDfnr = LocDefiner( self.Page )
+
+            # fill the country-select with the available countries
+            cntrySelct.Items.Add( System.Web.UI.WebControls.ListItem('alle vorhandenen','0') )
+            for itm in lcDfnr.itmsFrCtrySlct():
+                cntrySelct.Items.Add( System.Web.UI.WebControls.ListItem(itm[0],itm[1]) )
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # uiInitLocIntfc : init the locations-interface the Page_PreRender function
+    #                  if user has already selected a location it will be inserted into the UI
+    #
+    # Param             :  none
+    # returns           :  none
+    #
+    # 15.11.2013    berndv  initial realese
+    #
+    # ***********************************************************************************************************************************************
+    def uiInitLocIntfc( self ):
+        try:
+            self.log.w2lgDvlp('LocDefiner.uiInitLocDef was called '  )
+
+            # pre-fill controls with data from the session-cache
+            cntrySel = nrmlDiv = self.ui.getCtrl('sel_country')
+            cntrySel.Items.Clear()
+            self.uiFillCtrySlct(cntrySel)
+
+            # check if there is allready a location
+            if not self.usrData.userDict.has_key('LCDFNR_UIP_COUNTRY') : return
+
+            # if findMongoId hasn't found a location for user-input
+            # show the controls to choose a new location
+            if self.usrData.userDict['LCDFNR_MONGOID'] == 'not found' : 
+                # show location-select- DIV instead of the man-div
+                chngDiv = tool.ui.getCtrl('div_slct_loctn')
+                nrmlDiv = tool.ui.getCtrl('div_show_loctn')
+                nrmlDiv.Attributes["style"] = " display: none";
+                return
+            
+            # toggle viewability of the location-interface to normal mode
+            chngDiv = self.ui.getCtrl('div_slct_loctn')
+            nrmlDiv = self.ui.getCtrl('div_show_loctn')
+            chngDiv.Attributes["style"] = " display: none";
+
+            self.ui.getCtrl('sel_country').Items.FindByValue( self.usrData.userDict['LCDFNR_UIP_COUNTRY'].ToString() ).Selected = True
+            self.ui.getCtrl('txbx_city').Text = self.usrData.userDict['LCDFNR_UIP_PLACEDESCR'].ToString()
+            self.ui.getCtrl('txbx_location').Text = self.usrData.userDict['LCDFNR_UIP_NICENAME'].ToString()
+            #self.usrData.userDict['LCDFNR_UIP_AJAXPARAM'].ToString()
+            #self.usrData.userDict['LCDFNR_MONGOID'].ToString()
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+
+
+    # ***********************************************************************************************************************************************
+    # getSessionCacheLoc : get the location from user-account data in the session cache
+    #
+    # Param             : none
+    # returns           : None : is returned when nobody is logged in in this session and no location was choosen
+    #                     {} : dict with needed location-data  : 
+    #                          the database-id, the name and country of a location 
+    #                          if user is logged and has not choosen a location yet the function returns the location from users account
+    #                          if there is choosen a location allready the function returns the data of that location as dictionary
+    #
+    #                          the dict will look like this:
+    #                          ['MONGOID']     = the database-id of the place
+    #                          ['PLACEDESCR']  = the name of the Place (or the Postcode)
+    #
+    #                          the dict can be Used to fill the Hidden textboxes in the UI
+    #
+    # 25.11.2013    berndv  initial realese
+    # ***********************************************************************************************************************************************
+    def getSessionCacheLoc( self ):
+        try:
+            rslt = {}
+
+            # 1. if we have a valid location in the cache we will use this as actual users choice
+            if self.usrData.userDict.has_key('LCDFNR_MONGOID'):
+                if (self.usrData.userDict['LCDFNR_MONGOID'] != 'not found') and (self.usrData.userDict['LCDFNR_MONGOID'] is not System.String.Empty ):
+                    rslt['MONGOID']    = self.usrData.userDict['LCDFNR_MONGOID'].ToString()
+                    rslt['PLACEDESCR'] = self.usrData.userDict['LCDFNR_UIP_PLACEDESCR'].ToString()
+                    return rslt
+
+            # 2. if no valid location was choosen in this session we return the home-location of the user
+            if self.usrData.userDict.has_key('cities'):
+                firstInLst = self.usrData.userDict['cities'].ToString()
+                self.saveParams(  firstInLst , True )
+                rslt['MONGOID']    = self.usrData.userDict['LCDFNR_MONGOID'].ToString()
+                rslt['PLACEDESCR'] = self.usrData.userDict['LCDFNR_UIP_PLACEDESCR'].ToString()
+                return rslt
+
+
+            # 3. if no user is logged in and nothing was choosen we return None-> error-message 
+            return None
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+# ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ##
+# ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ## -- ## ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  
+# ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  ###  
+class UiTools:
+    '''
+    UiTools Class: common functions to work with the userinterface
+    provides easy access to the userinterface
+    provides email-captcha-system
+
+    num( string )           convert string to numeric
+    getCtrlTree             read all control-pointers into an dictonary for easier access
+    getCtrl                 find a control from the getCtrlTree-container  HINT : getCtrlTree MUST BE CALLED BEFORE
+    findCtrl                find a control by its ID on a nested ASP.NET page
+    getCtrlTxt( suffix )    creates a dict with all Text-Attributes of given controls with suffix into a container
+    hideFormAfterClick      show a wait-div to prevent user from clicking dump around
+    showDivsForUser         user-mngmnt : check the user-rigths and toggle the DIVs depending on the user-permissions
+    convertTagsFromInput    create a list of tags from users input
+    shorterCoordinate       cut the digits after the comma to 5 digits
+    rubricLoadConfiguration function loads the text-files with the definitions for rubrics
+    locSearchDefinition     store the current location-info (city that was typed in by the user) into the session-class userData
+
+    '''
+
+    # ***********************************************************************************************************************************************
+    # constructor : the class from application-cache is taken if available
+    #
+    # 29.11.2011    berndv  initial realese
+    # ***********************************************************************************************************************************************
+    def __init__(self, pg):
+        try:
+            appl = pg.Application
+            self.ctrlDict = {}                          # a dictionary with all controls of the webform
+            self.inptDict = {}                          # dictionary with txbx-ids as keys and input as values (keys without "txbx_"-suffix
+            self.Page = pg                              # logging inside the application cache
+            self.log = pg.Application['njb_Log']        # get the applicationwide logging mechanism
+            self.user = pg.Session['']
+
+            self.rubricDict = {}                        # memory-container to store the configuration for the rubrics loaded from file
+                                                        # used in map-projector; debate-projector and debate-editor webforms
+            self.rubricLoadConfiguration()              # load rubric configuration
+
+            self.getCtrlTree( self.Page )            # get the controls data of the given webform
+
+            self.log.w2lgMsg('new UiTools instance created !')
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # num : convert a string to a numeric value
+    #
+    # 22.06.2011    berndv  initial realese
+    # ***********************************************************************************************************************************************
+    def num (self, s):
+        try:
+            return int(s)
+        except exceptions.ValueError:
+            return float(s)
+        finally:
+            return None
+
+
+    # ***********************************************************************************************************************************************
+    # getCtrlTree : read all control-pointers into an dictonary for easier access
+    #
+    # 13.08.2011  bervie    initial realese
+    # ***********************************************************************************************************************************************
+    def getCtrlTree( self, rootCtrl ):
+        '''
+        this function put all IDs and their related contrls into a py-dict
+        so we do not have to start a search for them each time we need one
+        destination -> self.ctrlDict
+
+        it has to be executed to make the other ctrl-find helper functions useable
+
+        example:
+        ui.getCtrlTree( Page.Master )
+        ui.getCtrl('txbx_email').Text = mailAdr
+
+        '''
+        try:
+            if rootCtrl is not None:
+                if rootCtrl.HasControls():
+                    for ctrl in rootCtrl.Controls:
+                        self.ctrlDict.update( {ctrl.ID:ctrl} )
+                        self.getCtrlTree(ctrl)
+                else:
+                    self.ctrlDict.update( {rootCtrl.ID:rootCtrl} )
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # findCtrl : find a control by its ID on a nested ASP.NET page
+    #
+    # 22.06.2011    berndv  initial realese
+    # ***********************************************************************************************************************************************
+    def findCtrl(self, starter, id):
+        '''
+        find a control by its ID on a nested ASP.NET page
+
+        usage : ui.findCtrl(Page.Master , ID-NAME)
+        '''
+        try:
+            self.startCtrl = starter
+            self.identy = id
+
+            if starter == None:
+                return 
+
+            if starter.ID == id:
+                return starter
+            else:
+                for c in self.startCtrl.Controls:
+                    fnd = self.findCtrl(c, self.identy)
+                    if fnd != None:
+                        return fnd
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # getCtrl  find a control from the getCtrlTree-container
+    #
+    # 27.06.2011  bervie    initial realese
+    # ***********************************************************************************************************************************************
+    def getCtrl( self, ctrlName ):
+        '''
+        gives back a reference to the asked control
+        !!! YOU MUST HAVE STARTED getCtrlTree BEFORE !!!
+
+        usage :  getCtrl( "ID OF THE CTRL YOU ARE LOOKING FOR" )
+
+        example:
+        uih.getCtrlTree( Page.Master )
+        uih.getCtrl('txbx_email').Text = mailAdr
+        '''
+        if self.ctrlDict.ContainsKey( ctrlName ):
+            return self.ctrlDict[ ctrlName ]
+        else:
+            return None
+
+
+    # ***********************************************************************************************************************************************
+    # getCtrlTxt   creates a dict with all Text-Attributes of a given control into container
+    #
+    # 22.06.2011    berndv  initial realese
+    # ***********************************************************************************************************************************************
+    def getCtrlTxt(self, suffx='txbx_' ):
+        '''
+        search for all controls with a given suffix in the name and copy 
+        the Text-Property with bare-control name into a dictionary
+        destination -> self.inptDict
+
+        example
+        getCtrlTxt( 'SUFFIX_OF_THE_CTRL_ID' )
+        '''
+        try:
+            ids = self.ctrlDict.keys()
+
+            for itm in ids:
+                if itm == None:
+                    break
+
+                if itm.count(suffx,0, (len(suffx)) ) > 0:
+                    # fill the dict. the keys are the ID without the suffix
+                    ky = itm.lstrip(suffx)
+                    vl = self.ctrlDict[itm].Text
+
+                    self.inptDict.update( {ky:vl} )
+                    # self.log.w2lgDvlp("getCtrlTxt : " + ky + ";" + vl )
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # setCtrlTxt    fills all controls with a given ID-Suffix with the values of dictionary 
+    #
+    # 22.06.2011    berndv  initial realese
+    # ***********************************************************************************************************************************************
+    def setCtrlTxt(self, info, delSuffx = '@', addSfx = 'txbx_'):
+        '''
+        function fills all controls with a given ID-Suffix with the values 
+        of dictionary. fct is able to delete chars at the beginning matching 
+        the delSuffx
+
+        param:
+         infoDict  = the parameter-dictionary.  
+         delSuffx  = the string given here will be delete from the key-params 
+                     normaly it is used to delete the leading @ from the sql-parameter
+         addSfx    = the string will be added in front of the ID-string
+             
+        you have to take care of the naming-conventions in the system:
+        without their leading suffixes the control-ID must be same as the SQL-paramters 
+
+        example:
+        answer = bsLg.readUser(mailAdr)     # gives a dict. with the data for UI
+        uih.setCtrlTxt(answer)
+
+        '''
+        try:
+            for ky in info:
+                # build a key matching the ctrl-name
+                ctrlId = addSfx + ky.lstrip(delSuffx)
+                self.ctrlDict[ctrlId].Text = unicode(info[ky])
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # hideFormAfterClick : show a wait-div to prevent user from clicking dump around
+    #
+    # 22.06.2011    berndv  initial realese
+    # ***********************************************************************************************************************************************
+    def hideFormAfterClick( self ):
+        '''
+        function toggles between main-canvas div and hidden div to ask user to wait.
+        this will be prevent dump stupids to press the button a thousand times while server is meditating
+
+        function depends on javascript-function in master-page that hides the normal and shows the please 
+        '''
+        try:
+            # define naming-parts that should lead into a disabeled input state
+            disbl = ['btn_','hyLnk_','setRbrc_']
+            for id in self.ctrlDict:
+                if id:
+                    for abbrv in disbl:
+                        if id.Contains( abbrv ):
+                            # self.log.w2lgDvlp( ' UI.hideFormAfterClick ID found : ' + str(id))
+                            self.getCtrl(id).Attributes.Add("onclick", "hideAfterClick();")
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # showDivsForUser : check the user-rigths and toggle the DIVs depending on the user-permissions
+    #
+    # 22.06.2011    berndv  initial realese
+    # ***********************************************************************************************************************************************
+    def showDivsForUser( self, row , currentPage):
+        '''
+        the function showDivsForUser is used to show/hide the DIVS in the editors that the user is allowed to see
+        part of user-managment
+
+            DIVS with following IDs are used: 
+
+            YES_WE_CAN              : this div will be shown if user is allowed to use the functions
+            INVITE_VISITOR          : the user is only a visitor. invite him to nejoba
+            OFFER_PREMIUM_ACCOUNT   : user has account but is not a payer. ask him to spend money to get functions directly
+
+         param : 
+               row         : the row that should be displayed will be asked when it was created
+               currentPage : the currently active webpage for getting ctrls out of it
+        '''
+        try:
+            # special-case : if we are in the job-trial-editor and no iother user has made an offer 
+            # the user should not be able to send an offer to himself
+            #
+            # WILL BE MADE IN THE NEAR FUTURE
+            #
+
+            # prepare UI stuff
+            uiHlp = self.Page.Application['njbUi']
+            uiHlp.getCtrlTree(currentPage)
+            YesWeCan                = uiHlp.getCtrl('YES_WE_CAN')
+            InviteVisitor           = uiHlp.getCtrl('INVITE_VISITOR')
+            OfferPremiumAccount     = uiHlp.getCtrl('OFFER_PREMIUM_ACCOUNT')
+            YourOwnOffer            = uiHlp.getCtrl('YOUR_OWN_OFFER')
+
+            if (not YesWeCan) or (not InviteVisitor) or (not OfferPremiumAccount) or (not YourOwnOffer) : return
+
+            # we have an visitor. means he isn't logged in. show him stuff in 'INVITE_VISITOR' DIV
+            if not self.userDict.Contains('account_roles'):
+                YesWeCan.Visible            = False
+                InviteVisitor.Visible       = True
+                OfferPremiumAccount.Visible = False
+                YourOwnOffer.Visible        = False
+                return
+
+            # when user is a payer he can use stuff in 'YES_WE_CAN' DIV
+            elif self.userDict['account_roles'].Contains('premium'):
+                YesWeCan.Visible            = True
+                InviteVisitor.Visible       = False
+                OfferPremiumAccount.Visible = False
+                YourOwnOffer.Visible        = False
+                return
+
+            # user has a free account. check if the premium periode is offer or not
+            elif not self.userDict['account_roles'].Contains('premium'):
+                # calculate time difference to make the item public
+                premiumHours = System.Convert.ToInt64( WebConfigurationManager.AppSettings['PremiumAdvantageHours'] )
+                hours   = System.TimeSpan( premiumHours, 0, 0 )
+                premEnd = row['creationTime'].Add( hours ) 
+                now     = System.DateTime.UtcNow
+                diff    = premEnd.Subtract(now).Ticks
+
+                # the item is public if the difference between premiumEnd - now is < 0  => show the editor
+                if diff < 0:
+                    YesWeCan.Visible            = True
+                    InviteVisitor.Visible       = False
+                    OfferPremiumAccount.Visible = False
+                    YourOwnOffer.Visible        = False
+                    return
+                # if item still is not public show the user the 'OFFER_PREMIUM_ACCOUNT'-div
+                else:
+                    YesWeCan.Visible            = False
+                    InviteVisitor.Visible       = False
+                    OfferPremiumAccount.Visible = True
+                    YourOwnOffer.Visible        = False
+                    return
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # convertTagsFromInput : function makes a useable list from the input in a hashtag
+    #
+    #
+    # 22.06.2011    berndv  initial realese
+    # 28.04.2013    berndv  added remove of leading '#'
+    # ***********************************************************************************************************************************************
+    def convertTagsFromInput(self, usrInpt):
+        '''
+            generate a list with all hashtags in a given text
+            Param : userInput : the string given in the edit
+            returns : a list with all tags as seperate item
+        '''
+        try:
+            result = []
+            tags = usrInpt.lower().split(',')
+            for itm in tags:
+                itm.strip()
+
+                # remove leading '#'
+                while itm[0] == '#':
+                    itm = itm[1:]
+
+                if len(itm) > 0:
+                    result.Add( itm )
+                
+            return result
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+    # ***********************************************************************************************************************************************
+    # shorterCoordinate : function truncates the length os a coordinate given by the user. 5 places after the comma is enough :D
+    #
+    # Param : userInput : the string given in the textbox
+    # returns           : a string with only 5 digits
+    #
+    # 22.06.2011    berndv  initial realese
+    # 28.04.2013    berndv  added remove of leading '#'
+    # ***********************************************************************************************************************************************
+    def shorterCoordinate(self, usrInpt):
+        try:
+            rslt = usrInpt + '0000000'
+            locOfComma = rslt.find('.')
+            return rslt[:locOfComma + 7].strip('0')
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # rubricLoadConfiguration : load rubric-configuration from the files in AppDate and put it into a simple memory-cache [ self.rubricDict = {} ]
+    #
+    # Param             :  none
+    # returns           :  none
+    #
+    # 28.04.2013    berndv  initial realese
+    # ***********************************************************************************************************************************************
+    def rubricLoadConfiguration( self ):
+        try:
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['ANNONCE_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['ANNONCE_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['ASSOCIATION_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['ASSOCIATION_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['BUSINESS_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['BUSINESS_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['DEMOCRACY_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['DEMOCRACY_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['EVENT_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['EVENT_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['HOBBY_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['HOBBY_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['INITIATIVE_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['INITIATIVE_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['LOCATION_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['LOCATION_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['LONELY_HEARTS_AD_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['LONELY_HEARTS_AD_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['PET_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['PET_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['RIDE_SHARING_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['RIDE_SHARING_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['STARTUP_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['STARTUP_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['SWAP_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['SWAP_MATRIX'] = activitySource
+
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['FAMILY_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['FAMILY_MATRIX'] = activitySource
+
+
+
+            # ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   
+            # ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   
+            tmpltPath = self.Page.Server.MapPath( WebConfigurationManager.AppSettings['FAMILY_MATRIX'] )
+            f = codecs.open(tmpltPath, "r", "utf-8")
+            activitySource = f.read()
+            f.close()
+            self.rubricDict['FAMILY_MATRIX'] = activitySource
+            # ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   
+            # ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   ---   
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+
+
+    # ***********************************************************************************************************************************************
+    # loadLocationSlct : define what kind a location user is locking for ( not used in the projectors )
+    #
+    # Param             : geoSrc        : pointer to the geo-cache (needed for the LocDefiner-instance)
+    #                     idOfLocSlct   : string with the ID of the select-control that will be loaded
+    # returns           :  none
+    #
+    # 15.11.2013    berndv  initial realese
+    # ***********************************************************************************************************************************************
+    def loadLocationSlct( self, mongoMgr, idOfLocSlct = 'sel_country' ):
+        try:
+            lcDfnr = LocDefiner( self.Page )
+
+            # fill the country-select with the available countries
+            cntrySelct = self.getCtrl( idOfLocSlct )
+            cntrySelct.Items.Add( System.Web.UI.WebControls.ListItem('alle vorhandenen','0') )
+            for itm in lcDfnr.itmsFrCtrySlct():
+                cntrySelct.Items.Add( System.Web.UI.WebControls.ListItem(itm[0],itm[1]) )
+
+        except Exception,e:
+            self.log.w2lgError(traceback.format_exc())
+

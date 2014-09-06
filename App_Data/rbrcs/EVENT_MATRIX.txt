@@ -1,0 +1,157 @@
+﻿Konzert
+	Nach Musikrichtung
+		Blues
+		Folk
+		60s USA
+		Country Folk (USA)
+		Irish Folk
+		Russland
+		Fullon
+		Goa
+		Grindcore
+		Gothic
+		Hip Hop
+		Jazz
+		Free Jazz
+		Metal
+		Pop
+			Indie Pop
+			Pop, 80er
+			Pop, 90er
+			Progressive
+		Punk Rock, 90er.
+		Rap, 90er.
+		R&B, 90er.
+		Reggae
+		Rumba
+		Rock
+			Rock, 80er.
+			Rock (klassischer 60er bis 80er)
+			Rock’n Roll, 50er, 60er.
+		Samba
+		Ska
+		Soumi
+		Swing
+		Tango Argentino
+		Techno
+			Chillout/Downtempo
+			Crustcore
+			Dance
+			Drum’n Bass
+			Electro
+			Trance
+			Acid House
+			Rave
+			House
+			Jungle
+		Unterhaltungsmusik
+			Chansons
+			Country Western Folk
+			Disco 70er 80er 90er Stimmung
+			Gala Event Show
+			Hochzeitssänger Kirche Gospel
+			Jazz Blues Swing
+			Konzert Musical 
+			Oldies Evergreens
+			Schlager Volksmusik
+			Soul Black
+			volkstümlich Musik
+			Weltmusik
+		Klassik
+			Kammermusik
+			Oper
+			Operette
+			Symphonieorchester
+			Chormusik
+			Kirchenkonzert
+	Festival
+Theater und Tanz
+	Theater
+		Sprechtheater
+		Musiktheater
+		Tanztheater
+		Figurentheater
+		Performance
+		Improvisations-Theater
+		Straßentheater
+	Kleinkunst
+		Satire
+		Kabarett
+		Pantomime
+	Tanz
+		Klassisches Ballet
+		Modernes Ballet
+		Volkstanz
+		Wettkampf-Tanzen
+	Show
+		Musical
+		Tanzgala
+Vorträge und Lesungen
+	Ratgeber
+	Gesellschaft
+	Politik
+	Reisen
+	Lesungen
+		Autor-Lesung
+		Humor
+		Klassische Literatur
+		Lyrik
+		Leseabend
+Ausstellungen
+	Malerei
+		Vernissage 
+		öffentliche Ausstellung
+		privater Künstler
+	Bildhauerei
+	Fotografie
+Film
+	Vorführung
+	Festival
+	Autokino
+Feste und Feiern
+	Volksfest
+		Kirmes
+		Stadt-Fest
+		Straßenfest
+		Ehrenbürger
+	Nightlive / Party
+	Vereinsfeiern
+	Kommerziell
+		Tag der offenen Tür
+		Verkaufsoffen
+	Private Feiern
+		Polterabend
+		Geburtstag
+		Hochzeit
+		Beerdigung
+Märkte
+	Trödelmarkt
+		Antiquitäten
+		Garagenverkauf
+		Straßenverkauf
+	Flohmärkte
+		kommerzielle Anbieter
+		Kinder-Flohmarkt
+		Hobby und Freizeit
+		Kunsthandwerk
+Kommerziell
+	Messen
+		Hobby
+		Fahrzeuge
+		Fachmessen
+			Handwerk
+			Computer
+			Elektronik
+	Tagungen
+	Ausstellung
+	Vorführung
+	Dinner-Shows
+Sport
+	Öffentliche Sportfeste
+	Profi-Sport
+	Wettkampf
+	kommerzielle Sportveranstaltung
+	Volkssport
+kultureller Austausch
+Podiums-Diskussion
+Lehrveranstaltung

@@ -1,0 +1,62 @@
+12:13:45 | mess  -   Application started : new LogCache was created
+12:13:46 | mess  -   new UiTools instance created !
+12:13:59 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+12:13:59 | deve  -   slice index                           : 0
+12:13:59 | deve  -   start-day    left  in timebeam        : 20.09.2013 11:13:59
+12:13:59 | deve  -   end-day      rigth in timebeam        : 19.12.2013 11:13:59
+12:13:59 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+12:13:59 | deve  -   number of slices cached                        :0
+12:13:59 | deve  -   CachedDataSource.fillTablesItems START (left)  :20.09.2013 11:13:59
+12:13:59 | deve  -   CachedDataSource.fillTablesItems END   (rigth) :19.12.2013 11:13:59
+12:13:59 | deve  -   ------- LOADING JOB_ROOT INTO cache ------
+12:13:59 | deve  -   _objectDetailID  : 0
+12:13:59 | mess  -   New UserData instance created with ID = c40wcep20530djt2shnrh3vf IP: ::1 Local: de-de
+12:14:00 | deve  -   LocDefiner.uiInitLocDef was called 
+12:14:08 | debu  -   Default.aspx->HandlBtnClick URL: ~/job_market.aspx
+12:14:15 | deve  -   LocDefiner.uiInitLocDef was called 
+12:14:18 | debu  -   Default.aspx->HandlBtnClick URL: ~/micro_blog.aspx?
+12:14:25 | deve  -   DebateProjector( .. ) constructor called
+12:14:25 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+12:14:25 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+12:14:29 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+12:14:29 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+12:14:29 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+12:14:29 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+12:14:29 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+12:14:29 | deve  -   CachedDataSource.addConfigParam() called !
+12:14:35 | deve  -   LocDefiner.uiInitLocDef was called 
+12:14:38 | debu  -   Default.aspx->HandlBtnClick URL: ~/micro_blog.aspx?
+12:14:54 | deve  -   LocDefiner.uiInitLocDef was called 
+12:21:06 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:21:11 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:21:16 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:21:18 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:21:25 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:21:26 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:21:28 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:21:30 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:21:32 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:22:01 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:22:03 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:22:05 | debu  -   Default.aspx->HandlBtnClick URL: ~/micro_blog.aspx?Loc=DE,41849&City=Wassenberg
+12:22:08 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:22:11 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:22:12 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:22:14 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:22:16 | deve  -   LocDefiner.uiInitLocDef was called 
+12:22:18 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+12:22:27 | deve  -   search_rubric_handle_button . Url Param : ?Loc=DE,41849&City=Wassenberg&StartDate=2013-12-23&EndDate=2013-12-27
+12:22:30 | deve  -   LOCALMapProjector( .. ) constructor called
+12:22:32 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+12:22:32 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+12:22:32 | deve  -   self.param["Loc"]    :  "DE,41849"
+12:22:32 | deve  -   self.param["City"]   :  "Wassenberg"
+12:22:32 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+12:22:32 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+12:22:32 | deve  -   CacheDataSource.createCityList( self ) loc url param   : DE,41849
+12:22:32 | deve  -   createCityList parameter :   country : DE ; postcode : 41849 ; city : Wassenberg ; areasize (form web.config ) : 17
+12:22:32 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41849
+12:22:32 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41849
+12:22:33 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+12:22:33 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+12:22:33 | deve  -   CachedDataSource.addConfigParam() called !

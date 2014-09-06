@@ -1,0 +1,31 @@
+﻿	Traditionsverein
+		Bürgerverein
+		Heimatverein
+		Schützenverein
+	Sportverein
+	Hobbyverein
+		Kleingärtner
+		Tierzüchterverein
+		Kegelklub
+		Philatelistenverein
+	Musischer Verein 
+		Musik
+		Gesang
+		Tanz
+		Theaterspiel
+	Kulturverein
+		literarische Gesellschaft
+		Kunstverein
+		Geschichtswerkstatt
+	Weltanschauungsverein
+	Umwelt- und Naturschutzverein
+	Selbsthilfeverein
+		Alkoholismus
+		Arbeitslosigkeit
+		Selbsthilfe Krankheiten
+	karitativer oder humanitärer Verein
+	Förder- oder Trägerverein
+		Jugendstätte
+		Kindergarten
+		Bürgerhaus
+		Schule

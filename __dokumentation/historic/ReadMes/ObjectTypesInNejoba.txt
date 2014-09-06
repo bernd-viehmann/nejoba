@@ -1,0 +1,64 @@
+Object-Types in nejoba
+
+Folgende Object-typen sind in nejoba definiert:
+
+ROOT-ELEMENTE (Hauptobjekte als Mittelpunkte)
+JOB_ROOT
+DEBATE_ROOT
+EVENT_ROOT
+PLACE_ROOT
+REPORT_ROOT
+-------------------------------------------------------------------------------------
+
+HEAD-ELEMENTE ( leiten einen Item-Chain ein und haben verwaltungsinformationen)
+JOB_HEADER
+DEBATE_HEADER
+EVENT_HEADER
+PLACE_HEADER
+REPORT_HEADER
+-------------------------------------------------------------------------------------
+
+MESSAGE-Elemente ( Beiträge in einer Objekt-Kette )
+JOB_MSG
+DEBATE_MSG
+EVENT_MSG
+PLACE_MSG
+REPORT_MSG
+-------------------------------------------------------------------------------------
+
+SUBSCRIBER-Elemente (Abonnenten eines ROOT-Elementes, die bei Änderungen benachrichtigt werden)
+JOB_SUBSCRIBER
+DEBATE_SUBSCRIBER
+EVENT_SUBSCRIBER
+PLACE_SUBSCRIBER
+REPORT_SUBSCRIBER
+-------------------------------------------------------------------------------------
+
+JOB_ROOT;DEBATE_ROOT;EVENT_ROOT;PLACE_ROOT;REPORT_ROOT;JOB_HEADER;DEBATE_HEADER;EVENT_HEADER;PLACE_HEADER;REPORT_HEADER;JOB_MSG;DEBATE_MSG;EVENT_MSG;PLACE_MSG;REPORT_MSG;JOB_SUBSCRIBER;DEBATE_SUBSCRIBER;EVENT_SUBSCRIBER;PLACE_SUBSCRIBER;REPORT_SUBSCRIBER
+
+
+Index in List:
+
+0       JOB_ROOT;
+1       DEBATE_ROOT;
+2       EVENT_ROOT;
+3       PLACE_ROOT;
+4       REPORT_ROOT;
+5       JOB_HEADER;
+6       DEBATE_HEADER;
+7       EVENT_HEADER;
+8       PLACE_HEADER;
+9       REPORT_HEADER;
+10      JOB_MSG;
+11      DEBATE_MSG;
+12      EVENT_MSG;
+13      PLACE_MSG;
+14      REPORT_MSG;
+15      JOB_SUBSCRIBER;
+16      DEBATE_SUBSCRIBER;
+17      EVENT_SUBSCRIBER;
+18      PLACE_SUBSCRIBER;
+19      REPORT_SUBSCRIBER
+
+
+

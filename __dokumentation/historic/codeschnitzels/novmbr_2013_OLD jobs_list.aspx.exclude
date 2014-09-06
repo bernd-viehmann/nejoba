@@ -1,0 +1,152 @@
+﻿<%@ Page Title="Nachbarschaftshilfe" Language="IronPython" MasterPageFile="../MasterPage.master" AutoEventWireup="true" CodeFile="OLD jobs_list.aspx.py" %>
+
+<asp:Content ID="ContentHead" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+
+<asp:Content ID="ContentTop" ContentPlaceHolderID="CoPlaTop" Runat="Server">
+</asp:Content>
+
+<asp:Content ID="ContentBottom" ContentPlaceHolderID="CoPlaBottom" Runat="Server">
+
+    <div class="row">
+        <div class="accordion" id="Div1">
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseHeader" >
+                        <h4>regionale Anfragen</h4>
+                    </a>
+                </div>
+                <div id="collapseHeader" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <h5>
+                            <asp:Label ID="Label1" runat="server" Text="Jobs in deiner Umgebung "></asp:Label>
+                        </h5>
+                        <br />
+                        <asp:Label ID="Label10" runat="server" Text="Hier ist die Liste mit Arbeitsangeboten. Es werden bei der Suche auch Ergebnisse in benachbarten Orten berücksichtigt. Wenn für den Arbeitsbereich keine Auswahl getroffen wird, sondern 'bitte w&auml;hlen' angeklickt wird, werden alle Ergebnisse in der N&auml;he ber&uuml;cksichtigt." />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <div class="span1"></div>
+            <div class=" span10" style="background-color:White;">
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/style/pic/jobmarket_head.jpg" ImageAlign="Middle" />
+            </div>
+            <div class="span1"></div>
+        </div>
+    </div>
+
+    <div class="row"><br /><br /></div>
+
+
+
+    <div class="row">
+        <div class="span12 well">
+            <br />
+            <div id ="location_choose" >
+                <div class="">
+                    <div class="span3"></div>
+                    <div class="span6">
+                        <!-- ########### ########### ########### ########### ########### ########### ########### ########### ########### ###########-->
+                        <div class="row">
+                            <div class="span4">
+                                <h5>
+                                    <asp:Label ID="lbl_genre" runat="server" Text="Bereich"></asp:Label>
+                                </h5>
+                            </div>
+                            <div class="span7">
+                                <asp:DropDownList ID="sel_type" runat="server" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="span4">
+                                <h5>
+                                    <asp:HyperLink ID="hyLnk_select_location" runat="server" NavigateUrl="~/Default.aspx" ToolTip="Klicken um einen anderen Ort auszuwählen." Text="Ort" style="cursor:pointer;" />
+                                </h5>
+                            </div>
+                            <div class="span7">
+                                <asp:TextBox ID="txbx_Location" runat="server" autocomplete="off" EnableViewState="false" disabled="disabled" ></asp:TextBox>
+                            </div>
+                        </div>
+                        <div class="row"><br /></div>
+                        <div class="row">
+                            <div class="span4">
+                                <br />
+                            </div>
+                            <div class="span4">
+                                <br />
+                                <a id="hyLnk_startSearch" class="btn btn-large btn-primary" style="width:100%;" data-toggle="tooltip" title="Zeige die Ausschreibungen"><i class="icon-search icon-black"></i> Arbeit suchen</a>
+                            </div>
+                        </div>
+                        <div class="row"><br /></div>
+                    </div>
+                    <div class="span3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row"><br /><br /></div>
+
+    <div ID="SetUpFiltering" runat="server" visible="true">
+
+
+    <!-- # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+    
+    <!-- ############################################################################################################################################ -->
+    <!--   repeaer renders stuff from db to the outside world                                                                                         -->
+    <!-- ############################################################################################################################################ -->
+
+
+    <div class="accordion" id="accordion2">
+        <asp:Repeater ID="repJobList" runat="server">
+            
+                <ItemTemplate>
+                    <div class="span12">
+
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <div class="row">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href='#<%# Eval("_ID")%>'>
+                                        <h5><asp:Label ID="Label4" runat="server" class="span7 offset1" Text='<%# Eval("subject")%>' /></h5>
+                                    </a>
+                                    <asp:HyperLink ID="hyLnk_opnJob" runat="server" class="span2 btn btn-info pull-right" Text='Aufrufen' NavigateUrl='<%# Eval("tagZero")%>' Target="_blank" />
+                                </div>
+                            </div>
+                            <div id='<%# Eval("_ID")%>' class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <small>
+                                        <div class="span3">
+                                            <label><asp:Label ID='Label6' runat="server"  Text='Benutzer : ' /></label>
+                                            <label><asp:Label ID='lblBody' runat="server"  Text='<%# Eval("nickname")%>' /></label>
+                                        </div>
+                                        <div class="span3">
+                                            <label><asp:Label ID='Label8' runat="server"  Text='Standort : ' /></label>
+                                            <label><asp:Label ID='Label9' runat="server"  Text='<%# Eval("locationname")%>' /></label>
+                                        </div>
+                                        <div class="span11">
+                                            <label><asp:Label ID='Label5' runat="server"  Text='<%# Eval("body")%>' /></label>    
+                                        </div>
+                                    </small>
+                                    <br />
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                    </div>
+                </ItemTemplate>
+                <SeparatorTemplate></SeparatorTemplate>
+        </asp:Repeater>
+    </div>
+
+
+
+
+</div> <!-- container -->
+</asp:Content>
+

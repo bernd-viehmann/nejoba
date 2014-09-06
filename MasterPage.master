@@ -1,0 +1,645 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="de">
+  <head runat="server" >
+    <meta charset="utf-8" />
+    <title>...nejoba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- Le styles -->
+    <link href="<%# ResolveUrl("~/style/bootstrap/css/bootstrap.min.css")%>" rel="stylesheet" type="text/css" />
+    <link href="<%# ResolveUrl("~/style/bootstrap/css/bootstrap-responsive.min.css")%>" rel="stylesheet" type="text/css" />
+    <link href="<%# ResolveUrl("~/style/Default.css")%>" rel="stylesheet" type="text/css" />
+    <link href="<%# ResolveUrl("~/style/wysihtml5/dist/bootstrap-wysihtml5-0.0.2.css")%>" rel="stylesheet" type="text/css" />
+    <link href="<%# ResolveUrl("~/style/wysihtml5/lib/css/wysiwyg-color.css")%>" rel="stylesheet" type="text/css" />
+    <link href="<%# ResolveUrl("~/style/jqueryui/development-bundle/themes/flick/jquery-ui.css")%>" rel="stylesheet" type="text/css" />
+
+
+    <!-- the facebook XML-namespace for older IE versions 
+    <html xmlns:fb="http://ogp.me/ns/fb#">
+    -->
+
+    <link rel="shortcut icon" href="<%# ResolveUrl("~/favicon.ico")%>" />
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding-top: 30px;
+            width:100%;
+            left:0px;
+            right:0px;
+        }
+
+        #addsenseWideSkyscraper
+        {
+           display:block;
+           position: relative;
+           top:50px;
+           left:3px;
+           width:160px;
+           float:left;
+        }
+        
+        #mainDisplCanvas
+        {
+           display:block;
+           position: relative;
+           top:25px;
+        }
+        
+        #addsenseLargeLeaderboard
+        {
+            display:block;
+            background-color:transparent;
+            position: relative;
+            top:22px;
+            left: 50%;
+            width:970px;
+            margin-left: -485px;
+            height: 90px;
+        }
+
+        .spacedTop
+        { 
+            margin-top:5px; 
+        }
+    </style>
+
+
+
+    
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png" />
+    
+    <!-- Le javascript    ================================================== -->
+    <script type="text/javascript" src="<%# ResolveUrl("~/style/jquery/jquery-1.10.2.min.js") %>" ></script>
+
+    <script type="text/javascript" src="<%# ResolveUrl("~/style/wysihtml5/lib/js/wysihtml5-0.3.0.js") %>"></script>
+    <script type="text/javascript" src="<%# ResolveUrl("~/style/wysihtml5/dist/bootstrap-wysihtml5-0.0.2.js") %>"></script>
+
+    <script type="text/javascript" src="<%# ResolveUrl("~/js/bootstrap.min.js") %>"></script>
+    <script type="text/javascript" src="<%# ResolveUrl("~/js/jquery-ui.min.js") %>"></script>
+
+    <script type="text/javascript" src="<%# ResolveUrl("~/style/jqueryui/development-bundle/ui/i18n/jquery.ui.datepicker-de.js") %>"></script>
+    <script type="text/javascript" src="<%# ResolveUrl("~/style/jqueryui/development-bundle/ui/i18n/jquery.ui.datepicker-en-GB.js") %>"></script>
+
+    <!-- resolveurl in javascript       http://weblogs.asp.net/joelvarty/archive/2009/07/17/resolveurl-in-javascript.aspx-->
+
+    <!-- social meta start -->
+    <!-- -- -- -- -- -- -- -->
+    <!-- 17.09.2013 bervie -->
+    <meta itemprop="name" content="Das Nachbarforum">
+    <meta itemprop="description" content="Dein Regionalteil im Internet :-)">
+    <meta property="og:site_name" content="nejoba" />
+    <meta property="og:image" content="http://www.nejoba.net/njb_02/style/pic/facebook-logo.png" />
+    <meta property="og:title" content="nejoba DAS REGIONALE FORUM" />
+    <meta property="og:description" content="Das Nachbarnetzwerk im Internet" />
+    <!-- http://blog.smartwebsitetips.com/75/how-to-force-facebook-choose-right-image-for-like-button/ -->
+    <!-- social meta end -->
+
+
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+  </head>
+
+<body id="mBody" runat="server">
+
+    <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+    <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+    <form id="form2" runat="server">
+
+        <div id="TheNormalView">
+            <div class="navbar navbar-inverse navbar-fixed-top" style='z-index:5000;' >
+                <div class="navbar-inner">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+
+                    <div id="navigationDiv" class="nav-collapse collapse">
+                        <ul class="nav">
+                        <!--
+                        <div id="startpage_selection" class="navbar-form pull-right" runat="server" visible="false" >
+
+                            <li>
+                                <asp:HyperLink ID="hyLnk_nejoba_old" runat="server" Text="Startseite" ToolTip="Zur Start-Seite" NavigateUrl="~/job_market.aspx" Visible="false" />
+                                <asp:HyperLink ID="hyLnk_nejoba" runat="server" Text="Startseite" ToolTip="Zur Start-Seite" NavigateUrl="~/PinBoard.aspx" />
+                            </li>
+                        </div>
+                        -->
+                        <li>
+                            <asp:HyperLink ID="hyLnk_callDefltPg" runat="server" Text="Start" NavigateUrl="~/Default.aspx" ToolTip="Lege fest über welche Stadt du dich informieren möchtest" />
+                        </li>
+
+
+
+                        <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- JOB-MARKET -->
+                        <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- JOB-MARKET -->
+                        <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- JOB-MARKET -->
+                        <li class="dropdown">
+                            <asp:HyperLink ID="hyli_account_mngmnt" runat="server" Text="Job-Börse <b class='caret'></b>" class="dropdown-toggle" data-toggle="dropdown" NavigateUrl="#" ToolTip="Regionaler Arbeitsmarkt" />
+                            <ul class="dropdown-menu">
+
+                                <li class="nav-header">
+                                    <asp:Label ID="Label11" runat="server" Text="Job ausschreiben" ToolTip="Helfer suchen" />
+                                </li>
+
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_joboffer" runat="server" Text="Arbeit vergeben" NavigateUrl="~/wbf_functs/jobs_editor.aspx" ToolTip="Schreibe einen Arbeitsauftrag aus" />
+                                </li>
+
+                                <li class="divider"></li><!-- ######################### -->
+
+                                <li class="nav-header">
+                                    <asp:Label ID="Label4" runat="server" Text="Job suchen" ToolTip="Hilfe anbieten" />
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_jobsearch" runat="server" Text="Arbeit suchen" NavigateUrl="~/wbf_functs/jobs_search.aspx" ToolTip="Finde einen Job und biete Hilfe an" />
+                                </li>
+
+
+                                <li class="divider"></li><!-- ######################### -->
+
+                                <!--
+                                <li class="nav-header">
+                                    <asp:Label ID="Label1c1" runat="server" Text="Anzeige" ToolTip="Liste mit Jobangeboten" />
+                                </li>
+
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_jobmrkt" runat="server" Text="Job-Liste" ToolTip="Zum privaten Jobmarkt" NavigateUrl="~/wbf_functs/jobs_list.aspx?jobtype=*" />
+                                </li>
+
+                                <li class="divider"></li>
+                                -->
+
+                                <li class="nav-header">
+                                    <asp:Label ID="Label10" runat="server" Text="Online Hilfe" ToolTip="Wie funktioniert Job-Börse im Internet ?" />
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_helpForJobMarket" runat="server" Text="Hilfe zum Arbeitsmarkt" NavigateUrl="~/wbf_help/help_jobmarket.aspx" ToolTip="Die private Jobbörse auf nejoba kurz erklärt" />
+                                </li>
+                            </ul>
+                        </li>
+
+
+
+                        <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- LOCALE DISCUSSIONS -->
+                        <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- LOCALE DISCUSSIONS -->
+                        <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- LOCALE DISCUSSIONS -->
+                        <li class="dropdown">
+                            <asp:HyperLink ID="HyperLink4" runat="server" Text="Nachbarforum<b class='caret'></b>" class="dropdown-toggle" data-toggle="dropdown" NavigateUrl="#" ToolTip="Regionaler Micro-Blog" />
+                            <ul class="dropdown-menu">
+
+                                <li class="nav-header">
+                                    <asp:Label ID="Label8" runat="server" Text="Veröffentlichen" ToolTip="Eigenen Beitrag aushängen" />
+                                </li>
+                                <li>  <!--  run_at="server" class="disabled" id="li_1" -->
+                                    <asp:HyperLink ID="hyLnk_createDebate" runat="server" Text="Beitrag erstellen" NavigateUrl="~/wbf_functs/debate_editor.aspx" ToolTip="Selbst im Forum veröffentlichen" />
+                                </li>
+                                <li class="divider"></li><!-- ######################### -->
+
+
+                                <li class="nav-header">
+                                    <asp:Label ID="Label1" runat="server" Text="Beiträge anzeigen" ToolTip="Informationen des Forums anzeigen" />
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_debateProjector" runat="server" Text="als Liste" NavigateUrl="~/projector_debateList.aspx" ToolTip="Dieses 'schwarze Brett' zeigt sämtliche Einträge" />
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_callMapTwo" runat="server" Text="als Karte" NavigateUrl="~/projector_DebateMap.aspx" ToolTip="Die Karte zeigt Beiträge mit markiertem Ort" />
+                                </li>
+                                <li class="divider"></li><!-- ######################### -->
+
+
+                                <li class="nav-header">
+                                    <asp:Label ID="Label7" runat="server" Text="Suche" ToolTip="Daten des Nachbarforums filtern" />
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_callRubricSearch" runat="server" Text="Rubriken" NavigateUrl="~/Search_Rubric.aspx" ToolTip="Kleinanzeigen, Veranstaltungen, Kontaktbörse, usw" />
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_callHashtagSearch" runat="server" Text="Hashtags" NavigateUrl="~/Search_Hashtag.aspx" ToolTip="Hashtags vernetzen nach Interessen" />
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_callAppointmentSearch" runat="server" Text="Termine" NavigateUrl="~/Search_Appointment.aspx" ToolTip="Beiträge an einem Datum finden" />
+                                </li>
+                                <li class="divider"></li><!-- ######################### -->
+
+
+                                <li class="nav-header">
+                                    <asp:Label ID="Label2" runat="server" Text="Online-Hilfe" ToolTip="Das Nachbarforum kennen lernen" />
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_helpUsageOfRegionTwitter" runat="server" Text="Hilfe zum Nachbarforum" NavigateUrl="~/wbf_help/help_debates.aspx" ToolTip="Wiso? Weshalb? Und vor allem: Warum??" />
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- USER ACCOUNT -->
+                        <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- USER ACCOUNT -->
+                        <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- USER ACCOUNT -->
+                        <li class="dropdown">
+                            <asp:HyperLink ID="hyli_1k1" runat="server" class="dropdown-toggle" data-toggle="dropdown" Text="Dein Bereich <b class='caret'> </b>"  NavigateUrl="#" ToolTip="Dein Benutzerkonto" />
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_userHome" runat="server" Text="Konto-Startseite" NavigateUrl="~/wbf_account/user_home.aspx" ToolTip="Funktionen in nejoba " />
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_maintainAccount" runat="server" Text="Konto verwalten" NavigateUrl="~/wbf_activemap/create_map_user.aspx" ToolTip="Deine Kontoeinstellungen verwalten" />
+                                </li>
+
+                                <li class="divider"></li>
+                                <li class="nav-header">
+                                    <asp:Label ID="Label5" runat="server" Text="Das Nachbarforum" />
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                <asp:HyperLink ID="hyli_createdByUser" runat="server" Text="Deine Beiträge" ToolTip="Von Dir erstellte oder kommentierte  Beiträge" />
+                                <ul class="dropdown-menu" runat="server" id="ul_1">
+                                    <li runat="server" class="disabled" id="li_3">
+                                        <asp:HyperLink ID="hyLnk_debatesstarted" runat="server" Text="von dir erstellt" NavigateUrl="~/wbf_account/user_debates_started.aspx" ToolTip="Deine eigenen Beiträge im Forum" />
+                                    </li>
+                                    <li runat="server" class="disabled" id="li_4">
+                                        <asp:HyperLink ID="hyLnk_debateAdditions" runat="server" Text="von dir kommentiert" NavigateUrl="~/wbf_account/user_debates_adds.aspx" ToolTip="Deine Diskussionsbeiträge" />
+                                    </li>
+                                </ul>
+                                </li>
+                                <li runat="server" class="disabled" id="li_5">
+                                    <asp:HyperLink ID="hyLnk_abo" runat="server" Text="Abonnements" NavigateUrl="~/wbf_account/user_abonnement.aspx" ToolTip="Deine Lesezeichen im Forum" />
+                                </li>
+
+                                <li class="divider"></li>
+                                <li class="nav-header">
+                                    <asp:Label ID="Label6" runat="server" Text="Der Arbeitsmarkt" />
+                                </li>
+                                <li class="disabled" id="li_7" runat="server">
+                                    <asp:HyperLink ID="hyLnk_YourJobAnnonces" runat="server" Text="Deine Angebote" NavigateUrl="~/wbf_account/user_jobs.aspx" ToolTip="Ausschreibungen von dir erstellt" />
+                                </li>
+                                <li class="disabled" id="li_8" runat="server">
+                                    <asp:HyperLink ID="hyLnk_yourOffers" runat="server" Text="Deine Nachfragen" NavigateUrl="~/wbf_account/user_offers.aspx" ToolTip="Ausschreibungen für die du dich gemeldet hast" />
+                                </li>
+                                <!-- ##################                        ##################                        ##################                        ################# -->
+                                <li class="divider" runat="server" ID="divider_endUserSession"></li>
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_endUserSession" runat="server" Text="Abmelden" NavigateUrl="~/logout.aspx" ToolTip="Beende deine nejoba-Sitzung" />
+                                </li>
+                                <!-- ##################                        ##################                        ##################                        ################# -->
+                                <li class="divider"></li>
+                                <li class="nav-header">
+                                    <asp:Label ID="Label3" runat="server" Text="Online Hilfe" ToolTip="Wie kann man mitmachen ?" />
+                                </li>
+                                <li>
+                                    <asp:HyperLink ID="hyLnk_helpuseraccount" runat="server" Text="Hilfe zum Benutzerkonto" NavigateUrl="~/wbf_help/help_account.aspx" ToolTip="Wie und warum man sich registrieren sollte." />
+                                </li>
+                                <!--
+                                    <li>
+                                        <asp:HyperLink ID="hyLnk_createnewitem" runat="server" Text="Hilfe zum Veröffentlichen" NavigateUrl="~/wbf_help/help_debates_edit_new_item.aspx" ToolTip="Wiso? Weshalb? Und vor allem: Warum??" />
+                                    </li>
+                                -->
+                            </ul>
+                        </li>
+                   </ul>
+                </div>
+                <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
+                <div id="logindiv" class="navbar-form pull-right" runat="server" visible="true" >
+                    <asp:Label ID="lbl_email" runat="server" Text="Email: " style="top:5px;position:relative;" ForeColor="#CCCCCC" />
+                    <asp:TextBox class="span2" ID="txbx_email" runat="server" style="top:5px;" />
+                    <asp:Label ID="lbl_password" runat="server" Text="Passwort: " style="top:5px;position:relative" ForeColor="#CCCCCC"/>
+                    <asp:TextBox class="span2" ID="txbx_password" runat="server" TextMode="Password" />
+                    <asp:Button ID="btn_login" runat="server" Text="Anmelden" class="btn btn-success" onclick="HndlrButtonClick" UseSubmitBehavior="false" />
+                </div>
+                <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
+            </div>
+        </div>
+        <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+            <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+            <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+            <div>
+                <asp:ContentPlaceHolder id="CoPlaTop" runat="server" />
+            </div>
+            <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+            <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+
+            <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+            <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+            <div id="mainDisplCanvas" class="container-fluid" >
+                <div class="row-fluid" style="z-index:4000;">
+                    <div class="span9" style="padding-left:14px;">
+                        <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+                        <div id="errorMsgBox" runat="server" visible="false" >
+                            <div class="span11 offset1 label label-warning">
+                                <div>
+                                    <br />
+                                    <asp:Image ID="warnimage" runat="server" ImageAlign="Left" ImageUrl="~/style/pic/warning.png" />
+                                    <p style="padding-left:80px;">
+                                        <asp:Label ID="lbl_messageBox" runat="server"  ForeColor="#070707" Text="Ein Fehler ist aufgetreten"></asp:Label>
+                                    </p>
+                                </div>
+                            </div>
+                            <br />
+
+                        </div>
+
+                        <div class="span11 offset1 willBeHidden" style="">
+                            <asp:ContentPlaceHolder id="CoPlaBottom" runat="server" EnableViewState="True" />
+                        </div>
+
+                        <div id="messageLoading" class="span11 offset1 willBeHidden" style="display:none">
+                            <br /><br />
+                            <div class="span2 offset2">
+                                <asp:Image ID="Image1" runat="server" ImageUrl="~/style/pic/ajax-loader.gif" />
+                            </div>
+                            <div class="span7 offset1">
+                                <asp:HyperLink ID="hyLnk_call_default" runat="server" ImageUrl="~/style/pic/nejoba_logo_small.png" NavigateUrl="~/Default.aspx" ToolTip="Zur Startseite" />
+                                <br /><br /><br />
+                                <h3>
+                                <asp:Label ID="hiddenagenda1" runat="server" Text="nejoba lädt Daten." />
+                                </h3>
+                                <label>
+                                <asp:Label ID="hiddenagenda2" runat="server" Text="Bitte entschuldige wenn Wartezeiten entstehen. <br />nejoba läuft derzeit noch komplett auf einem schmalen Server. <br />Das wird sich bald ändern." />
+                                <br />
+                                <br />
+                                <br />
+                                </label>
+                                <br /><br /><br />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- google moneymacking mechanic -->
+                    <div class="span1">
+                        <br />
+                        <script type="text/javascript"><!--
+                            google_ad_client = "ca-pub-5536206206953597";
+                            /* left_skyscraper */
+                            google_ad_slot = "6261386261";
+                            google_ad_width = 160;
+                            google_ad_height = 600;
+                        //-->
+                        </script>
+                        <script type="text/javascript"
+                        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+
+            <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+            <!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+
+        </div>
+        <div id="bigFoot" class="row-fluid willBeHidden">
+            <footer>
+                <br />
+                <div class="span9" style="padding-left:14px;">
+                    <br />
+                    <ul class="nav nav-pills pagination pagination-right">
+                        <li> <asp:HyperLink ID="hyLnk14" runat="server" Text="Impressum" NavigateUrl="~/wbf_info/impressum.aspx" ToolTip="Impressum" /> </li>
+                        <li> <asp:HyperLink ID="hyLnk15" runat="server" Text="AGB" NavigateUrl="~/wbf_info/agb.aspx" ToolTip="Unsere Gesch&auml;ftbedingungen" /> </li>
+                        <li> <asp:HyperLink ID="hyLnk98" runat="server" Text="Datenschutz" NavigateUrl="~/wbf_info/privacy_protection.aspx" ToolTip="Erkl&auml;rung zum Datenschutz" /> </li>
+                        <li> <asp:HyperLink ID="hyLnk13" runat="server" Text="Kontakt" NavigateUrl="~/wbf_info/contact.aspx" ToolTip="Kontakt zum nejoba-Team" /> </li>
+                        <li> <asp:HyperLink ID="hyLnk12" runat="server" Text="Hilfe" NavigateUrl="~/wbf_help/help.aspx" ToolTip="Online-Hilfe zur Bedienung" /> </li>
+                        <li> <asp:HyperLink ID="hyLnk18" runat="server" Text="&Uuml;ber nejoba" NavigateUrl="~/wbf_help/about.aspx" ToolTip="Was ist nejoba?" /> </li>
+                        <!--<li> <asp:HyperLink ID="hyLnk16" runat="server" Text="DevLinks" NavigateUrl="~/wbf_maintain/Links.aspx" ToolTip="Entwicklungshilfe" /> </li>-->
+                    </ul>
+
+                    
+                    <p class="muted"><small><asp:Label ID="Label9" runat="server" Text="Bitte hilf dabei nejoba aufzubauen. Nutze nejoba, informiere uns über Fehler und teile uns mit was du anders machen würdest."></asp:Label></small></p>
+                    <br />
+                    
+                    <div class="span6">
+                        <strong>&copy; 2013</strong> 
+                        <asp:HyperLink ID="HyperLink7" runat="server" ImageUrl="~/style/pic/nejoba_beta_128_58.png" NavigateUrl="~/Default.aspx" ToolTip="Zur Startseite" />
+                    </div>
+
+                    <div class="span3 offset1 btn-group">
+                        <asp:HyperLink ID="HyperLink2" runat="server" ImageUrl="~/style/pic/twitter-bird-icon.png" NavigateUrl="http://twitter.com/info_nejoba" Target="_blank" ToolTip="nejoba twittert" />
+                        <asp:HyperLink ID="HyperLink1" runat="server" ImageUrl="~/style/pic/facebook-icon.png" NavigateUrl="http://www.facebook.com/nejoba" Target="_blank" ToolTip="Besuche die nejoba-fanpage" />
+                    </div>
+
+                    <br /><br /><br />
+                </div>
+
+                <div class="span8 offset2">
+                    <div id="addsenseLargeLeaderboard">
+                        <script type="text/javascript"><!--
+                            google_ad_client = "ca-pub-5536206206953597";
+                            /* bottom_leaderboard */
+                            google_ad_slot = "7738119467";
+                            google_ad_width = 970;
+                            google_ad_height = 90;
+                        //-->
+                        </script>
+                        <script type="text/javascript"
+                        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                        </script>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+
+        <br /><br />
+
+
+
+<!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+<!-- -- JavaScript global functions                                                                                             -->
+<!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
+<script type="text/javascript">
+
+    /*
+     * get the current URL-base from the allknowing server
+     *
+     */
+    var baseUrl = "<%= ResolveUrl("~") %>";
+
+
+    /*
+     * toogle url for production or development    21.08.2013 bervie
+     *
+     */
+    function nejobaUrl( url ) {
+        var pageUrl = window.location.href;
+        var reqstUrl = '';
+
+        var isProd = pageUrl.indexOf('www.nejoba.net');
+        var hasSubDir = pageUrl.indexOf('www.nejoba.net/njb_02')
+
+        // if no subdir for the version were found modify the URL
+        if ( (isProd > -1) && (hasSubDir == -1 )) {
+            reqstUrl = 'http://www.nejoba.net/njb_02/' + url.substr(url.indexOf('/'));
+            }
+        else {
+            reqstUrl = url;
+            }
+        // alert( pageUrl + ' : ' + reqstUrl );
+        return reqstUrl;
+        }
+
+    /*
+     * show the waiting-message div after user has clicked a time-consuming process like understanding a wommannnn
+     *
+     */
+    function hideAfterClick() { 
+        $('.willBeHidden').toggle();
+        $('#errorMsgBox').hide(); 
+        $('#messageLoading').show(); 
+    }
+
+
+    /*
+     * checkForCountry : function is used for location-selection (Default.aspx. search-WebForms and editor-webforms )
+     * 
+     * if user gave a name for a city but has not selected a country this function shows a warning-div in the UI
+     */
+    function checkForCountry() {
+        var slctVl = $("#CoPlaBottom_sel_country").val();
+        var city = $("#CoPlaBottom_txbx_city").val().trim();
+
+        if ((slctVl == '0') && (city != '')) {
+            $('#nocountryselected').show();
+            return false;
+            }
+        else {
+            hideAfterClick();
+            return true;
+            }
+    };
+
+
+    // global functions used by nejoba-UI
+    $(document).ready(function () {
+
+        /*
+         *  handle autocomplete for cities MUST BE NAMED 'txbx_city'
+         *
+         */
+        cityListFromServer = []                 // used as datasource for the bootstrap-typeahead 'txbx_city'
+        $('#CoPlaBottom_txbx_city').typeahead({
+            source: function (query, process) {
+                var ajxurl = nejobaUrl( baseUrl + 'ajax/dataSource__city.aspx?')
+
+                console.log('length citylistfromserver:' + cityListFromServer.length);
+
+                if (cityListFromServer.length == 0) {
+                    return $.get(ajxurl, { query: query }, function (data) {
+                        cityListFromServer = JSON.parse(data).options;
+                        return process(cityListFromServer);
+                    });
+                }
+                else {
+                    if (cityListFromServer[0].slice(0, 4).toLowerCase() == query.slice(0, 4).toLowerCase()) {
+                        return cityListFromServer;
+                    }
+                    else {
+                        return $.get(ajxurl, { query: query }, function (data) {
+                            cityListFromServer = JSON.parse(data).options;
+                            return process(cityListFromServer);
+                        });
+                    }
+                }
+            },
+            minLength: 4,
+            items: 7
+        });
+
+        /*
+         *  handle autocomplete for hashtags  MUST BE NAMED 'txbx_hashtag'
+         *
+         */
+        hashListFromServer = []                 // used as datasource for the bootstrap-typeahead 'txbx_hashtag'
+        $('#CoPlaBottom_txbx_hashtag').typeahead({
+            source: function (query, process) {
+                var ajxurl = nejobaUrl( baseUrl + 'ajax/dataSource__hashtags.aspx?')
+
+                if (hashListFromServer.length == 0) {
+                    return $.get(ajxurl, { query: query }, function (data) {
+                        hashListFromServer = JSON.parse(data).options;
+                        return process(hashListFromServer);
+                    });
+                }
+                else {
+                    if (hashListFromServer[0].slice(0, 4).toLowerCase() == query.slice(0, 4).toLowerCase()) {
+                        return hashListFromServer;
+                    }
+                    else {
+                        return $.get(ajxurl, { query: query }, function (data) {
+                            hashListFromServer = JSON.parse(data).options;
+                            return process(hashListFromServer);
+                        });
+                    }
+                }
+            },
+            minLength: 4,
+            items: 5
+        });
+
+
+        /*
+         *  handler for location-select
+         *  toggle between the normal-div and the div where user can change the current location
+         */
+        /*
+         *  show location-search-div
+         */
+        $('#button_opnloc_srch').click(function () {
+            $('#CoPlaBottom_div_show_loctn').hide();
+            $('#CoPlaBottom_div_slct_loctn').show();
+        });
+        /*
+         *  hide loc-search-div and show normal-view
+         */
+        $('#cancle_slct_loctn').click(function () {
+            $('#CoPlaBottom_div_slct_loctn').hide();
+            $('#CoPlaBottom_div_show_loctn').show();
+        });
+        
+
+        /*
+         *  delete value of location-textbox if country was changed
+         */
+        $( '#CoPlaBottom_sel_country' ).change(function() {
+            $( '#CoPlaBottom_txbx_city' ).val('');
+        });
+
+
+
+
+        /*
+         *  google analytics stuff  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
+         *
+         */
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38978678-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    });
+</script>
+
+
+
+    </form>
+
+</body>
+</html>

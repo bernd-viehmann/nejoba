@@ -1,0 +1,14 @@
+﻿List of Matrixes that will be used:
+
+Termine 					[DATE_MATRIX.txt  ]
+Orte 						[PLACE_MATRIX.txt ]
+Initiativen 				[ACTION_MATRIX.txt]
+Rubriken ( Kleinanzeigen )	[MARKET_MATRIX.txt]
+Jobmarkt					[JOB_MATRIX.txt   ]
+
+schon überarbeitet :
+C:\Develop\njb_2\App_Data\INITIATIVE_MATRIX.txt
+C:\Develop\njb_2\App_Data\ANNONCE_MATRIX.txt
+
+
+

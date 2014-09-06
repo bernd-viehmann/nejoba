@@ -1,0 +1,215 @@
+Auto, Flugzeug & Co
+	Auto
+	Motorrad Motorrad
+	Motorboot/Yacht
+    Motorroller/Scooter/Moped
+    Eisenbahn
+    Flugzeuge u. Hubschrauber
+    Trike-Fahren
+    Quad/ATV
+    Trucks/LKW/Busse
+Bildung & Wissen
+	Archäologie
+	Astrologie
+	Astronomie
+	Chemie
+	Erfindertum
+	Geschichte
+	Raumfahrt
+	Mathematik
+	Mystik (Hexen, Magie, Paranormales etc.)
+	Natur
+	Philosophie
+	Physik
+	Psychologie
+	Esoterik
+	Sprachen
+	Elektronik
+Computer, Games & Internet
+	eSport
+	Casemodding
+	Internet
+	Overclocking
+	Robotik
+	Videogames/Computerspiele
+Essen & Genuss
+	Backen
+	Feinkost & Delikatessen
+	Grillen
+	Kochen
+	Kräuter & Gewürze
+Gesundheit & Wellness
+	Ayurveda
+	Meditation
+	Qigong
+	Sauna
+	Tai Chi
+	Yoga
+Haus & Garten
+	Blumen und Pflanzen
+	Deko/Einrichtung
+	Heimwerkern
+	Feng Shui
+	Kleingärten
+	Gartenteich
+	Urban Gardening
+	Ziergarten
+Haustiere
+	Aquaristik
+	Bienen/Imkerei
+	Hunde
+	Katzen
+	Marderartige (Frettchen, Stinktiere...)
+	Nagetiere
+	Pferde
+	Ponys
+	Terraristik
+	Vögel
+Kultur & Bühne
+	Brauchtum/Bräuche
+	Comedyclub
+	Festivals
+	Film
+	Kabarett
+	Konzerte
+	Museen und Ausstellungen
+	Musicals 
+	Oper
+	Theater
+	Marionettentheater
+Kunst & Kreativität
+	Bildende Kunst
+	Darstellende Kunst
+	Musik machen
+	Poetik Literatur und Poetik
+Look & Lifestyle
+	Bärte/Bartstyling
+	Cosplay
+	Fashion/Mode
+	Gothic/Schwarze Szene
+	Hairstyling
+	Kosmetik
+	Living History/Reenactment
+	Modeln
+	Naildesign/Nageldesign
+	Steampunk
+	Tattoo, Piercing & Co
+Handarbeiten
+	Modellbau
+	Basteln
+	Häkeln
+	Klöppeln
+	Nähen
+	Patchwork
+	Sticken
+	Stricken
+	Upcycling
+Persönliches Engagement
+	Tierschutz
+	Umweltschutz
+	Entwicklungshilfe
+	Integration
+	Menschen in Armut
+	Für Menschen mit Behinderung
+	Menschenrechte
+	Politisches Engagement
+Urlaub & Reisen
+	Themenreisen
+	Urlaub in Deutschland
+	Urlaub in Österreich
+	Urlaub in der Schweiz
+Sammelleidenschaften
+	Abzeichen
+	Ansichtskarten
+	Antiquitäten
+	Autogramme
+	Briefmarken
+	historische Waffen
+	Knöpfe
+	Münzen
+	Puppen
+	Puppenstuben
+	Schallplatten
+	Schleichfiguren
+	Ü-Ei-Figuren (Überraschungseier)
+	Zinnfiguren
+Spiele & Spielzeug
+	Spiele
+	Spielzeug
+Sport
+Ballsport
+Behindertensport
+Brettsport
+    Hobbys zu Fitness und Kraftsport Fitness und Kraftsport
+    Hobbys zu Flugsport/Luftsport Flugsport/Luftsport
+    zum Hobby Gedächtnissport Gedächtnissport
+    Hobbys zu Geschicklichkeitssport Geschicklichkeitssport
+    Hobbys zu Hundesport Hundesport
+    Hobbys zu Kampfsport Kampfsport
+    Hobbys zu Klettersport Klettersport
+    Hobbys zu Laufsport Laufsport
+    Hobbys zu Leichtathletik Leichtathletik
+    Hobbys zu Mehrkampfsport Mehrkampfsport
+    Hobbys zu Motorsport Motorsport
+    Hobbys zu Natursport Natursport
+    Hobbys zu Pferdesport/Reitsport Pferdesport/Reitsport
+    Hobbys zu Präzisionssport Präzisionssport
+    Hobbys zu Radsport Radsport
+    Hobbys zu Schießsport Schießsport
+    Hobbys zu Tanzsport Tanzsport
+    Hobbys zu Turnsport Turnsport
+    Hobbys zu Wassersport Wassersport
+    Hobbys zu Wintersport Wintersport
+
+Hobbys zu Zeitvertreib Zeitvertreib
+
+    zum Hobby Ausflüge Ausflüge
+    zum Hobby Discos/ Clubs Discos/ Clubs
+    zum Hobby Erlebnisbäder Erlebnisbäder
+    zum Hobby Fahrradfahren Fahrradfahren
+    zum Hobby Flohmärkte/Trödelmärkte Flohmärkte/Trödelmärkte
+    zum Hobby Freizeitparks Freizeitparks
+    zum Hobby Hörbücher hören Hörbücher hören
+    zum Hobby in die Pilze gehen in die Pilze gehen
+    zum Hobby Karaoke Karaoke
+    zum Hobby Kino Kino
+    zum Hobby Labyrinthe Labyrinthe
+    zum Hobby Musik hören Musik hören
+    zum Hobby Restaurants Restaurants
+    zum Hobby Schnäppchenjagd Schnäppchenjagd
+    zum Hobby Telefonieren Telefonieren
+    zum Hobby Spaziergänge Spaziergänge
+
+Hobbys zu Außergewöhnliches Außergewöhnliches
+
+    zum Hobby Arschbomben/ Splashdiving Arschbomben/ Splashdiving
+    zum Hobby Bobby-Car-Rennen Bobby-Car-Rennen
+    zum Hobby Brennesselessen Brennesselessen
+    zum Hobby Bürogolf Bürogolf
+    zum Hobby Bürostuhlrennen Bürostuhlrennen
+    zum Hobby Buspulling Buspulling
+    zum Hobby Extrembügeln/ Extreme Ironing Extrembügeln/ Extreme Ironing
+    zum Hobby Fingerhakeln Fingerhakeln
+    zum Hobby Frauentragen Frauentragen
+    zum Hobby Grimassenschneiden Grimassenschneiden
+    zum Hobby Gummistiefelweitwurf Gummistiefelweitwurf
+    zum Hobby Handyweitwurf Handyweitwurf
+    zum Hobby Hirschrufen Hirschrufen
+    zum Hobby Jackassing Jackassing
+    zum Hobby Joggling Joggling
+    zum Hobby Kirschkernweitspucken Kirschkernweitspucken
+    zum Hobby Kürbisweitwurf Kürbisweitwurf
+    zum Hobby Leichenwagen Leichenwagen
+    zum Hobby Lockpicking Lockpicking
+    zum Hobby Luftgitarre Luftgitarre
+    zum Hobby Nacktsport Nacktsport
+    zum Hobby Planking Planking
+    zum Hobby Schatzsuche Schatzsuche
+    zum Hobby Schneckenwettrennen Schneckenwettrennen
+    zum Hobby Schweineschrei Schweineschrei
+    zum Hobby Sumpffußball Sumpffußball
+    zum Hobby Sumpfschnorcheln Sumpfschnorcheln
+    zum Hobby Tomatenschlacht Tomatenschlacht
+    zum Hobby Tough Guy Race Tough Guy Race
+    zum Hobby Wattolümpiade Brunsbüttel Wattolümpiade Brunsbüttel
+

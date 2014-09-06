@@ -1,0 +1,93 @@
+﻿/*
+ # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #: 
+ # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #: the main page cascading stuff
+ */
+
+#mainarea {
+    position:relative;
+    background-color:#DDD;
+    width:1000px;
+    height:625px;
+    left: 50%;
+    top:55px;
+
+	margin-left:-500px;
+    z-index:100;
+}
+
+#mainleft {
+    position:absolute;
+    top:0px;
+    left:50%;
+    margin-left:-500px;
+    padding:5px;
+	width:490px;
+	height:613px;
+    background-color:transparent;
+	z-index:401;
+}
+
+#mainright {
+    position:absolute;
+    top:0px;
+    left:50%;
+    padding:5px;
+	width:490px;
+	height:613px;
+    background-color:transparent;
+	z-index:402;
+}
+
+/*
+ # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #: 
+ # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #: the widgets for user-input
+ */
+
+.registeritem {
+	position:relative;
+	padding:3px;
+	height:23px;
+	width:490px;
+}
+
+.registerlable {
+   position:absolute;
+   font-size: 15px;
+   font-weight:normal;
+   top:5px;
+   height: 17px;
+   width:145px;
+   text-align:right;
+}
+
+.registerinput {
+   position:absolute;
+   background-color:#CCF;
+   background:77F;
+   left:155px;
+   width: 257px;
+   font-size: 15px;
+   
+   border: 1px solid #000;
+   height: 20px;
+}
+
+.sectionlable
+{
+    font-size:17px;
+    font-weight:normal;
+}
+
+.registerbutton {
+   position:absolute;
+   background-color:#7F7;
+   background:77F;
+   left:163px;
+   width: 257px;
+   font-size: 19px;
+   
+   border: 1px solid #000;
+   height: 40px;
+}
+
+

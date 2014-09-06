@@ -1,0 +1,945 @@
+06:22:52 | mess  -   Application started : new LogCache was created
+06:22:52 | mess  -   new UiTools instance created !
+06:23:04 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+06:23:04 | deve  -   slice index                           : 0
+06:23:04 | deve  -   start-day    left  in timebeam        : 12.10.2013 05:23:04
+06:23:04 | deve  -   end-day      rigth in timebeam        : 10.01.2014 05:23:04
+06:23:04 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+06:23:04 | deve  -   number of slices cached                        :0
+06:23:04 | deve  -   CachedDataSource.fillTablesItems START (left)  :12.10.2013 05:23:04
+06:23:04 | deve  -   CachedDataSource.fillTablesItems END   (rigth) :10.01.2014 05:23:04
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_PERSONALHYGIENE ; position = 0  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §LONELY_HEARTS_AD_2_0_0 ; position = 1  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CRAFT ; position = 2  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_OFFICE ; position = 3  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HUMAN2HUMAN ; position = 4  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_LEISURE ; position = 5  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CHILDREN ; position = 6  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOME ; position = 7  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOMEWORK ; position = 8  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_GARDEN ; position = 9  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_COMPUTER ; position = 10  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_NOTSPECIFIED ; position = 11  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §SWAP_0_0 ; position = 12  
+06:23:05 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_EDUCATION ; position = 13  
+06:23:05 | deve  -   ------- LOADING JOB_ROOT INTO cache ------
+06:23:05 | deve  -   _objectDetailID  : 0
+06:23:05 | mess  -   New UserData instance created with ID = 2fmdbqbt4tjghyjlksqpo15y IP: ::1 Local: de-de
+06:23:05 | deve  -   LocDefiner.uiInitLocDef was called 
+06:34:30 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+06:34:33 | debu  -   Default.aspx->HandlBtnClick URL: ~/micro_blog.aspx?Loc=AT,5301&City=Eugendorf
+06:34:36 | deve  -   DebateProjector( .. ) constructor called
+06:34:36 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c212be773e6f12e006ce87
+06:34:36 | deve  -   LocDefiner.uiInitProjector called with locn    50c212be773e6f12e006ce87
+06:34:37 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+06:34:37 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+06:34:37 | deve  -   self.param["Loc"]    :  "AT,5301"
+06:34:37 | deve  -   self.param["City"]   :  "None"
+06:34:37 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+06:34:37 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+06:34:37 | deve  -   CacheDataSource.createCityList( self ) loc url param   : AT,5301
+06:34:37 | deve  -   createCityList parameter :   country : AT ; postcode : 5301 ; city :  ; areasize (form web.config ) : 17
+06:34:37 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:AT|5301
+06:34:37 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+06:34:37 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+06:34:37 | deve  -   CachedDataSource.addConfigParam() called !
+06:34:50 | deve  -   DebateProjector( .. ) constructor called
+06:34:50 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c212be773e6f12e006ce87
+06:34:50 | deve  -   LocDefiner.uiInitProjector called with locn    50c212be773e6f12e006ce87
+06:34:50 | deve  -   constructor of class UserHome(Page) aufgefufen!
+06:34:50 | deve  -   UserHome( .. ) called FillUsrCache with mail njb02@t-online.de
+06:34:51 | deve  -   userData.createUserLocationString found for user-home-town : 50c212be773e6f12e006ce87
+06:34:51 | deve  -   userData.createUserLocationString found for user-home-town    : [AT] 5301 Eugendorf
+06:34:51 | deve  -   user-data read from mongo and copied into the user-dict !!
+06:34:51 | deve  -   KEY : jobType	  VALUE : §*JTD01_human2human	
+06:34:51 | deve  -   KEY : website	  VALUE : http://de.wikipedia.org/wiki/Henndorf_am_Wallersee	
+06:34:51 | deve  -   KEY : locationname	  VALUE : [AT] 5301 Eugendorf	
+06:34:51 | deve  -   KEY : post_code_key	  VALUE : AT|5302	
+06:34:51 | deve  -   KEY : languagecode	  VALUE : de	
+06:34:51 | deve  -   KEY : creation_time	  VALUE : 2013-07-24T10:09:38.281Z	
+06:34:51 | deve  -   KEY : nickname	  VALUE : Mohammed Mozart	
+06:34:51 | deve  -   KEY : fax	  VALUE : 	
+06:34:51 | deve  -   KEY : google_plus	  VALUE : 	
+06:34:51 | deve  -   KEY : hashtag	  VALUE : 	
+06:34:51 | deve  -   KEY : cities	  VALUE : [50c212be773e6f12e006ce87, 50c212be773e6f12e006ce88, 50c212be773e6f12e006ce86, 50c212bb773e6f12e006ce76, 50c212bb773e6f12e006ce77, 50c212bc773e6f12e006ce7f, 50c212bd773e6f12e006ce83, 50c212bc773e6f12e006ce7e, 50c212bf773e6f12e006ce89, 50c212c0773e6f12e006ce91, 50c212b8773e6f12e006ce6b, 50c212b7773e6f12e006ce63, 50c212bf773e6f12e006ce8c, 50c212b9773e6f12e006ce6d, 50c212bb773e6f12e006ce78, 50c212b9773e6f12e006ce6c, 50c212bf773e6f12e006ce8d, 50c212af773e6f12e006ce3d, 50c212af773e6f12e006ce3e, 50c212af773e6f12e006ce3f, 50c212af773e6f12e006ce40, 50c212b0773e6f12e006ce41, 50c212b0773e6f12e006ce42, 50c212b0773e6f12e006ce43, 50c212b7773e6f12e006ce62, 50c212c0773e6f12e006ce8e, 50c212be773e6f12e006ce85, 50c212bf773e6f12e006ce8a, 50c22f6e773e6f12e0073d53, 50c212bd773e6f12e006ce81, 50c212bd773e6f12e006ce82, 50c212bb773e6f12e006ce7a, 50c212bc773e6f12e006ce7b, 50c212b7773e6f12e006ce66, 50c212bd773e6f12e006ce80, 50c212ba773e6f12e006ce74, 50c212bb773e6f12e006ce79, 50c212bc773e6f12e006ce7d, 50c22f6e773e6f12e0073d54, 50c212c0773e6f12e006ce90]	
+06:34:51 | deve  -   KEY : CAPTCHA	  VALUE : T*DY2PKk	
+06:34:51 | deve  -   KEY : phone	  VALUE : 	
+06:34:51 | deve  -   KEY : account_roles	  VALUE : [free]	
+06:34:51 | deve  -   KEY : emailconfirm	  VALUE : njb02@t-online.de	
+06:34:51 | deve  -   KEY : item_type	  VALUE : human	
+06:34:51 | deve  -   KEY : _id	  VALUE : 51efa7e2773e6f0ab8354d50	
+06:34:51 | deve  -   KEY : timeFrom	  VALUE : 	
+06:34:51 | deve  -   KEY : CRRNT_LCTN_ID	  VALUE : 50c212be773e6f12e006ce87	
+06:34:51 | deve  -   KEY : facebook	  VALUE : 	
+06:34:51 | deve  -   KEY : forename	  VALUE : 	
+06:34:51 | deve  -   KEY : postcode	  VALUE : 5302	
+06:34:51 | deve  -   KEY : tagforitem	  VALUE : 	
+06:34:51 | deve  -   KEY : CRRNT_POSTCODE	  VALUE : 5302	
+06:34:51 | deve  -   KEY : street	  VALUE : 	
+06:34:51 | deve  -   KEY : timeTo	  VALUE : 	
+06:34:51 | deve  -   KEY : countrycode	  VALUE : AT	
+06:34:51 | deve  -   KEY : picturl	  VALUE : http://guikblog.com/wp-content/uploads/2012/08/anonymus-logo-.png	
+06:34:51 | deve  -   KEY : marker_line	  VALUE : 	
+06:34:51 | deve  -   KEY : familyname	  VALUE : 	
+06:34:51 | deve  -   KEY : CRRNT_CITYNAME	  VALUE : 	
+06:34:51 | deve  -   KEY : email	  VALUE : njb02@t-online.de	
+06:34:51 | deve  -   KEY : mobile	  VALUE : 	
+06:34:51 | deve  -   KEY : areasize	  VALUE : 17	
+06:34:51 | deve  -   KEY : info	  VALUE : 	
+06:34:51 | deve  -   KEY : skype	  VALUE : 	
+06:34:51 | deve  -   KEY : twitter	  VALUE : 	
+06:34:51 | deve  -   KEY : itemname	  VALUE : 	
+06:34:51 | deve  -   KEY : lat	  VALUE : 47.8572266588	
+06:34:51 | deve  -   KEY : housenumber	  VALUE : 	
+06:34:51 | deve  -   KEY : CRRNT_LCTNCNTRY	  VALUE : AT	
+06:34:51 | deve  -   KEY : GUID	  VALUE : c8377fbd22624d999c6708174ef3b4cc	
+06:34:51 | deve  -   KEY : password	  VALUE : Y2TPAEVTJDscoNnhGbxHN5qHTRcy90TN0uxp+7ZjaDmzrtDShs2o+/wFwD7lcshOtJ0nACDQO9SKuryuv6HO0Q==	
+06:34:51 | deve  -   KEY : lon	  VALUE : 13.1205596017	
+06:34:51 | deve  -   measurePeformance                      -> 
+06:34:51 | deve  -   measurePeformance    last message was  -> user-data-constructor (initial creation in app-cache)
+06:34:51 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+06:34:51 | deve  -   measurePeformance - - - - - - - - - - --> 858
+06:34:51 | deve  -   measurePeformance                      -> 
+06:34:51 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+06:34:51 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+06:34:51 | deve  -   measurePeformance - - - - - - - - - - --> 15
+06:34:56 | deve  -   measurePeformance                      -> 
+06:34:56 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+06:34:56 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+06:34:56 | deve  -   measurePeformance - - - - - - - - - - --> 390
+06:34:56 | deve  -   measurePeformance                      -> 
+06:34:56 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+06:34:56 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+06:34:56 | deve  -   measurePeformance - - - - - - - - - - --> 0
+06:34:56 | deve  -   LocDefiner.uiInitLocDef was called 
+06:36:04 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+06:36:34 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+06:36:35 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+06:37:07 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+06:37:08 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+06:37:12 | deve  -   LocDefiner.uiInitLocDef was called 
+06:37:36 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+06:38:55 | deve  -   debate_Editor->check_input   : received location-id : 50c212be773e6f12e006ce87
+06:38:55 | deve  -   ItemDebateRoot.saveDetails called 
+06:38:55 | deve  -   Item.getHashTags() called
+06:38:55 | deve  -   Item.getHashTags()  raw-tag found by regular expression : #golfclub
+06:38:55 | deve  -   Item.getHashTags()  raw-tag found by regular expression : #Österreich
+06:38:55 | deve  -   Item.getHashTags()  tag found and will be added : golfclub
+06:38:55 | deve  -   Item.getHashTags()  tag found and will be added : Österreich
+06:38:55 | deve  -   Item.saveDetails : geoLat to store  
+06:38:55 | deve  -   Item.saveDetails : geoLon to store  
+06:38:55 | deve  -   Item->storeGeneralBase : drop-down-text used for location-name        : Eugendorf
+06:38:55 | deve  -   BSON_id key : _objectDetailID ; Value :52cf876f773e6f825c307824
+06:38:55 | deve  -   ctrl_ItemBase->storeGeneralBase : type of tagging-lables  <type 'list'>
+06:38:55 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_4_124 ; position = 14  
+06:38:55 | deve  -   TaggContainer.addTaggToList     : taggString = golfclub ; position = 15  
+06:38:55 | deve  -   TaggContainer.addTaggToList     : taggString = Österreich ; position = 16  
+06:38:55 | deve  -   Item->storeGeneralBase : object id of item inserted into item.base : 52cf876f773e6f825c307825
+06:38:55 | deve  -   show_details->PageLoad : root_elem_id stored in the viewstate : 52cf876f773e6f825c307825
+06:38:55 | deve  -   Item_DEBATE_ROOT.__init__  called 
+06:40:35 | deve  -   DebateProjector( .. ) constructor called
+06:40:35 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c212be773e6f12e006ce87
+06:40:35 | deve  -   LocDefiner.uiInitProjector called with locn    50c212be773e6f12e006ce87
+06:40:36 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+06:40:36 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+06:40:36 | deve  -   self.param["Loc"]    :  "None"
+06:40:36 | deve  -   self.param["City"]   :  "Eugendorf"
+06:40:36 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+06:40:36 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+06:40:36 | deve  -   CacheDataSource.createCityList( self ) loc url param   : AT,
+06:40:36 | deve  -   createCityList parameter :   country : AT ; postcode :  ; city : Eugendorf ; areasize (form web.config ) : 17
+06:40:36 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:AT|5301
+06:40:36 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:AT|5301
+06:40:36 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 1
+06:40:36 | deve  -   cutSlice( .. )  data-rows found in list                                        : 60 - _id 52cf876f773e6f825c307825
+06:40:36 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+06:40:36 | deve  -   CachedDataSource.addConfigParam() called !
+06:40:39 | deve  -    -- mongoMgr.slctDocs  function was entered 
+06:40:39 | deve  -    -- mongoMgr.slctDocs  start Find() of a muti-query  
+06:40:39 | deve  -    -- mongoMgr.slctDocs  end Find() of a muti-query  
+06:40:39 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52160d6b773e6f126cdab7c6
+06:40:39 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52c9b4ae773e6f048cbde11b
+06:40:39 | deve  -    -- mongoMgr.slctDocs  data copied into the container 
+06:40:39 | debu  -   Debate found in the user.abo-collection : 5207ec14773e6f1244a90cca
+06:40:39 | debu  -   Debate found in the user.abo-collection : 52c9b361773e6f048cbde116
+06:40:39 | deve  -   Item.chainGetIDs started 
+06:40:39 | deve  -   -----------Item.chainGetIDs : Query to load the header  : _parentID = '52cf876f773e6f825c307825' AND objectType = 6
+06:40:39 | deve  -   -----------Item.chainGetIDs : Number of headers found   : 0
+06:40:39 | deve  -   -----------Item.chainGetIDs : NO HEADERS FOUND
+06:40:39 | deve  -   Item.load called for ItemBaseId  52cf876f773e6f825c307825
+06:40:39 | deve  -   Item.loadDetails objType = 1 in collection item.DEBATE_ROOT => detail-data-item-id : 52cf876f773e6f825c307824
+06:40:39 | deve  -   Item.getCoords started -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+06:40:39 | deve  -   no coord was found for 52cf876f773e6f825c307825
+06:40:39 | deve  -   Item.getCoords ended   -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+06:40:49 | deve  -   LOCALMapProjector( .. ) constructor called
+06:40:49 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c212be773e6f12e006ce87
+06:40:49 | deve  -   LocDefiner.uiInitProjector called with locn    50c212be773e6f12e006ce87
+06:40:50 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+06:40:50 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+06:40:50 | deve  -   self.param["Loc"]    :  "None"
+06:40:50 | deve  -   self.param["City"]   :  "Eugendorf"
+06:40:50 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+06:40:50 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+06:40:50 | deve  -   CacheDataSource.createCityList( self ) loc url param   : AT,
+06:40:50 | deve  -   createCityList parameter :   country : AT ; postcode :  ; city : Eugendorf ; areasize (form web.config ) : 17
+06:40:50 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:AT|5301
+06:40:50 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:AT|5301
+06:40:50 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+06:40:50 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+06:40:50 | deve  -   CachedDataSource.addConfigParam() called !
+06:41:02 | deve  -   measurePeformance                      -> 
+06:41:02 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+06:41:02 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+06:41:02 | deve  -   measurePeformance - - - - - - - - - - --> 106
+06:41:02 | deve  -   measurePeformance                      -> 
+06:41:02 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+06:41:02 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+06:41:02 | deve  -   measurePeformance - - - - - - - - - - --> 3
+06:41:02 | deve  -   LocDefiner.uiInitLocDef was called 
+06:42:30 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+06:43:26 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+06:43:26 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+06:43:55 | deve  -   debate_Editor->check_input   : received location-id : 50c212be773e6f12e006ce87
+06:43:55 | deve  -   ItemDebateRoot.saveDetails called 
+06:43:55 | deve  -   Item.getHashTags() called
+06:43:55 | deve  -   Item.getHashTags()  raw-tag found by regular expression : #Wintersport-Vereine
+06:43:55 | deve  -   Item.getHashTags()  raw-tag found by regular expression : #Österreich
+06:43:55 | deve  -   Item.getHashTags()  tag found and will be added : wintersport-vereine
+06:43:55 | deve  -   Item.getHashTags()  tag found and will be added : Österreich
+06:43:55 | deve  -   Item.saveDetails : geoLat to store  47.866033
+06:43:55 | deve  -   Item.saveDetails : geoLon to store  13.133103
+06:43:55 | deve  -   Item->storeGeneralBase : drop-down-text used for location-name        : Eugendorf
+06:43:55 | deve  -   BSON_id key : _objectDetailID ; Value :52cf889b773e6f825c307826
+06:43:55 | deve  -   ctrl_ItemBase->storeGeneralBase : type of tagging-lables  <type 'list'>
+06:43:55 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_21_116 ; position = 17  
+06:43:55 | deve  -   TaggContainer.addTaggToList     : taggString = wintersport-vereine ; position = 18  
+06:43:55 | deve  -   Item->storeGeneralBase : object id of item inserted into item.base : 52cf889b773e6f825c307827
+06:43:55 | deve  -   show_details->PageLoad : root_elem_id stored in the viewstate : 52cf889b773e6f825c307827
+06:43:55 | deve  -   Item_DEBATE_ROOT.__init__  called 
+06:44:11 | deve  -   DebateProjector( .. ) constructor called
+06:44:11 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c212be773e6f12e006ce87
+06:44:11 | deve  -   LocDefiner.uiInitProjector called with locn    50c212be773e6f12e006ce87
+06:44:12 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+06:44:12 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+06:44:12 | deve  -   self.param["Loc"]    :  "None"
+06:44:12 | deve  -   self.param["City"]   :  "Eugendorf"
+06:44:12 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+06:44:12 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+06:44:12 | deve  -   CacheDataSource.createCityList( self ) loc url param   : AT,
+06:44:12 | deve  -   createCityList parameter :   country : AT ; postcode :  ; city : Eugendorf ; areasize (form web.config ) : 17
+06:44:12 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:AT|5301
+06:44:12 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:AT|5301
+06:44:12 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 2
+06:44:12 | deve  -   cutSlice( .. )  data-rows found in list                                        : 61 - _id 52cf889b773e6f825c307827
+06:44:12 | deve  -   cutSlice( .. )  data-rows found in list                                        : 60 - _id 52cf876f773e6f825c307825
+06:44:12 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+06:44:12 | deve  -   CachedDataSource.addConfigParam() called !
+06:44:15 | deve  -    -- mongoMgr.slctDocs  function was entered 
+06:44:15 | deve  -    -- mongoMgr.slctDocs  start Find() of a muti-query  
+06:44:15 | deve  -    -- mongoMgr.slctDocs  end Find() of a muti-query  
+06:44:15 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52160d6b773e6f126cdab7c6
+06:44:15 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52c9b4ae773e6f048cbde11b
+06:44:15 | deve  -    -- mongoMgr.slctDocs  data copied into the container 
+06:44:15 | debu  -   Debate found in the user.abo-collection : 5207ec14773e6f1244a90cca
+06:44:15 | debu  -   Debate found in the user.abo-collection : 52c9b361773e6f048cbde116
+06:44:15 | deve  -   Item.chainGetIDs started 
+06:44:15 | deve  -   -----------Item.chainGetIDs : Query to load the header  : _parentID = '52cf889b773e6f825c307827' AND objectType = 6
+06:44:15 | deve  -   -----------Item.chainGetIDs : Number of headers found   : 0
+06:44:15 | deve  -   -----------Item.chainGetIDs : NO HEADERS FOUND
+06:44:15 | deve  -   Item.load called for ItemBaseId  52cf889b773e6f825c307827
+06:44:15 | deve  -   Item.loadDetails objType = 1 in collection item.DEBATE_ROOT => detail-data-item-id : 52cf889b773e6f825c307826
+06:44:15 | deve  -   Item.getCoords started -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+06:44:15 | deve  -   Lon (Laengengrad) : 13.133103
+06:44:15 | deve  -   Lat (Breitengrad) : 47.866033
+06:44:15 | deve  -   Item.getCoords ended   -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+06:44:42 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+06:44:42 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+06:44:42 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+06:44:42 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 1
+06:44:42 | deve  -   cutSlice( .. )  data-rows found in list                                        : 61 - _id 52cf889b773e6f825c307827
+06:44:42 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+06:44:42 | deve  -   CachedDataSource.addConfigParam() called !
+06:47:59 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+06:47:59 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+06:47:59 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+06:47:59 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 8
+06:47:59 | deve  -   cutSlice( .. )  data-rows found in list                                        : 61 - _id 52cf889b773e6f825c307827
+06:47:59 | deve  -   cutSlice( .. )  data-rows found in list                                        : 60 - _id 52cf876f773e6f825c307825
+06:47:59 | deve  -   cutSlice( .. )  data-rows found in list                                        : 26 - _id 52c9b361773e6f048cbde116
+06:47:59 | deve  -   cutSlice( .. )  data-rows found in list                                        : 22 - _id 52bd2b76773e6f0ff8acbcaf
+06:47:59 | deve  -   cutSlice( .. )  data-rows found in list                                        : 21 - _id 52bd26b3773e6f0ff8acbcad
+06:47:59 | deve  -   cutSlice( .. )  data-rows found in list                                        : 20 - _id 52bd25dd773e6f0ff8acbcab
+06:47:59 | deve  -   cutSlice( .. )  data-rows found in list                                        : 18 - _id 52bd1ffc773e6f0ff8acbca7
+06:47:59 | deve  -   cutSlice( .. )  data-rows found in list                                        : 1 - _id 52c9becf773e6f048cbde150
+06:47:59 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+06:47:59 | deve  -   CachedDataSource.addConfigParam() called !
+06:48:06 | deve  -   dataSource__hashtag.aspx.py->Page_Load(sender, e) has been called !
+06:48:07 | deve  -   dataSource__hashtag.aspx.py->Page_Load(sender, e) has been called !
+06:48:10 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+06:48:10 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+06:48:10 | deve  -   # # # CachedDataSource.idxLstByTags( self ) called 
+06:48:10 | deve  -   #     CachedDataSource.idxLstByTags( self ) TAGS is GIVEN & LOC is NONE
+06:48:10 | deve  -   #     CachedDataSource.idxLstByTags( self )                country-code : *
+06:48:10 | deve  -   # # # TaggContainer->askForTagIdxList called 
+06:48:10 | deve  -   #     TaggContainer->askForTagIdxList   result-array : 
+06:48:10 | deve  -   #     TaggContainer->askForTagIdxList   tag : wintersport-vereine ;  index : 18
+06:48:10 | deve  -   #     TaggContainer->askForTagIdxList                  
+06:48:10 | deve  -   #     CachedDataSource.idxLstByTags( self ) row-idx added : 61
+06:48:10 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 1
+06:48:10 | deve  -   cutSlice( .. )  data-rows found in list                                        : 61 - _id 52cf889b773e6f825c307827
+06:48:10 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+06:48:10 | deve  -   CachedDataSource.addConfigParam() called !
+07:20:22 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+07:20:30 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+07:20:30 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+07:20:30 | deve  -   # # # CachedDataSource.idxLstByTags( self ) called 
+07:20:30 | deve  -   #     CachedDataSource.idxLstByTags( self ) TAGS is GIVEN & LOC is NONE
+07:20:30 | deve  -   #     CachedDataSource.idxLstByTags( self )                country-code : *
+07:20:30 | deve  -   # # # TaggContainer->askForTagIdxList called 
+07:20:30 | deve  -   #     TaggContainer->askForTagIdxList   result-array : 
+07:20:30 | deve  -   #     TaggContainer->askForTagIdxList   tag : §BUSINESS_4_124 ;  index : 14
+07:20:30 | deve  -   #     TaggContainer->askForTagIdxList                  
+07:20:30 | deve  -   #     CachedDataSource.idxLstByTags( self ) row-idx added : 60
+07:20:30 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 1
+07:20:30 | deve  -   cutSlice( .. )  data-rows found in list                                        : 60 - _id 52cf876f773e6f825c307825
+07:20:30 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+07:20:30 | deve  -   CachedDataSource.addConfigParam() called !
+07:20:43 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+07:20:57 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+07:20:57 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+07:20:57 | deve  -   # # # CachedDataSource.idxLstByTags( self ) called 
+07:20:57 | deve  -   #     CachedDataSource.idxLstByTags( self ) TAGS is GIVEN & LOC is NONE
+07:20:57 | deve  -   #     CachedDataSource.idxLstByTags( self )                country-code : *
+07:20:57 | deve  -   # # # TaggContainer->askForTagIdxList called 
+07:20:57 | deve  -   #     TaggContainer->askForTagIdxList   result-array : 
+07:20:57 | deve  -   #     TaggContainer->askForTagIdxList   tag : §BUSINESS_4_124 ;  index : 14
+07:20:57 | deve  -   #     TaggContainer->askForTagIdxList                  
+07:20:57 | deve  -   #     CachedDataSource.idxLstByTags( self ) row-idx added : 60
+07:20:57 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 1
+07:20:57 | deve  -   cutSlice( .. )  data-rows found in list                                        : 60 - _id 52cf876f773e6f825c307825
+07:20:57 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+07:20:57 | deve  -   CachedDataSource.addConfigParam() called !
+07:21:00 | deve  -    -- mongoMgr.slctDocs  function was entered 
+07:21:00 | deve  -    -- mongoMgr.slctDocs  start Find() of a muti-query  
+07:21:00 | deve  -    -- mongoMgr.slctDocs  end Find() of a muti-query  
+07:21:00 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52160d6b773e6f126cdab7c6
+07:21:00 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52c9b4ae773e6f048cbde11b
+07:21:00 | deve  -    -- mongoMgr.slctDocs  data copied into the container 
+07:21:00 | debu  -   Debate found in the user.abo-collection : 5207ec14773e6f1244a90cca
+07:21:00 | debu  -   Debate found in the user.abo-collection : 52c9b361773e6f048cbde116
+07:21:00 | deve  -   Item.chainGetIDs started 
+07:21:00 | deve  -   -----------Item.chainGetIDs : Query to load the header  : _parentID = '52cf876f773e6f825c307825' AND objectType = 6
+07:21:00 | deve  -   -----------Item.chainGetIDs : Number of headers found   : 0
+07:21:00 | deve  -   -----------Item.chainGetIDs : NO HEADERS FOUND
+07:21:00 | deve  -   Item.load called for ItemBaseId  52cf876f773e6f825c307825
+07:21:00 | deve  -   Item.loadDetails objType = 1 in collection item.DEBATE_ROOT => detail-data-item-id : 52cf876f773e6f825c307824
+07:21:00 | deve  -   Item.getCoords started -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+07:21:00 | deve  -   no coord was found for 52cf876f773e6f825c307825
+07:21:00 | deve  -   Item.getCoords ended   -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+07:26:58 | deve  -   measurePeformance                      -> 
+07:26:58 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+07:26:58 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+07:26:58 | deve  -   measurePeformance - - - - - - - - - - --> 986
+07:26:58 | deve  -   measurePeformance                      -> 
+07:26:58 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+07:26:58 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+07:26:58 | deve  -   measurePeformance - - - - - - - - - - --> 0
+07:26:58 | deve  -   LocDefiner.uiInitLocDef was called 
+07:27:29 | deve  -   debate_Editor->check_input   : received location-id : 50c212be773e6f12e006ce87
+07:27:29 | deve  -   ItemDebateRoot.saveDetails called 
+07:27:29 | deve  -   Item.getHashTags() called
+07:27:29 | deve  -   Item.saveDetails : geoLat to store  
+07:27:29 | deve  -   Item.saveDetails : geoLon to store  
+07:27:29 | deve  -   Item->storeGeneralBase : drop-down-text used for location-name        : Eugendorf
+07:27:29 | deve  -   BSON_id key : _objectDetailID ; Value :52cf92d1773e6f825c307828
+07:27:29 | deve  -   ctrl_ItemBase->storeGeneralBase : type of tagging-lables  <type 'list'>
+07:27:29 | deve  -   Item->storeGeneralBase : object id of item inserted into item.base : 52cf92d1773e6f825c307829
+07:27:29 | deve  -   show_details->PageLoad : root_elem_id stored in the viewstate : 52cf92d1773e6f825c307829
+07:27:29 | deve  -   Item_DEBATE_ROOT.__init__  called 
+07:28:31 | deve  -   DebateProjector( .. ) constructor called
+07:28:31 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c212be773e6f12e006ce87
+07:28:31 | deve  -   LocDefiner.uiInitProjector called with locn    50c212be773e6f12e006ce87
+07:28:32 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+07:28:32 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+07:28:32 | deve  -   self.param["Loc"]    :  "None"
+07:28:32 | deve  -   self.param["City"]   :  "Eugendorf"
+07:28:32 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+07:28:32 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+07:28:32 | deve  -   CacheDataSource.createCityList( self ) loc url param   : AT,
+07:28:32 | deve  -   createCityList parameter :   country : AT ; postcode :  ; city : Eugendorf ; areasize (form web.config ) : 17
+07:28:32 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:AT|5301
+07:28:32 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:AT|5301
+07:28:32 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 3
+07:28:32 | deve  -   cutSlice( .. )  data-rows found in list                                        : 62 - _id 52cf92d1773e6f825c307829
+07:28:32 | deve  -   cutSlice( .. )  data-rows found in list                                        : 61 - _id 52cf889b773e6f825c307827
+07:28:32 | deve  -   cutSlice( .. )  data-rows found in list                                        : 60 - _id 52cf876f773e6f825c307825
+07:28:32 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+07:28:32 | deve  -   CachedDataSource.addConfigParam() called !
+07:28:34 | deve  -    -- mongoMgr.slctDocs  function was entered 
+07:28:34 | deve  -    -- mongoMgr.slctDocs  start Find() of a muti-query  
+07:28:34 | deve  -    -- mongoMgr.slctDocs  end Find() of a muti-query  
+07:28:34 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52160d6b773e6f126cdab7c6
+07:28:34 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52c9b4ae773e6f048cbde11b
+07:28:34 | deve  -    -- mongoMgr.slctDocs  data copied into the container 
+07:28:34 | debu  -   Debate found in the user.abo-collection : 5207ec14773e6f1244a90cca
+07:28:34 | debu  -   Debate found in the user.abo-collection : 52c9b361773e6f048cbde116
+07:28:34 | deve  -   Item.chainGetIDs started 
+07:28:34 | deve  -   -----------Item.chainGetIDs : Query to load the header  : _parentID = '52cf92d1773e6f825c307829' AND objectType = 6
+07:28:34 | deve  -   -----------Item.chainGetIDs : Number of headers found   : 0
+07:28:34 | deve  -   -----------Item.chainGetIDs : NO HEADERS FOUND
+07:28:34 | deve  -   Item.load called for ItemBaseId  52cf92d1773e6f825c307829
+07:28:34 | deve  -   Item.loadDetails objType = 1 in collection item.DEBATE_ROOT => detail-data-item-id : 52cf92d1773e6f825c307828
+07:28:34 | deve  -   Item.getCoords started -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+07:28:34 | deve  -   no coord was found for 52cf92d1773e6f825c307829
+07:28:34 | deve  -   Item.getCoords ended   -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+07:28:40 | debu  -   ChangeAbo started 
+07:28:40 | deve  -    -- mongoMgr.slctDocs  function was entered 
+07:28:40 | deve  -    -- mongoMgr.slctDocs  start Find() of a muti-query  
+07:28:40 | deve  -    -- mongoMgr.slctDocs  end Find() of a muti-query  
+07:28:40 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52160d6b773e6f126cdab7c6
+07:28:40 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52c9b4ae773e6f048cbde11b
+07:28:40 | deve  -    -- mongoMgr.slctDocs  data copied into the container 
+07:28:40 | debu  -   Debate found in the user.abo-collection : 5207ec14773e6f1244a90cca
+07:28:40 | debu  -   Debate found in the user.abo-collection : 52c9b361773e6f048cbde116
+07:28:48 | deve  -   measurePeformance                      -> 
+07:28:48 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+07:28:48 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+07:28:48 | deve  -   measurePeformance - - - - - - - - - - --> 901
+07:28:48 | deve  -   measurePeformance                      -> 
+07:28:48 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+07:28:48 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+07:28:48 | deve  -   measurePeformance - - - - - - - - - - --> 3
+07:28:48 | deve  -   LocDefiner.uiInitLocDef was called 
+07:31:08 | deve  -   debate_Editor->check_input   : received location-id : 50c212be773e6f12e006ce87
+07:31:08 | deve  -   ItemDebateRoot.saveDetails called 
+07:31:08 | deve  -   Item.getHashTags() called
+07:31:08 | deve  -   Item.getHashTags()  raw-tag found by regular expression : #YouTube
+07:31:08 | deve  -   Item.getHashTags()  tag found and will be added : youtube
+07:31:08 | deve  -   Item.saveDetails : geoLat to store  
+07:31:08 | deve  -   Item.saveDetails : geoLon to store  
+07:31:08 | deve  -   Item->storeGeneralBase : drop-down-text used for location-name        : Eugendorf
+07:31:08 | deve  -   BSON_id key : _objectDetailID ; Value :52cf93ac773e6f825c30782b
+07:31:08 | deve  -   ctrl_ItemBase->storeGeneralBase : type of tagging-lables  <type 'list'>
+07:31:08 | deve  -   TaggContainer.addTaggToList     : taggString = youtube ; position = 19  
+07:31:08 | deve  -   Item->storeGeneralBase : object id of item inserted into item.base : 52cf93ac773e6f825c30782c
+07:31:08 | deve  -   show_details->PageLoad : root_elem_id stored in the viewstate : 52cf93ac773e6f825c30782c
+07:31:08 | deve  -   Item_DEBATE_ROOT.__init__  called 
+07:31:12 | deve  -   DebateProjector( .. ) constructor called
+07:31:12 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c212be773e6f12e006ce87
+07:31:12 | deve  -   LocDefiner.uiInitProjector called with locn    50c212be773e6f12e006ce87
+07:31:13 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+07:31:13 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+07:31:13 | deve  -   self.param["Loc"]    :  "None"
+07:31:13 | deve  -   self.param["City"]   :  "Eugendorf"
+07:31:13 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+07:31:13 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+07:31:13 | deve  -   CacheDataSource.createCityList( self ) loc url param   : AT,
+07:31:13 | deve  -   createCityList parameter :   country : AT ; postcode :  ; city : Eugendorf ; areasize (form web.config ) : 17
+07:31:13 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:AT|5301
+07:31:13 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:AT|5301
+07:31:13 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 4
+07:31:13 | deve  -   cutSlice( .. )  data-rows found in list                                        : 63 - _id 52cf93ac773e6f825c30782c
+07:31:13 | deve  -   cutSlice( .. )  data-rows found in list                                        : 62 - _id 52cf92d1773e6f825c307829
+07:31:13 | deve  -   cutSlice( .. )  data-rows found in list                                        : 61 - _id 52cf889b773e6f825c307827
+07:31:13 | deve  -   cutSlice( .. )  data-rows found in list                                        : 60 - _id 52cf876f773e6f825c307825
+07:31:13 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+07:31:13 | deve  -   CachedDataSource.addConfigParam() called !
+07:31:15 | deve  -    -- mongoMgr.slctDocs  function was entered 
+07:31:15 | deve  -    -- mongoMgr.slctDocs  start Find() of a muti-query  
+07:31:15 | deve  -    -- mongoMgr.slctDocs  end Find() of a muti-query  
+07:31:15 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52160d6b773e6f126cdab7c6
+07:31:15 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52c9b4ae773e6f048cbde11b
+07:31:15 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52cf9318773e6f825c30782a
+07:31:15 | deve  -    -- mongoMgr.slctDocs  data copied into the container 
+07:31:15 | debu  -   Debate found in the user.abo-collection : 5207ec14773e6f1244a90cca
+07:31:15 | debu  -   Debate found in the user.abo-collection : 52c9b361773e6f048cbde116
+07:31:15 | debu  -   Debate found in the user.abo-collection : 52cf92d1773e6f825c307829
+07:31:15 | deve  -   Item.chainGetIDs started 
+07:31:15 | deve  -   -----------Item.chainGetIDs : Query to load the header  : _parentID = '52cf93ac773e6f825c30782c' AND objectType = 6
+07:31:15 | deve  -   -----------Item.chainGetIDs : Number of headers found   : 0
+07:31:15 | deve  -   -----------Item.chainGetIDs : NO HEADERS FOUND
+07:31:15 | deve  -   Item.load called for ItemBaseId  52cf93ac773e6f825c30782c
+07:31:15 | deve  -   Item.loadDetails objType = 1 in collection item.DEBATE_ROOT => detail-data-item-id : 52cf93ac773e6f825c30782b
+07:31:15 | deve  -   Item.getCoords started -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+07:31:15 | deve  -   no coord was found for 52cf93ac773e6f825c30782c
+07:31:15 | deve  -   Item.getCoords ended   -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+07:50:53 | deve  -    -- mongoMgr.slctDocs  function was entered 
+07:50:53 | deve  -    -- mongoMgr.slctDocs  start Find() of a muti-query  
+07:50:53 | deve  -    -- mongoMgr.slctDocs  end Find() of a muti-query  
+07:50:53 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52160d6b773e6f126cdab7c6
+07:50:53 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52c9b4ae773e6f048cbde11b
+07:50:53 | deve  -    -- mongoMgr.slctDocs  BSON_id key : 52cf9318773e6f825c30782a
+07:50:53 | deve  -    -- mongoMgr.slctDocs  data copied into the container 
+07:50:53 | debu  -   Debate found in the user.abo-collection : 5207ec14773e6f1244a90cca
+07:50:53 | debu  -   Debate found in the user.abo-collection : 52c9b361773e6f048cbde116
+07:50:53 | debu  -   Debate found in the user.abo-collection : 52cf92d1773e6f825c307829
+07:50:53 | debu  -   Hurray for ABO ; Debate-ID  : 52cf92d1773e6f825c307829
+07:50:53 | deve  -   Item.chainGetIDs started 
+07:50:53 | deve  -   -----------Item.chainGetIDs : Query to load the header  : _parentID = '52cf92d1773e6f825c307829' AND objectType = 6
+07:50:53 | deve  -   -----------Item.chainGetIDs : Number of headers found   : 0
+07:50:53 | deve  -   -----------Item.chainGetIDs : NO HEADERS FOUND
+07:50:53 | deve  -   Item.load called for ItemBaseId  52cf92d1773e6f825c307829
+07:50:53 | deve  -   Item.loadDetails objType = 1 in collection item.DEBATE_ROOT => detail-data-item-id : 52cf92d1773e6f825c307828
+07:50:53 | deve  -   Item.getCoords started -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+07:50:53 | deve  -   no coord was found for 52cf92d1773e6f825c307829
+07:50:53 | deve  -   Item.getCoords ended   -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+10:59:59 | mess  -   Application started : new LogCache was created
+10:59:59 | mess  -   new UiTools instance created !
+11:00:12 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+11:00:12 | deve  -   slice index                           : 0
+11:00:12 | deve  -   start-day    left  in timebeam        : 12.10.2013 10:00:12
+11:00:12 | deve  -   end-day      rigth in timebeam        : 10.01.2014 10:00:12
+11:00:12 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+11:00:12 | deve  -   number of slices cached                        :0
+11:00:12 | deve  -   CachedDataSource.fillTablesItems START (left)  :12.10.2013 10:00:12
+11:00:12 | deve  -   CachedDataSource.fillTablesItems END   (rigth) :10.01.2014 10:00:12
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_PERSONALHYGIENE ; position = 0  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §LONELY_HEARTS_AD_2_0_0 ; position = 1  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_21_116 ; position = 2  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = wintersport-vereine ; position = 3  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = Österreich ; position = 4  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CRAFT ; position = 5  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_OFFICE ; position = 6  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HUMAN2HUMAN ; position = 7  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_LEISURE ; position = 8  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CHILDREN ; position = 9  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOME ; position = 10  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOMEWORK ; position = 11  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_GARDEN ; position = 12  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_COMPUTER ; position = 13  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_NOTSPECIFIED ; position = 14  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §SWAP_0_0 ; position = 15  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_EDUCATION ; position = 16  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_4_124 ; position = 17  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = golfclub ; position = 18  
+11:00:12 | deve  -   TaggContainer.addTaggToList     : taggString = youtube ; position = 19  
+11:00:12 | deve  -   ------- LOADING JOB_ROOT INTO cache ------
+11:00:12 | deve  -   _objectDetailID  : 0
+11:00:12 | mess  -   New UserData instance created with ID = 2fmdbqbt4tjghyjlksqpo15y IP: ::1 Local: de-de
+11:00:13 | deve  -   LocDefiner.uiInitLocDef was called 
+11:01:09 | deve  -   constructor of class UserHome(Page) aufgefufen!
+11:01:10 | deve  -   UserHome( .. ) called FillUsrCache with mail njb04@t-online.de
+11:01:10 | deve  -   userData.createUserLocationString found for user-home-town : 50c24449773e6f12e0079690
+11:01:10 | deve  -   userData.createUserLocationString found for user-home-town    : [NL] 4320 Kerkwerve
+11:01:12 | deve  -   user-data read from mongo and copied into the user-dict !!
+11:01:12 | deve  -   KEY : website	  VALUE : http://de.wikipedia.org/wiki/Schouwen-Duiveland	
+11:01:12 | deve  -   KEY : locationname	  VALUE : [NL] 4320 Kerkwerve	
+11:01:12 | deve  -   KEY : post_code_key	  VALUE : NL|4320	
+11:01:12 | deve  -   KEY : languagecode	  VALUE : de	
+11:01:12 | deve  -   KEY : creation_time	  VALUE : 2013-07-24T10:24:52.487Z	
+11:01:12 | deve  -   KEY : nickname	  VALUE : Pit Klommpe	
+11:01:12 | deve  -   KEY : fax	  VALUE : 	
+11:01:12 | deve  -   KEY : google_plus	  VALUE : 	
+11:01:12 | deve  -   KEY : cities	  VALUE : [50c24449773e6f12e0079690, 50c24449773e6f12e0079691, 50c24449773e6f12e007968e, 50c24449773e6f12e0079683, 50c24449773e6f12e0079684, 50c24449773e6f12e0079685, 50c24449773e6f12e0079686, 50c24449773e6f12e007968f, 50c24449773e6f12e007968d, 50c24449773e6f12e00796b1, 50c24449773e6f12e007968c, 50c24449773e6f12e0079696, 50c24449773e6f12e0079697, 50c24449773e6f12e0079698, 50c24449773e6f12e0079692, 50c24449773e6f12e0079693, 50c24449773e6f12e0079695, 50c24449773e6f12e0079687, 50c24449773e6f12e0079689, 50c24449773e6f12e0079694, 50c24449773e6f12e007969b, 50c24449773e6f12e0079688, 50c24449773e6f12e0079666, 50c24449773e6f12e00796fb, 50c24449773e6f12e007969c, 50c24449773e6f12e007969d]	
+11:01:12 | deve  -   KEY : CAPTCHA	  VALUE : So-FklML	
+11:01:12 | deve  -   KEY : phone	  VALUE : 	
+11:01:12 | deve  -   KEY : account_roles	  VALUE : [free]	
+11:01:12 | deve  -   KEY : emailconfirm	  VALUE : njb04@t-online.de	
+11:01:12 | deve  -   KEY : item_type	  VALUE : human	
+11:01:12 | deve  -   KEY : _id	  VALUE : 51efab74773e6f0ab8354d5a	
+11:01:12 | deve  -   KEY : timeFrom	  VALUE : 01.10.2013	
+11:01:12 | deve  -   KEY : CRRNT_LCTN_ID	  VALUE : 50c24449773e6f12e0079690	
+11:01:12 | deve  -   KEY : facebook	  VALUE : 	
+11:01:12 | deve  -   KEY : forename	  VALUE : 	
+11:01:12 | deve  -   KEY : tagforitem	  VALUE : §EVT_2_1	
+11:01:12 | deve  -   KEY : postcode	  VALUE : 4320	
+11:01:12 | deve  -   KEY : CRRNT_POSTCODE	  VALUE : 4320	
+11:01:12 | deve  -   KEY : street	  VALUE : 	
+11:01:12 | deve  -   KEY : timeTo	  VALUE : 	
+11:01:12 | deve  -   KEY : countrycode	  VALUE : NL	
+11:01:12 | deve  -   KEY : picturl	  VALUE : http://guikblog.com/wp-content/uploads/2012/08/anonymus-logo-.png	
+11:01:12 | deve  -   KEY : marker_line	  VALUE : 	
+11:01:12 | deve  -   KEY : familyname	  VALUE : 	
+11:01:12 | deve  -   KEY : CRRNT_CITYNAME	  VALUE : 	
+11:01:12 | deve  -   KEY : email	  VALUE : njb04@t-online.de	
+11:01:12 | deve  -   KEY : mobile	  VALUE : 	
+11:01:12 | deve  -   KEY : info	  VALUE : 	
+11:01:12 | deve  -   KEY : areasize	  VALUE : 17	
+11:01:12 | deve  -   KEY : skype	  VALUE : 	
+11:01:12 | deve  -   KEY : twitter	  VALUE : 	
+11:01:12 | deve  -   KEY : itemname	  VALUE : 	
+11:01:12 | deve  -   KEY : lat	  VALUE : 51.6746155023	
+11:01:12 | deve  -   KEY : housenumber	  VALUE : 	
+11:01:12 | deve  -   KEY : CRRNT_LCTNCNTRY	  VALUE : NL	
+11:01:12 | deve  -   KEY : password	  VALUE : Y2TPAEVTJDscoNnhGbxHN5qHTRcy90TN0uxp+7ZjaDmzrtDShs2o+/wFwD7lcshOtJ0nACDQO9SKuryuv6HO0Q==	
+11:01:12 | deve  -   KEY : GUID	  VALUE : ae725a7385df4396a528d56e6a00d1f9	
+11:01:12 | deve  -   KEY : lon	  VALUE : 3.90826426107	
+11:01:12 | deve  -   measurePeformance                      -> 
+11:01:12 | deve  -   measurePeformance    last message was  -> user-data-constructor (initial creation in app-cache)
+11:01:12 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+11:01:12 | deve  -   measurePeformance - - - - - - - - - - --> 557
+11:01:12 | deve  -   measurePeformance                      -> 
+11:01:12 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+11:01:12 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+11:01:12 | deve  -   measurePeformance - - - - - - - - - - --> 17
+11:01:20 | deve  -   measurePeformance                      -> 
+11:01:20 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+11:01:20 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+11:01:20 | deve  -   measurePeformance - - - - - - - - - - --> 407
+11:01:20 | deve  -   measurePeformance                      -> 
+11:01:20 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+11:01:20 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+11:01:20 | deve  -   measurePeformance - - - - - - - - - - --> 1
+11:01:20 | deve  -   LocDefiner.uiInitLocDef was called 
+11:02:55 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:02:59 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:03:01 | deve  -   LocDefiner.uiInitLocDef was called 
+11:03:04 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:04:10 | deve  -   debate_Editor->check_input   : received location-id : 50c23087773e6f12e00742c4
+11:04:10 | deve  -   ItemDebateRoot.saveDetails called 
+11:04:10 | deve  -   Item.getHashTags() called
+11:04:10 | deve  -   Item.saveDetails : geoLat to store  58.311783
+11:04:10 | deve  -   Item.saveDetails : geoLon to store  12.05707
+11:04:10 | deve  -   Item->storeGeneralBase : drop-down-text used for location-name        : Würzburg
+11:04:10 | deve  -   BSON_id key : _objectDetailID ; Value :52cfc59a773e6f81b81b2197
+11:04:10 | deve  -   ctrl_ItemBase->storeGeneralBase : type of tagging-lables  <type 'list'>
+11:04:10 | deve  -   Item->storeGeneralBase : object id of item inserted into item.base : 52cfc59a773e6f81b81b2198
+11:04:12 | deve  -   show_details->PageLoad : root_elem_id stored in the viewstate : 52cfc59a773e6f81b81b2198
+11:04:12 | deve  -   Item_DEBATE_ROOT.__init__  called 
+11:05:36 | deve  -   measurePeformance                      -> 
+11:05:36 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+11:05:36 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+11:05:36 | deve  -   measurePeformance - - - - - - - - - - --> 160
+11:05:36 | deve  -   measurePeformance                      -> 
+11:05:36 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+11:05:36 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+11:05:36 | deve  -   measurePeformance - - - - - - - - - - --> 0
+11:05:36 | deve  -   LocDefiner.uiInitLocDef was called 
+11:06:12 | deve  -   ItemDebateRoot.saveDetails called 
+11:06:12 | deve  -   Item.getHashTags() called
+11:06:12 | deve  -   Item->storeGeneralBase : drop-down-text used for location-name        : Würzburg
+11:06:12 | deve  -   BSON_id key : _objectDetailID ; Value :52cfc614773e6f81b81b2199
+11:06:12 | deve  -   ctrl_ItemBase->storeGeneralBase : type of tagging-lables  <type 'list'>
+11:06:12 | deve  -   Item->storeGeneralBase : object id of item inserted into item.base : 52cfc614773e6f81b81b219a
+11:06:12 | deve  -    jobs_editor_save redirects to  : ~/wbf_functs/show_details.aspx?item=52cfc614773e6f81b81b219a
+11:06:13 | deve  -   show_details->PageLoad : root_elem_id stored in the viewstate : 52cfc614773e6f81b81b219a
+11:06:13 | deve  -   Item_JOB_ROOT.__init__  called 
+11:07:48 | deve  -   measurePeformance                      -> 
+11:07:48 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+11:07:48 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+11:07:48 | deve  -   measurePeformance - - - - - - - - - - --> 416
+11:07:48 | deve  -   measurePeformance                      -> 
+11:07:48 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+11:07:48 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+11:07:48 | deve  -   measurePeformance - - - - - - - - - - --> 0
+11:07:48 | deve  -   LocDefiner.uiInitLocDef was called 
+11:08:02 | deve  -   debate_Editor->check_input   : received location-id : 50c23087773e6f12e00742c4
+11:08:02 | deve  -   ItemDebateRoot.saveDetails called 
+11:08:02 | deve  -   Item.getHashTags() called
+11:08:02 | deve  -   Item.saveDetails : geoLat to store  
+11:08:02 | deve  -   Item.saveDetails : geoLon to store  
+11:08:02 | deve  -   Item->storeGeneralBase : drop-down-text used for location-name        : Würzburg
+11:08:02 | deve  -   BSON_id key : _objectDetailID ; Value :52cfc682773e6f81b81b219b
+11:08:02 | deve  -   ctrl_ItemBase->storeGeneralBase : type of tagging-lables  <type 'list'>
+11:08:02 | deve  -   Item->storeGeneralBase : object id of item inserted into item.base : 52cfc682773e6f81b81b219c
+11:08:03 | deve  -   show_details->PageLoad : root_elem_id stored in the viewstate : 52cfc682773e6f81b81b219c
+11:08:03 | deve  -   Item_DEBATE_ROOT.__init__  called 
+11:14:52 | deve  -   DebateProjector( .. ) constructor called
+11:14:52 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c23087773e6f12e00742c4
+11:14:52 | deve  -   LocDefiner.uiInitProjector called with locn    50c23087773e6f12e00742c4
+11:14:52 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+11:14:53 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+11:14:53 | deve  -   self.param["Loc"]    :  "None"
+11:14:53 | deve  -   self.param["City"]   :  "Würzburg"
+11:14:53 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+11:14:53 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+11:14:53 | deve  -   CacheDataSource.createCityList( self ) loc url param   : DE,
+11:14:53 | deve  -   createCityList parameter :   country : DE ; postcode :  ; city : Würzburg ; areasize (form web.config ) : 17
+11:14:53 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|97070
+11:14:53 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|97070
+11:14:53 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 2
+11:14:53 | deve  -   cutSlice( .. )  data-rows found in list                                        : 66 - _id 52cfc682773e6f81b81b219c
+11:14:53 | deve  -   cutSlice( .. )  data-rows found in list                                        : 64 - _id 52cfc59a773e6f81b81b2198
+11:14:53 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+11:14:53 | deve  -   CachedDataSource.addConfigParam() called !
+11:16:03 | deve  -    -- mongoMgr.slctDocs  function was entered 
+11:16:03 | deve  -    -- mongoMgr.slctDocs  start Find() of a muti-query  
+11:16:03 | deve  -    -- mongoMgr.slctDocs  end Find() of a muti-query  
+11:16:03 | deve  -    -- mongoMgr.slctDocs  data copied into the container 
+11:16:03 | deve  -   Item.chainGetIDs started 
+11:16:03 | deve  -   -----------Item.chainGetIDs : Query to load the header  : _parentID = '52cfc682773e6f81b81b219c' AND objectType = 6
+11:16:03 | deve  -   -----------Item.chainGetIDs : Number of headers found   : 0
+11:16:03 | deve  -   -----------Item.chainGetIDs : NO HEADERS FOUND
+11:16:03 | deve  -   Item.load called for ItemBaseId  52cfc682773e6f81b81b219c
+11:16:03 | deve  -   Item.loadDetails objType = 1 in collection item.DEBATE_ROOT => detail-data-item-id : 52cfc682773e6f81b81b219b
+11:16:03 | deve  -   Item.getCoords started -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+11:16:03 | deve  -   no coord was found for 52cfc682773e6f81b81b219c
+11:16:03 | deve  -   Item.getCoords ended   -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+11:16:20 | deve  -   show_details->PageLoad : root_elem_id stored in the viewstate : 52cfc682773e6f81b81b219c
+11:16:20 | deve  -   Item_DEBATE_ROOT.__init__  called 
+11:17:24 | deve  -   LocDefiner.uiInitLocDef was called 
+11:17:24 | deve  -   job_search.aspx.py->JobSearch.load(self) - - - - - - - - - - - - - - - 
+11:17:24 | deve  -   job_search.aspx.py- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+11:17:24 | deve  -   job_search.aspx.py->createSlice       : direction    
+11:17:24 | deve  -   job_search.aspx.py->createSlice       : firstRow     0
+11:17:24 | deve  -   job_search.aspx.py->createSlice       : lastRow      2
+11:17:24 | deve  -   job_search.aspx.py- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+11:17:32 | deve  -   ItemJobMsg.constructor called
+11:17:32 | deve  -   measurePeformance                      -> 
+11:17:32 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+11:17:32 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+11:17:32 | deve  -   measurePeformance - - - - - - - - - - --> 992
+11:17:32 | deve  -   measurePeformance                      -> 
+11:17:32 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+11:17:32 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+11:17:32 | deve  -   measurePeformance - - - - - - - - - - --> 3
+11:17:32 | debu  -   job_trial_editor.aspx.Page_Load: mongoId     52cfc614773e6f81b81b219a
+11:17:32 | deve  -   Item.chainGetIDs started 
+11:17:32 | deve  -   -----------Item.chainGetIDs : Query to load the header  : _parentID = '52cfc614773e6f81b81b219a' AND objectType = 5 AND _creatorGUID = 'ae725a7385df4396a528d56e6a00d1f9'
+11:17:32 | deve  -   -----------Item.chainGetIDs : Number of headers found   : 0
+11:17:32 | deve  -   -----------Item.chainGetIDs : NO HEADERS FOUND
+11:17:32 | deve  -   Item.load called for ItemBaseId  52cfc614773e6f81b81b219a
+11:17:32 | deve  -   Item.loadDetails objType = 0 in collection item.JOB_ROOT => detail-data-item-id : 52cfc614773e6f81b81b2199
+11:17:49 | deve  -   show_details->PageLoad : root_elem_id stored in the viewstate : 52cfc614773e6f81b81b219a
+11:17:49 | deve  -   Item_JOB_ROOT.__init__  called 
+11:29:14 | mess  -   Application started : new LogCache was created
+11:29:14 | mess  -   new UiTools instance created !
+11:29:28 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+11:29:28 | deve  -   slice index                           : 0
+11:29:28 | deve  -   start-day    left  in timebeam        : 12.10.2013 10:29:28
+11:29:28 | deve  -   end-day      rigth in timebeam        : 10.01.2014 10:29:28
+11:29:28 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+11:29:28 | deve  -   number of slices cached                        :0
+11:29:28 | deve  -   CachedDataSource.fillTablesItems START (left)  :12.10.2013 10:29:28
+11:29:28 | deve  -   CachedDataSource.fillTablesItems END   (rigth) :10.01.2014 10:29:28
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_PERSONALHYGIENE ; position = 0  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §LONELY_HEARTS_AD_2_0_0 ; position = 1  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_21_116 ; position = 2  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = wintersport-vereine ; position = 3  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = Österreich ; position = 4  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CRAFT ; position = 5  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_OFFICE ; position = 6  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HUMAN2HUMAN ; position = 7  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_LEISURE ; position = 8  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CHILDREN ; position = 9  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOME ; position = 10  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOMEWORK ; position = 11  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_GARDEN ; position = 12  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_COMPUTER ; position = 13  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_NOTSPECIFIED ; position = 14  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §SWAP_0_0 ; position = 15  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_EDUCATION ; position = 16  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_4_124 ; position = 17  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = golfclub ; position = 18  
+11:29:28 | deve  -   TaggContainer.addTaggToList     : taggString = youtube ; position = 19  
+11:29:28 | deve  -   ------- LOADING JOB_ROOT INTO cache ------
+11:29:28 | deve  -   _objectDetailID  : 0
+11:29:28 | mess  -   New UserData instance created with ID = 2fmdbqbt4tjghyjlksqpo15y IP: ::1 Local: de-de
+11:29:28 | deve  -   LocDefiner.uiInitLocDef was called 
+11:41:22 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:41:26 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:41:28 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:41:31 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:41:34 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:41:36 | debu  -   Default.aspx->HandlBtnClick URL: ~/micro_blog.aspx?Loc=DE,97070&City=Würzburg
+11:41:45 | deve  -   LOCALMapProjector( .. ) constructor called
+11:41:45 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c23087773e6f12e00742c4
+11:41:45 | deve  -   LocDefiner.uiInitProjector called with locn    50c23087773e6f12e00742c4
+11:41:47 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+11:41:47 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+11:41:47 | deve  -   self.param["Loc"]    :  "None"
+11:41:47 | deve  -   self.param["City"]   :  "würzburg"
+11:41:47 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+11:41:47 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+11:41:47 | deve  -   CacheDataSource.createCityList( self ) loc url param   : DE,
+11:41:47 | deve  -   createCityList parameter :   country : DE ; postcode :  ; city : würzburg ; areasize (form web.config ) : 17
+11:41:47 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|97070
+11:41:47 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|97070
+11:41:48 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 1
+11:41:48 | deve  -   cutSlice( .. )  data-rows found in list                                        : 64 - _id 52cfc59a773e6f81b81b2198
+11:41:48 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+11:41:48 | deve  -   CachedDataSource.addConfigParam() called !
+11:43:04 | deve  -   measurePeformance                      -> 
+11:43:04 | deve  -   measurePeformance    last message was  -> user-data-constructor (initial creation in app-cache)
+11:43:04 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+11:43:04 | deve  -   measurePeformance - - - - - - - - - - --> 594
+11:43:04 | deve  -   measurePeformance                      -> 
+11:43:04 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+11:43:04 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+11:43:04 | deve  -   measurePeformance - - - - - - - - - - --> 6
+11:43:04 | deve  -   measurePeformance                      -> 
+11:43:04 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+11:43:04 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - before redirect 
+11:43:04 | deve  -   measurePeformance - - - - - - - - - - --> 2
+11:43:05 | deve  -   constructor of class ConfirmUser(Page) aufgefufen!
+11:43:11 | deve  -   constructor of class ConfirmUser(Page) aufgefufen!
+11:43:11 | deve  -   login.aspx : invalid login-email for : 
+11:43:12 | deve  -   constructor of class UserHome(Page) aufgefufen!
+11:43:13 | deve  -   UserHome( .. ) called FillUsrCache with mail njb04@t-online.de
+11:43:13 | deve  -   userData.createUserLocationString found for user-home-town : 50c24449773e6f12e0079690
+11:43:13 | deve  -   userData.createUserLocationString found for user-home-town    : [NL] 4320 Kerkwerve
+11:43:15 | deve  -   user-data read from mongo and copied into the user-dict !!
+11:43:15 | deve  -   KEY : website	  VALUE : http://de.wikipedia.org/wiki/Schouwen-Duiveland	
+11:43:15 | deve  -   KEY : locationname	  VALUE : [NL] 4320 Kerkwerve	
+11:43:15 | deve  -   KEY : post_code_key	  VALUE : NL|4320	
+11:43:15 | deve  -   KEY : languagecode	  VALUE : de	
+11:43:15 | deve  -   KEY : creation_time	  VALUE : 2013-07-24T10:24:52.487Z	
+11:43:15 | deve  -   KEY : nickname	  VALUE : Pit Klommpe	
+11:43:15 | deve  -   KEY : fax	  VALUE : 	
+11:43:15 | deve  -   KEY : google_plus	  VALUE : 	
+11:43:15 | deve  -   KEY : cities	  VALUE : [50c24449773e6f12e0079690, 50c24449773e6f12e0079691, 50c24449773e6f12e007968e, 50c24449773e6f12e0079683, 50c24449773e6f12e0079684, 50c24449773e6f12e0079685, 50c24449773e6f12e0079686, 50c24449773e6f12e007968f, 50c24449773e6f12e007968d, 50c24449773e6f12e00796b1, 50c24449773e6f12e007968c, 50c24449773e6f12e0079696, 50c24449773e6f12e0079697, 50c24449773e6f12e0079698, 50c24449773e6f12e0079692, 50c24449773e6f12e0079693, 50c24449773e6f12e0079695, 50c24449773e6f12e0079687, 50c24449773e6f12e0079689, 50c24449773e6f12e0079694, 50c24449773e6f12e007969b, 50c24449773e6f12e0079688, 50c24449773e6f12e0079666, 50c24449773e6f12e00796fb, 50c24449773e6f12e007969c, 50c24449773e6f12e007969d]	
+11:43:15 | deve  -   KEY : CAPTCHA	  VALUE : So-FklML	
+11:43:15 | deve  -   KEY : phone	  VALUE : 	
+11:43:15 | deve  -   KEY : account_roles	  VALUE : [free]	
+11:43:15 | deve  -   KEY : emailconfirm	  VALUE : njb04@t-online.de	
+11:43:15 | deve  -   KEY : item_type	  VALUE : human	
+11:43:15 | deve  -   KEY : _id	  VALUE : 51efab74773e6f0ab8354d5a	
+11:43:15 | deve  -   KEY : timeFrom	  VALUE : 01.10.2013	
+11:43:15 | deve  -   KEY : CRRNT_LCTN_ID	  VALUE : 50c24449773e6f12e0079690	
+11:43:15 | deve  -   KEY : facebook	  VALUE : 	
+11:43:15 | deve  -   KEY : forename	  VALUE : 	
+11:43:15 | deve  -   KEY : tagforitem	  VALUE : §EVT_2_1	
+11:43:15 | deve  -   KEY : postcode	  VALUE : 4320	
+11:43:15 | deve  -   KEY : CRRNT_POSTCODE	  VALUE : 4320	
+11:43:15 | deve  -   KEY : street	  VALUE : 	
+11:43:15 | deve  -   KEY : timeTo	  VALUE : 	
+11:43:15 | deve  -   KEY : countrycode	  VALUE : NL	
+11:43:15 | deve  -   KEY : picturl	  VALUE : http://guikblog.com/wp-content/uploads/2012/08/anonymus-logo-.png	
+11:43:15 | deve  -   KEY : marker_line	  VALUE : 	
+11:43:15 | deve  -   KEY : familyname	  VALUE : 	
+11:43:15 | deve  -   KEY : CRRNT_CITYNAME	  VALUE : 	
+11:43:15 | deve  -   KEY : email	  VALUE : njb04@t-online.de	
+11:43:15 | deve  -   KEY : mobile	  VALUE : 	
+11:43:15 | deve  -   KEY : info	  VALUE : 	
+11:43:15 | deve  -   KEY : areasize	  VALUE : 17	
+11:43:15 | deve  -   KEY : skype	  VALUE : 	
+11:43:15 | deve  -   KEY : twitter	  VALUE : 	
+11:43:15 | deve  -   KEY : itemname	  VALUE : 	
+11:43:15 | deve  -   KEY : lat	  VALUE : 51.6746155023	
+11:43:15 | deve  -   KEY : housenumber	  VALUE : 	
+11:43:15 | deve  -   KEY : CRRNT_LCTNCNTRY	  VALUE : NL	
+11:43:15 | deve  -   KEY : password	  VALUE : Y2TPAEVTJDscoNnhGbxHN5qHTRcy90TN0uxp+7ZjaDmzrtDShs2o+/wFwD7lcshOtJ0nACDQO9SKuryuv6HO0Q==	
+11:43:15 | deve  -   KEY : GUID	  VALUE : ae725a7385df4396a528d56e6a00d1f9	
+11:43:15 | deve  -   KEY : lon	  VALUE : 3.90826426107	
+11:43:15 | deve  -   measurePeformance                      -> 
+11:43:15 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - before redirect 
+11:43:15 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+11:43:15 | deve  -   measurePeformance - - - - - - - - - - --> 564
+11:43:15 | deve  -   measurePeformance                      -> 
+11:43:15 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+11:43:15 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+11:43:15 | deve  -   measurePeformance - - - - - - - - - - --> 6
+11:43:20 | deve  -   measurePeformance                      -> 
+11:43:20 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+11:43:20 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+11:43:20 | deve  -   measurePeformance - - - - - - - - - - --> 378
+11:43:20 | deve  -   measurePeformance                      -> 
+11:43:20 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+11:43:20 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+11:43:20 | deve  -   measurePeformance - - - - - - - - - - --> 2
+11:43:20 | deve  -   LocDefiner.uiInitLocDef was called 
+11:43:30 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:43:32 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:43:33 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:43:35 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:43:42 | deve  -   LocDefiner.uiInitLocDef was called 
+11:44:19 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:44:21 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:44:22 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:44:24 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:44:25 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:44:31 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:44:51 | deve  -   LocDefiner.uiInitLocDef was called 
+11:45:04 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:45:05 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:45:07 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:45:09 | deve  -   LocDefiner.uiInitLocDef was called 
+11:45:13 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:45:40 | deve  -   debate_Editor->check_input   : received location-id : 50c236b2773e6f12e0076154
+11:45:40 | deve  -   ItemDebateRoot.saveDetails called 
+11:45:40 | deve  -   Item.getHashTags() called
+11:45:40 | deve  -   Item.getHashTags()  raw-tag found by regular expression : #ottiefant
+11:45:40 | deve  -   Item.getHashTags()  tag found and will be added : ottiefant
+11:45:40 | deve  -   Item.saveDetails : geoLat to store  53.934339
+11:45:40 | deve  -   Item.saveDetails : geoLon to store  10.307113
+11:45:40 | deve  -   Item->storeGeneralBase : drop-down-text used for location-name        : Bad Segeberg
+11:45:40 | deve  -   BSON_id key : _objectDetailID ; Value :52cfcf54773e6fb3ec6c803a
+11:45:40 | deve  -   ctrl_ItemBase->storeGeneralBase : type of tagging-lables  <type 'list'>
+11:45:40 | deve  -   TaggContainer.addTaggToList     : taggString = ottiefant ; position = 20  
+11:45:40 | deve  -   Item->storeGeneralBase : object id of item inserted into item.base : 52cfcf54773e6fb3ec6c803b
+11:45:41 | deve  -   Item_DEBATE_ROOT.__init__  called 
+11:45:47 | deve  -   measurePeformance                      -> 
+11:45:47 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+11:45:47 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+11:45:47 | deve  -   measurePeformance - - - - - - - - - - --> 457
+11:45:47 | deve  -   measurePeformance                      -> 
+11:45:47 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+11:45:47 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+11:45:47 | deve  -   measurePeformance - - - - - - - - - - --> 2
+11:45:47 | deve  -   LocDefiner.uiInitLocDef was called 
+11:46:19 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:46:20 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+11:46:58 | deve  -   debate_Editor->check_input   : received location-id : 50c236b2773e6f12e0076154
+11:46:58 | deve  -   ItemDebateRoot.saveDetails called 
+11:46:58 | deve  -   Item.getHashTags() called
+11:46:58 | deve  -   Item.saveDetails : geoLat to store  53.937957
+11:46:58 | deve  -   Item.saveDetails : geoLon to store  10.329053
+11:46:58 | deve  -   Item->storeGeneralBase : drop-down-text used for location-name        : Bad Segeberg
+11:46:58 | deve  -   BSON_id key : _objectDetailID ; Value :52cfcfa2773e6fb3ec6c803c
+11:46:58 | deve  -   ctrl_ItemBase->storeGeneralBase : type of tagging-lables  <type 'list'>
+11:46:58 | deve  -   Item->storeGeneralBase : object id of item inserted into item.base : 52cfcfa2773e6fb3ec6c803d
+11:47:00 | deve  -   Item_DEBATE_ROOT.__init__  called 
+11:47:07 | deve  -   LOCALMapProjector( .. ) constructor called
+11:47:08 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c236b2773e6f12e0076154
+11:47:08 | deve  -   LocDefiner.uiInitProjector called with locn    50c236b2773e6f12e0076154
+11:47:10 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+11:47:10 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+11:47:10 | deve  -   self.param["Loc"]    :  "None"
+11:47:10 | deve  -   self.param["City"]   :  "Bad Segeberg"
+11:47:10 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+11:47:10 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+11:47:10 | deve  -   CacheDataSource.createCityList( self ) loc url param   : DE,
+11:47:10 | deve  -   createCityList parameter :   country : DE ; postcode :  ; city : Bad Segeberg ; areasize (form web.config ) : 17
+11:47:10 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|23795
+11:47:10 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|23795
+11:47:10 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 2
+11:47:10 | deve  -   cutSlice( .. )  data-rows found in list                                        : 68 - _id 52cfcfa2773e6fb3ec6c803d
+11:47:10 | deve  -   cutSlice( .. )  data-rows found in list                                        : 67 - _id 52cfcf54773e6fb3ec6c803b
+11:47:10 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+11:47:10 | deve  -   CachedDataSource.addConfigParam() called !
+11:47:57 | deve  -   DebateProjector( .. ) constructor called
+11:47:58 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c236b2773e6f12e0076154
+11:47:58 | deve  -   LocDefiner.uiInitProjector called with locn    50c236b2773e6f12e0076154
+11:48:00 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+11:48:00 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+11:48:00 | deve  -   self.param["Loc"]    :  "None"
+11:48:00 | deve  -   self.param["City"]   :  "Bad Segeberg"
+11:48:00 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+11:48:00 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+11:48:00 | deve  -   CacheDataSource.createCityList( self ) loc url param   : DE,
+11:48:00 | deve  -   createCityList parameter :   country : DE ; postcode :  ; city : Bad Segeberg ; areasize (form web.config ) : 17
+11:48:00 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|23795
+11:48:00 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|23795
+11:48:01 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 2
+11:48:01 | deve  -   cutSlice( .. )  data-rows found in list                                        : 68 - _id 52cfcfa2773e6fb3ec6c803d
+11:48:01 | deve  -   cutSlice( .. )  data-rows found in list                                        : 67 - _id 52cfcf54773e6fb3ec6c803b
+11:48:01 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+11:48:01 | deve  -   CachedDataSource.addConfigParam() called !
+11:48:06 | deve  -    -- mongoMgr.slctDocs  function was entered 
+11:48:06 | deve  -    -- mongoMgr.slctDocs  start Find() of a muti-query  
+11:48:06 | deve  -    -- mongoMgr.slctDocs  end Find() of a muti-query  
+11:48:06 | deve  -    -- mongoMgr.slctDocs  data copied into the container 
+11:48:06 | deve  -   Item.chainGetIDs started 
+11:48:06 | deve  -   -----------Item.chainGetIDs : Query to load the header  : _parentID = '52cfcfa2773e6fb3ec6c803d' AND objectType = 6
+11:48:06 | deve  -   -----------Item.chainGetIDs : Number of headers found   : 0
+11:48:06 | deve  -   -----------Item.chainGetIDs : NO HEADERS FOUND
+11:48:06 | deve  -   Item.load called for ItemBaseId  52cfcfa2773e6fb3ec6c803d
+11:48:06 | deve  -   Item.loadDetails objType = 1 in collection item.DEBATE_ROOT => detail-data-item-id : 52cfcfa2773e6fb3ec6c803c
+11:48:06 | deve  -   Item.getCoords started -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+11:48:06 | deve  -   Lon (Laengengrad) : 10.329053
+11:48:06 | deve  -   Lat (Breitengrad) : 53.937957
+11:48:06 | deve  -   Item.getCoords ended   -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+11:48:15 | deve  -    -- mongoMgr.slctDocs  function was entered 
+11:48:15 | deve  -    -- mongoMgr.slctDocs  start Find() of a muti-query  
+11:48:15 | deve  -    -- mongoMgr.slctDocs  end Find() of a muti-query  
+11:48:15 | deve  -    -- mongoMgr.slctDocs  data copied into the container 
+11:48:15 | deve  -   Item.chainGetIDs started 
+11:48:15 | deve  -   -----------Item.chainGetIDs : Query to load the header  : _parentID = '52cfcf54773e6fb3ec6c803b' AND objectType = 6
+11:48:15 | deve  -   -----------Item.chainGetIDs : Number of headers found   : 0
+11:48:15 | deve  -   -----------Item.chainGetIDs : NO HEADERS FOUND
+11:48:15 | deve  -   Item.load called for ItemBaseId  52cfcf54773e6fb3ec6c803b
+11:48:15 | deve  -   Item.loadDetails objType = 1 in collection item.DEBATE_ROOT => detail-data-item-id : 52cfcf54773e6fb3ec6c803a
+11:48:15 | deve  -   Item.getCoords started -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+11:48:15 | deve  -   Lon (Laengengrad) : 10.307113
+11:48:15 | deve  -   Lat (Breitengrad) : 53.934339
+11:48:15 | deve  -   Item.getCoords ended   -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  

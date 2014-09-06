@@ -1,0 +1,18 @@
+﻿Haustiere
+	Aquaristik
+	Bienen/Imkerei
+	Hunde
+	Katzen
+	Marderartige (Frettchen, Stinktiere...)
+	Nagetiere
+	Pferde
+	Ponys
+	Terraristik
+	Vögel
+Dienstleistungen
+	Coaching
+	Gesundheit
+	Unterbringung
+Suchanzeigen
+	Tier entlaufen
+	Tier zugelaufen

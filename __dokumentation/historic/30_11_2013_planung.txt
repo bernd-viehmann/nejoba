@@ -1,0 +1,189 @@
+﻿## !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+##   !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+##     !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+
+2  Anzeigen ansehen : http://localhost:1959/njb_2/wbf_functs/debate_article_editor.aspx?
+	wbf_functs/show_for_stranger.aspx
+	Keine Überschrift unter der Karte!!
+
+2.1 Einbau eines funktionierenden redirects
+	njb_2/Search_Rubric.aspx
+	njb_2/Search_Appointment.aspx
+	njb_2/Search_Hashtag.aspx  :  Bei den Hashtags muss immer ein , an erster Stelle kommen !! Sonst klkapptg der Apparat net !!
+
+2.3 Speichern eines Arbeitsauftrags überarbeiten
+	Anpasung an die LocDedfiner Klasse
+
+23. Dein Standpunkt ?
+	In den Editoren (Kommentarfunktionen ) soll statt "Dein Standpunkt ?" einfach Kommentar steht, genau wie in anderen sozialen Netzwerken.
+
+4  Startseite Defaul.aspx
+	modalen Hilfsdialog einbauen in http://localhost:1417/njb_2/Default.aspx
+
+
+5  Nachbarforum Editor /wbf_functs/debate_editor.aspx
+	Die Vorschau funktioniert noch nicht.
+
+7  Ort suchen 
+	Der verborgene Link bei Ort soll in einen Button unterhalb umgewandelt werden. Dieser wird (WIE ALLE KONFIGURATIONS-BUTTONS) gelb dargestellt btn-warning
+
+9  Allgemein im UI Buttonfarbe
+	Sämtliche Buttons die eine Konfiguration oder Kontrollfunktion starten werden in GELB dargestellt : class="btn-warning"
+	Buttons die einen Suchvorgang oder eine Speicherung bewirken werden in GRÜN dargestellt : class="btn-success"
+	Butons zum Abbrechen angefangener Vorgänge (Also CACLE-Funktionen) werden in ROT dargestellt : class="btn-danger"
+
+12  wbf_functs/debate_editor.aspx  DONE  DONE  DONE  DONE  DONE  DONE  DONE  DONE  DONE  
+	es wird der Link zur Job-Börse angezeigt. der muss weg.
+
+14 /wbf_account/user_home.aspx
+	Der Button "regionale Themen" geht nicht. er soll die Info-List der Heimatstadt des Users öffnen.
+	job_list.aspx ist gerade in der Mache
+
+17 /wbf_functs/jobs_editor.aspx
+	Einbauen das ein Klick auf einen Jobtyp-Link auch eingetragen wird
+
+18 njb_2/wbf_functs/jobs_search.aspx
+	Die neue bootstrap-JobTyp Select-Matrix einbauen.
+	HIER IST NOCH DIE VORHERIGE DROP-DOWN ZUR AUSWAHL VORHANDEN
+
+25.11.2013
+2.2 jobs_list.aspx?jobtype=*
+	Anzeigen der Liste mit Arbeitsaufträgen überarbeiten
+	Die Location kommt nun aus der Hilfsklasse LocDefiner. Der Selektierte Jobtyp kommt aus einem URL-Parameter jobtype
+
+19 /wbf_account/user_abonnement.aspx
+	Es werden falsche Dokumente geöffnet wenn ein User ein Abo anklickt!
+
+26. /wbf_account/user_abonnement.aspx 
+	Wenn man einen Eintrag anklickt wird der falsche Beitrag aufgerufen
+
+15 wbf_account/user_debates_adds.aspx
+	Es werden keine Einträga angezeigt ( User njb01@t-online.de )
+
+16 wbf_account/user_abonnement.aspx
+	Es ist ein Eintrag vorhanden für User njb01@t-online.de, der beim Öffnen keine Daten kehr anzeigt 
+	 Urlaub auf der #Schwäblie-Alm : 5207ec14773e6f1244a90cca
+
+28 Location-Selector 
+	JavaScript einbauen : Wenn der Wert der Dropdown geändert wurde immer die TaxtBox "Stadt/Postleitzahl" löschen
+
+21  Wenn in Default.aspx eine Postleitzahl eingeben wird, wird die Projektor-Webform trozdem mit dem Stadtnamen aufgerufen.
+22 In den lokalen Suchdialogen wird noch die Location des eingeloggten users angezeigt. Da muss die derzeit gültige aus dem LocationDefiner rein.
+
+
+23. In der Rubrik Kleinanzeigen sollte es keine Rubrik Suche geben !!
+	Die Def-Datei entsprechend ändern......
+
+24. show_details.aspx zeigt die JOB-Datails ?
+	Erstelle eine Webform mit dem namen show_job_details.aspx. Diese sollte Die Überschrift NICHT zwei mal anzeigen. Sie sollte den gewählten Ort 
+	und die Job-Beschreibung anzeigen !!
+
+26. Detailanzeige show_for_stranger.aspx und debate_article_editor.aspx
+    Es sollte für Veranstalltungen das Datum angezeigt werden: from und till-Datum in Info eintragen falls vorhanden.
+
+27. Job-Matrix erweitern wbf_functs/jobs_search.aspx
+	Es sollen Stichpunkte / Ideen unter den einzelnen Punkten sichtbar werden ( siehe alte WebForm wbf_info/jobtype_matrix.aspx )
+	Wenn ein Punkt ausgewählt wurde verschwindet die Auswahl mit den Hauptpunkten und es wird die Ortauswahl angezeigt.
+
+29. wbf_functs/jobs_list.aspx?jobtype=*
+	Es wird nix angezeigt für Darmstadt !!
+
+28. wbf_functs/jobs_editor.aspx
+Die Tätigkeitsart ist noch nicht mit Unterpunkten ausgestattet!
+
+29. Search_Rubric.aspx 
+	'Wählen' Button einbauen : Wenn ein User sich für eine Rubrik entschieden hat schließt dieser Button die Auswahl-Box
+
+30. Rubrik suchen : njb_2/Search_Rubric.aspx
+	Die Webform "vergißt" welche Rubrik ausgewählt wurde wenn der Ort gewechselt wird. Aus dem Job_search Dialog übernhemen !!
+
+33. /wbf_functs/job_trial_list.aspx
+	Wenn keine Antworten anderer User (Angebote einen Job zu erlediegfen) vorhanden sind, wird "Es wurden keine Daten gefunden" angemeckert. 
+	Ändern in :"Es sind keine Angebote zu dieser Anfrage eingegangen!"
+
+1  Karte und Liste erweitern (map-projector) 
+	es sollte ein facebook-like-button eingebaut werden siehe http://www.port11.de/blog/facebook-sharerphp-nutzen
+	es sollte ein dispora teilen button eingebaut werden
+
+
+##     !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+##   !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+## !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+##  ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##    ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##      ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+
+
+
+27. http://localhost:3463/njb_2/wbf_account/user_abonnement.aspx
+	WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!
+	Nochmal checken ob beim Löschen eines Beitrages auch alle Abos gelöscht werden. Scheint nicht so zu sein !!!
+	WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!
+
+
+##      ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##    ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##  ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+##   work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+##     work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+
+
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+
+##     work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+##   work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+## work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+
+
+
+

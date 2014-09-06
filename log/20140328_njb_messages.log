@@ -1,0 +1,195 @@
+10:27:18 | mess  -   Application started : new LogCache was created
+10:27:18 | mess  -   new UiTools instance created !
+10:27:36 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+10:27:36 | deve  -   slice index                           : 0
+10:27:36 | deve  -   start-day    left  in timebeam        : 28.12.2013 09:27:36
+10:27:36 | deve  -   end-day      rigth in timebeam        : 28.03.2014 09:27:36
+10:27:36 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+10:27:36 | deve  -   number of slices cached                        :0
+10:27:36 | deve  -   CachedDataSource.fillTablesItems START (left)  :28.12.2013 09:27:36
+10:27:36 | deve  -   CachedDataSource.fillTablesItems END   (rigth) :28.03.2014 09:27:36
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_PERSONALHYGIENE ; position = 0  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = §LONELY_HEARTS_AD_2_0_0 ; position = 1  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_21_116 ; position = 2  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = wintersport-vereine ; position = 3  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = Österreich ; position = 4  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CHILDREN ; position = 5  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CRAFT ; position = 6  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_EDUCATION ; position = 7  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOME ; position = 8  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_LEISURE ; position = 9  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_4_124 ; position = 10  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = golfclub ; position = 11  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = youtube ; position = 12  
+10:27:36 | deve  -   TaggContainer.addTaggToList     : taggString = ottiefant ; position = 13  
+10:27:36 | deve  -   ------- LOADING JOB_ROOT INTO cache ------
+10:27:36 | deve  -   _objectDetailID  : 0
+10:27:36 | mess  -   New UserData instance created with ID = elpoqcr2mwc1sup1ytia0qfw IP: ::1 Local: de-de
+10:27:36 | deve  -   LocDefiner.uiInitLocDef was called 
+10:28:23 | deve  -   DebateProjector( .. ) constructor called
+10:28:23 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+10:28:23 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+10:28:28 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+10:28:28 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+10:28:28 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+10:28:28 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 10
+10:28:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 47 - _id 52cfcfa2773e6fb3ec6c803d
+10:28:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 46 - _id 52cfcf54773e6fb3ec6c803b
+10:28:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 45 - _id 52cfc682773e6f81b81b219c
+10:28:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 43 - _id 52cfc59a773e6f81b81b2198
+10:28:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 42 - _id 52cf93ac773e6f825c30782c
+10:28:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 41 - _id 52cf92d1773e6f825c307829
+10:28:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 40 - _id 52cf876f773e6f825c307825
+10:28:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 6 - _id 52c9b361773e6f048cbde116
+10:28:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 2 - _id 52cf889b773e6f825c307827
+10:28:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 1 - _id 52c9becf773e6f048cbde150
+10:28:28 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+10:28:28 | deve  -   CachedDataSource.addConfigParam() called !
+10:35:32 | deve  -   DebateProjector( .. ) constructor called
+10:35:32 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+10:35:32 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+10:35:33 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+10:35:33 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+10:35:33 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+10:35:33 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 10
+10:35:33 | deve  -   cutSlice( .. )  data-rows found in list                                        : 47 - _id 52cfcfa2773e6fb3ec6c803d
+10:35:33 | deve  -   cutSlice( .. )  data-rows found in list                                        : 46 - _id 52cfcf54773e6fb3ec6c803b
+10:35:33 | deve  -   cutSlice( .. )  data-rows found in list                                        : 45 - _id 52cfc682773e6f81b81b219c
+10:35:33 | deve  -   cutSlice( .. )  data-rows found in list                                        : 43 - _id 52cfc59a773e6f81b81b2198
+10:35:33 | deve  -   cutSlice( .. )  data-rows found in list                                        : 42 - _id 52cf93ac773e6f825c30782c
+10:35:33 | deve  -   cutSlice( .. )  data-rows found in list                                        : 41 - _id 52cf92d1773e6f825c307829
+10:35:33 | deve  -   cutSlice( .. )  data-rows found in list                                        : 40 - _id 52cf876f773e6f825c307825
+10:35:33 | deve  -   cutSlice( .. )  data-rows found in list                                        : 6 - _id 52c9b361773e6f048cbde116
+10:35:33 | deve  -   cutSlice( .. )  data-rows found in list                                        : 2 - _id 52cf889b773e6f825c307827
+10:35:33 | deve  -   cutSlice( .. )  data-rows found in list                                        : 1 - _id 52c9becf773e6f048cbde150
+10:35:33 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+10:35:33 | deve  -   CachedDataSource.addConfigParam() called !
+10:35:40 | deve  -   LOCALMapProjector( .. ) constructor called
+10:35:40 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+10:35:40 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+10:35:41 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+10:35:41 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+10:35:41 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+10:35:41 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 6
+10:35:41 | deve  -   cutSlice( .. )  data-rows found in list                                        : 47 - _id 52cfcfa2773e6fb3ec6c803d
+10:35:41 | deve  -   cutSlice( .. )  data-rows found in list                                        : 46 - _id 52cfcf54773e6fb3ec6c803b
+10:35:41 | deve  -   cutSlice( .. )  data-rows found in list                                        : 43 - _id 52cfc59a773e6f81b81b2198
+10:35:41 | deve  -   cutSlice( .. )  data-rows found in list                                        : 6 - _id 52c9b361773e6f048cbde116
+10:35:41 | deve  -   cutSlice( .. )  data-rows found in list                                        : 2 - _id 52cf889b773e6f825c307827
+10:35:41 | deve  -   cutSlice( .. )  data-rows found in list                                        : 1 - _id 52c9becf773e6f048cbde150
+10:35:41 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+10:35:41 | deve  -   CachedDataSource.addConfigParam() called !
+10:36:46 | deve  -   LOCALMapProjector( .. ) constructor called
+10:36:46 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+10:36:46 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+10:36:47 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+10:36:47 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+10:36:47 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+10:36:47 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 6
+10:36:47 | deve  -   cutSlice( .. )  data-rows found in list                                        : 47 - _id 52cfcfa2773e6fb3ec6c803d
+10:36:47 | deve  -   cutSlice( .. )  data-rows found in list                                        : 46 - _id 52cfcf54773e6fb3ec6c803b
+10:36:47 | deve  -   cutSlice( .. )  data-rows found in list                                        : 43 - _id 52cfc59a773e6f81b81b2198
+10:36:47 | deve  -   cutSlice( .. )  data-rows found in list                                        : 6 - _id 52c9b361773e6f048cbde116
+10:36:47 | deve  -   cutSlice( .. )  data-rows found in list                                        : 2 - _id 52cf889b773e6f825c307827
+10:36:47 | deve  -   cutSlice( .. )  data-rows found in list                                        : 1 - _id 52c9becf773e6f048cbde150
+10:36:47 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+10:36:47 | deve  -   CachedDataSource.addConfigParam() called !
+10:37:05 | deve  -   LOCALMapProjector( .. ) constructor called
+10:37:05 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+10:37:05 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+10:37:06 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+10:37:06 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+10:37:06 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+10:37:06 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 6
+10:37:06 | deve  -   cutSlice( .. )  data-rows found in list                                        : 47 - _id 52cfcfa2773e6fb3ec6c803d
+10:37:06 | deve  -   cutSlice( .. )  data-rows found in list                                        : 46 - _id 52cfcf54773e6fb3ec6c803b
+10:37:06 | deve  -   cutSlice( .. )  data-rows found in list                                        : 43 - _id 52cfc59a773e6f81b81b2198
+10:37:06 | deve  -   cutSlice( .. )  data-rows found in list                                        : 6 - _id 52c9b361773e6f048cbde116
+10:37:06 | deve  -   cutSlice( .. )  data-rows found in list                                        : 2 - _id 52cf889b773e6f825c307827
+10:37:06 | deve  -   cutSlice( .. )  data-rows found in list                                        : 1 - _id 52c9becf773e6f048cbde150
+10:37:06 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+10:37:06 | deve  -   CachedDataSource.addConfigParam() called !
+10:37:27 | deve  -   LOCALMapProjector( .. ) constructor called
+10:37:27 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+10:37:27 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+10:37:28 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+10:37:28 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+10:37:28 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+10:37:28 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 6
+10:37:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 47 - _id 52cfcfa2773e6fb3ec6c803d
+10:37:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 46 - _id 52cfcf54773e6fb3ec6c803b
+10:37:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 43 - _id 52cfc59a773e6f81b81b2198
+10:37:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 6 - _id 52c9b361773e6f048cbde116
+10:37:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 2 - _id 52cf889b773e6f825c307827
+10:37:28 | deve  -   cutSlice( .. )  data-rows found in list                                        : 1 - _id 52c9becf773e6f048cbde150
+10:37:28 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+10:37:28 | deve  -   CachedDataSource.addConfigParam() called !
+10:38:43 | deve  -   LOCALMapProjector( .. ) constructor called
+10:38:43 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+10:38:43 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+10:38:44 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+10:38:44 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+10:38:44 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+10:38:44 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 6
+10:38:44 | deve  -   cutSlice( .. )  data-rows found in list                                        : 47 - _id 52cfcfa2773e6fb3ec6c803d
+10:38:44 | deve  -   cutSlice( .. )  data-rows found in list                                        : 46 - _id 52cfcf54773e6fb3ec6c803b
+10:38:44 | deve  -   cutSlice( .. )  data-rows found in list                                        : 43 - _id 52cfc59a773e6f81b81b2198
+10:38:44 | deve  -   cutSlice( .. )  data-rows found in list                                        : 6 - _id 52c9b361773e6f048cbde116
+10:38:44 | deve  -   cutSlice( .. )  data-rows found in list                                        : 2 - _id 52cf889b773e6f825c307827
+10:38:44 | deve  -   cutSlice( .. )  data-rows found in list                                        : 1 - _id 52c9becf773e6f048cbde150
+10:38:44 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+10:38:44 | deve  -   CachedDataSource.addConfigParam() called !
+10:39:51 | deve  -   LOCALMapProjector( .. ) constructor called
+10:39:51 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+10:39:51 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+10:39:52 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+10:39:52 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+10:39:52 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+10:39:52 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 6
+10:39:52 | deve  -   cutSlice( .. )  data-rows found in list                                        : 47 - _id 52cfcfa2773e6fb3ec6c803d
+10:39:52 | deve  -   cutSlice( .. )  data-rows found in list                                        : 46 - _id 52cfcf54773e6fb3ec6c803b
+10:39:52 | deve  -   cutSlice( .. )  data-rows found in list                                        : 43 - _id 52cfc59a773e6f81b81b2198
+10:39:52 | deve  -   cutSlice( .. )  data-rows found in list                                        : 6 - _id 52c9b361773e6f048cbde116
+10:39:52 | deve  -   cutSlice( .. )  data-rows found in list                                        : 2 - _id 52cf889b773e6f825c307827
+10:39:52 | deve  -   cutSlice( .. )  data-rows found in list                                        : 1 - _id 52c9becf773e6f048cbde150
+10:39:52 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+10:39:52 | deve  -   CachedDataSource.addConfigParam() called !
+10:41:25 | deve  -   LOCALMapProjector( .. ) constructor called
+10:41:25 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+10:41:25 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+10:41:26 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+10:41:26 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+10:41:26 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+10:41:26 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 6
+10:41:26 | deve  -   cutSlice( .. )  data-rows found in list                                        : 47 - _id 52cfcfa2773e6fb3ec6c803d
+10:41:26 | deve  -   cutSlice( .. )  data-rows found in list                                        : 46 - _id 52cfcf54773e6fb3ec6c803b
+10:41:26 | deve  -   cutSlice( .. )  data-rows found in list                                        : 43 - _id 52cfc59a773e6f81b81b2198
+10:41:26 | deve  -   cutSlice( .. )  data-rows found in list                                        : 6 - _id 52c9b361773e6f048cbde116
+10:41:26 | deve  -   cutSlice( .. )  data-rows found in list                                        : 2 - _id 52cf889b773e6f825c307827
+10:41:26 | deve  -   cutSlice( .. )  data-rows found in list                                        : 1 - _id 52c9becf773e6f048cbde150
+10:41:26 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+10:41:26 | deve  -   CachedDataSource.addConfigParam() called !
+10:42:59 | deve  -   LOCALMapProjector( .. ) constructor called
+10:42:59 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+10:42:59 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+10:43:01 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+10:43:01 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+10:43:01 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+10:43:01 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 6
+10:43:01 | deve  -   cutSlice( .. )  data-rows found in list                                        : 47 - _id 52cfcfa2773e6fb3ec6c803d
+10:43:01 | deve  -   cutSlice( .. )  data-rows found in list                                        : 46 - _id 52cfcf54773e6fb3ec6c803b
+10:43:01 | deve  -   cutSlice( .. )  data-rows found in list                                        : 43 - _id 52cfc59a773e6f81b81b2198
+10:43:01 | deve  -   cutSlice( .. )  data-rows found in list                                        : 6 - _id 52c9b361773e6f048cbde116
+10:43:01 | deve  -   cutSlice( .. )  data-rows found in list                                        : 2 - _id 52cf889b773e6f825c307827
+10:43:01 | deve  -   cutSlice( .. )  data-rows found in list                                        : 1 - _id 52c9becf773e6f048cbde150
+10:43:01 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+10:43:01 | deve  -   CachedDataSource.addConfigParam() called !
+10:44:49 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+10:44:49 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+10:44:49 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+10:44:49 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 3
+10:44:49 | deve  -   cutSlice( .. )  data-rows found in list                                        : 47 - _id 52cfcfa2773e6fb3ec6c803d
+10:44:49 | deve  -   cutSlice( .. )  data-rows found in list                                        : 46 - _id 52cfcf54773e6fb3ec6c803b
+10:44:49 | deve  -   cutSlice( .. )  data-rows found in list                                        : 43 - _id 52cfc59a773e6f81b81b2198
+10:44:49 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+10:44:49 | deve  -   CachedDataSource.addConfigParam() called !

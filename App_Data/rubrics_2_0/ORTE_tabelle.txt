@@ -1,0 +1,102 @@
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ORTE ORTE ORTE ORTE ORTE ORTE ORTE ORTE ORTE ORTE ORTE ORTE :
+
+Freizeit
+	Familie
+		Spielplatz
+		Spielhaus
+		Ferienstätte
+		Bauernhof
+		Jugendheim
+Gastronomie
+	Gaststätte
+		Irish Pub
+		Bier-Kneipe
+		Bistro
+	Imbiss
+		Imbisswagen
+			Currywurst
+			Pommes mit Zubehör
+			Speiseeis
+			Fischhändler
+		Schnellimbiss
+			Türkisch
+			Grieche
+			Italiener
+			Asia-Imbiss
+		Gebäck
+			Waffeln
+			Crepes
+		Imbisskette
+			McDonalds
+			BurgerKing
+			Kentucky Frigth Chicken
+			Wienerwald
+			Grillkönig
+			Pizzahut
+		Lieferservice
+	Cafe
+		Stehcafe
+		Konditorei
+		Innerhalb eines Marktes
+	Restaurant
+		Französisch
+		Italienisch
+		Chinesich
+		Japanisch
+		Deutsch
+	Diverse
+		Studentenkneipe
+		Brauhaus
+		Trinkhalle
+
+		
+Hobby
+	Vereins
+Urlaub
+	Camping
+	Hotel
+	Motel
+	Wohnungstausch
+	Wohnpark
+Kultur
+	Musik
+		Konzertsaal
+		Open Air
+		Musikpavillion
+		Oper
+		Kneipenkonzert
+	Museum
+		Kunst
+		Technik
+		Kultur
+	Theater
+		Volksbühne
+		Klassisches Theater
+		Laienspielgruppe
+		Schultheateraufführung
+Sport
+	Sportplatz
+	Sporthalle
+	Fitness-Studio
+	Vereinsheim
+	Trainingsplatz
+	Laufstrecke
+	öffentlicher Trainingsplatz
+Wirtschaftliches
+	Firma
+		Verkauf
+			Ladenlokal
+		Reparaturen
+			Werkstatt
+	Bank
+		Filliale
+		Bankautomat
+Sehenswürdig
+Diverse
+	Parkplatz
+	Treffpunkt
+	Sammelstellen
+		Kleider/Schuhe
+		Papier
+		Glascontainer

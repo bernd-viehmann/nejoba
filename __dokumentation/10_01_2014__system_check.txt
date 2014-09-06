@@ -1,0 +1,113 @@
+﻿User-Kennungen
+
+
+/* 6 */
+{
+  "email" : "njb01@t-online.de",
+  "locationname" : "[DE] 45665 Recklinghausen",
+  "nickname" : "njb01",
+  "post_code_key" : "DE|45665",
+}
+
+/* 7 */
+{
+  "countrycode" : "AT",
+  "email" : "njb02@t-online.de",
+  "jobType" : "§*JTD01_human2human",
+  "locationname" : "[AT] 5301 Eugendorf",
+  "nickname" : "Mohammed Mozart",
+  "post_code_key" : "AT|5302",
+}
+
+/* 2 */
+{
+  "post_code_key" : "DE|20095 ",
+  "nickname" : "Harald Fleischbrötchen",
+  "email" : "njb03@t-online.de",
+}
+
+/* 0 */
+{
+  "post_code_key" : "NL|4320",
+  "nickname" : "Pit Klommpe",
+  "emailconfirm" : "njb04@t-online.de",
+}
+
+
+/* 3 */
+{
+  "email" : "njb05@t-online.de",
+  "nickname" : "Nathan Neu",
+  "post_code_key" : "DE|41460",
+  "website" : "http://de.wikipedia.org/wiki/Neuss"
+}
+
+/* 4 */
+{
+  "post_code_key" : "DE|52066",
+  "nickname" : "Bruno Burtscheid",
+  "emailconfirm" : "njb006@freenet.de",
+}
+
+/* 1 */
+{
+  "post_code_key" : "DE|49074",
+  "nickname" : "Otto Osnabrück",
+  "emailconfirm" : "njb007@freenet.de",
+}
+
+/* 5 */
+{
+  "email" : "njb008@freenet.de",
+  "locationname" : "[DE] 20354 Hamburg Sankt Pauli",
+  "nickname" : "Hähnchenkeule",
+  "post_code_key" : "DE|22769",
+}
+
+
+
+# ** -- **  Fehler und Unzulänglichkeiten ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  
+# ** -- **  Fehler und Unzulänglichkeiten ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  
+# ** -- **  Fehler und Unzulänglichkeiten ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  
+# ** -- **  Fehler und Unzulänglichkeiten ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  
+
+
+1.	http://localhost:3463/njb_2/wbf_functs/debate_editor.aspx
+	Die Rubrik und der Ort gehen verloren wenn man nach deren Eingabe den Ort wechselt. 
+
+2.	http://localhost:3463/njb_2/wbf_functs/show_details.aspx?item=52cf92d1773e6f825c307829
+	Die Überschrift einer Kurzmitteilung wird nicht angezeigt
+
+3.	Wenn eine Session beendet wurder und man will eine neue Page aufrufen bekommt man folgende Fehlermeldung:
+	Zeile 298:        #
+	Zeile 299:        # insert location-infos from the session-cache. if there is nothing stored yet insert the default to select all
+	Zeile 300:        if self.usrData.userDict.has_key('LCDFNR_MONGOID'):
+	Zeile 301:            self.mongoId = self.usrData.userDict['LCDFNR_MONGOID']
+	Zeile 302:        else:
+	Quelldatei: /njb_2/App_Script/srvcs/tls_UiHelper.py    Zeile: 300
+
+4.	
+
+
+# ** -- **  Fehler und Unzulänglichkeiten ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  
+# ** -- **  Fehler und Unzulänglichkeiten ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  
+# ** -- **  Fehler und Unzulänglichkeiten ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  
+# ** -- **  Fehler und Unzulänglichkeiten ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  ** -- **  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

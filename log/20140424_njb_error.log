@@ -1,0 +1,40 @@
+11:37:26 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_DebateMap.aspx.py", line 209, in insrtLocConfg
+    locLst = self.param['Loc'].strip().split(',')
+AttributeError: 'NoneType' object has no attribute 'strip'
+
+11:37:53 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:37:54 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:37:54 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+11:49:53 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb01__temporary\projector_DebateMap.aspx.py", line 209, in insrtLocConfg
+    locLst = self.param['Loc'].strip().split(',')
+AttributeError: 'NoneType' object has no attribute 'strip'
+
+11:53:45 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb01__temporary\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+11:53:56 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb01__temporary\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+11:53:56 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb01__temporary\projector_debateList.aspx.py", line 127, in hndlUrlParam
+    self.param['ResultLength'] = System.Convert.ToInt32( self.Page.Request.QueryString['ResultLength'])
+SystemError: Die Eingabezeichenfolge hat das falsche Format.
+

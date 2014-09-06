@@ -1,0 +1,70 @@
+08:45:31 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+08:45:33 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+08:45:35 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:14:45 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_DebateMap.aspx.py", line 209, in insrtLocConfg
+    locLst = self.param['Loc'].strip().split(',')
+AttributeError: 'NoneType' object has no attribute 'strip'
+
+13:57:49 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_DebateMap.aspx.py", line 209, in insrtLocConfg
+    locLst = self.param['Loc'].strip().split(',')
+AttributeError: 'NoneType' object has no attribute 'strip'
+
+14:27:55 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_DebateMap.aspx.py", line 209, in insrtLocConfg
+    locLst = self.param['Loc'].strip().split(',')
+AttributeError: 'NoneType' object has no attribute 'strip'
+
+14:29:13 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_DebateMap.aspx.py", line 170, in storeUrlParams
+    self.param['ResultLength'] = System.Convert.ToInt32( self.Page.Request.QueryString['ResultLength'])
+SystemError: Die Eingabezeichenfolge hat das falsche Format.
+
+14:29:13 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_DebateMap.aspx.py", line 209, in insrtLocConfg
+    locLst = self.param['Loc'].strip().split(',')
+AttributeError: 'NoneType' object has no attribute 'strip'
+
+14:31:22 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+14:32:56 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+14:33:46 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+14:33:59 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+14:33:59 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 127, in hndlUrlParam
+    self.param['ResultLength'] = System.Convert.ToInt32( self.Page.Request.QueryString['ResultLength'])
+SystemError: Die Eingabezeichenfolge hat das falsche Format.
+
+14:34:07 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_DebateMap.aspx.py", line 209, in insrtLocConfg
+    locLst = self.param['Loc'].strip().split(',')
+AttributeError: 'NoneType' object has no attribute 'strip'
+

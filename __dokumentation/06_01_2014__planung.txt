@@ -1,0 +1,120 @@
+﻿## !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+##   !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+##     !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+
+02. Im Javascript-Teil :
+	Alle console-Aufrufe herausnehmen und die Alerts auskommentieren. MS-Explorer kompatibilität !!
+
+03 Die in Webformen vorhandenen Klassen in die Datei tls_WbFrmClasses verschieben
+	wbf_activemap/create_map_user.aspx (!!)
+	To get a little more peformance
+
+07. Beim Warten-DIV (mit der GIF-Animation) sollte auch die letzte Warning-Message gehidden werden.
+
+08. Job-Liste :
+	NEIN NEIN NEIN NEIN Wenn keine Stadt/PLZ ausgewählt wurde sollte eine Fehlermeldung kommen  NEIN NEIN 
+	Die Jobliste sollte bei fehlender Location-ID die Einträge aus dem Land / alle internation verfügbaren Jobs anzeigen
+
+09. nejoba LOGO ändern : Beta-Status kenntlich machen !
+
+11. /wbf_activemap/create_map_user.aspx
+	Im Edit-Mode (Änderung des Passwortes wird NICHT angezeigt wenn das Passwort geändert wurde)
+	Wenn man die Form als eingeloggter Benutzer aufruft (Passwort ändern ) wird nicht alles angezeigt.
+
+12. Bei den Jobs wird TagZero nicht verwendet. Das muss beim speichern mit dem Tag für den Job belegt werden. So soll der 
+    JobType auffindbar sein wenn man ohne Location sucht.
+
+12. Nicht erfgolgreiche Anmeldung: 
+	Wenn seitens Masterpage ein LogIn nicht erfolgt ist sollte eine fehlerseite aufgerufen werden.
+
+13. wbf_functs/show_details.aspx?item=52b0a519773e6fc8ac1dfc45
+	show_details zeigt (nachdem eine Job-Ausschreibung neu angelegt wurde) den Header zwei mal an 
+
+14. Es wird keine Fehlermeldung ausgegeben wenn keine Location im Job-editor ausgewählt wurde
+
+17. Paging bei den Jobs einbauen :
+	Ein Parameter in der Web-Config definieren, der angibt wie viele Datensätze angezeigt werden sollen.
+	Die Paging-Buttons einbinden
+	Der letze angezeigte Datensatz wird im ViewState gespeichert.
+
+
+##     !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+##   !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+## !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+
+
+
+
+
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+##  ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##    ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##      ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+
+01. http://localhost:3463/njb_2/wbf_account/user_abonnement.aspx
+	WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!
+	Nochmal checken ob beim Löschen eines Beitrages auch alle Abos gelöscht werden. Scheint nicht so zu sein !!!
+	WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!
+
+05 Headline-Beschreibungen / Erklärungen kommentieren
+	Kommentare und kurzhilfen zu den einzelnen Fenstern neu schreiben [stefan]
+
+
+06 Das teilen (FB- oder Diaspora JS sharing) funktioniert noch NICHT:
+	Folgender Link wird immer wieder ausgespuckt : SliceActive=0, danach dann nix mehr
+
+15. Die Überprüfung der Location im wbf_functs/debate_editor.aspx : 
+	Wenn eine location eingegeben wurde wird die Fehler-Statusmeldung nicht ausgeblendet
+
+
+16. http://localhost:3463/njb_2/wbf_functs/show_for_stranger.aspx?item=52bd1ffc773e6f0ff8acbca7
+	Bei einem Foreneintrag wird in show for strangers nicht die Überschrift angezeigt !! Bei der Job-Börse funktioniert es.
+	Über der Info-Box wie im debate-article-editor
+
+
+##      ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##    ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##  ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+##   work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+##     work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+
+
+
+
+
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+
+##     work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+##   work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+## work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+
+
+
+

@@ -1,0 +1,5 @@
+10:44:49 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4127, in idxLstWithoutPreConditions
+    if country[0:2] != coutryOfRow[0:2] : addFlg = False
+TypeError: 'NoneType' object is unsubscriptable
+

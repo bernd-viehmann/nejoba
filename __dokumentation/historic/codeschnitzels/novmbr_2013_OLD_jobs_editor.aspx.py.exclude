@@ -1,0 +1,124 @@
+#  
+# editor.aspx.py 
+#  
+# the webform is used for creating new job offers for the community. user can define the location, the typ of the job and the time of action
+#  
+#
+#  03.10.2012   bevie    initial realese
+#  13.01.2013   bevie    redesign to new Item_class partition
+#
+#
+#  
+from System.Web.Configuration import *
+import System.DateTime
+import System.Drawing.Color
+import System.Web.UI.WebControls
+import System.Guid
+import traceback                    # for better exception understanding
+import re                           # for finding the taggs
+import mongoDbMgr                   # father : the acces to the database
+
+from srvcs.ItemJobRoot import *
+
+
+tool = ItemJobRoot( Page )
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------##__aspn.net ------------------------------------------------
+# ***********************************************************************************************************************************************
+# Page_Load        : initializer of the webpage
+#
+# 18.03.2012  - bervie -     initial realese
+# ***********************************************************************************************************************************************
+def Page_Load(sender, e):
+    try:
+        # hide the main-user-interface after a button-click and show  a please-wait sedativ
+        tool.ui.getCtrlTree( Page.Master )
+        tool.ui.hideFormAfterClick()
+
+        tool.errorMessage('')
+
+        if( not Page.IsPostBack ):
+            # user must be logged in
+            tool.usrDt.checkUserRigths( Page, 'free' )
+
+            # fill locations-dropdown
+            locations = tool.usrDt.getItem('cities')
+            tool.log.w2lgDvlp( ' Location for dropdown : ' + unicode(locations) )
+            selLocations = tool.ui.getCtrl('sel_lctn')
+            tool.fillUserLocations( selLocations, locations )
+
+            # fill the job-type-dropdown
+            selTypeOfJob = tool.ui.getCtrl('sel_type')
+            tool.fillJobTypes(selTypeOfJob, 'DE')
+
+            # store the type to select in the job-dropdown
+            typeOfJob = Page.Request.QueryString['class']
+            if typeOfJob:
+                selTypeOfJob.SelectedValue = typeOfJob
+                Page.ViewState['JOB_TYPE'] = typeOfJob
+            
+
+
+
+    except Exception,e:
+        tool.log.w2lgError(traceback.format_exc())
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------##__handler ------------------------------------------------
+# ***********************************************************************************************************************************************
+# usrLoggedIn      : called after user succesfully logged in
+#
+# 18.11.2012  - bervie -     initial realese
+# ***********************************************************************************************************************************************
+def HndlrButtonClick(sender, e):
+    try:
+        urlNext = None
+
+        if sender.ID == 'btn_Save':
+            # was all needed stuff given?
+            if checkInput() is False:
+                return
+
+            newId = tool.save()
+            urlNext = WebConfigurationManager.AppSettings['ViewDetailForm'] + '?item=' + unicode( newId )
+            tool.log.w2lgDvlp( ' jobs_editor_save redirects to  : ' + unicode(urlNext) )
+
+    except Exception,e:
+        tool.log.w2lgError(traceback.format_exc())
+
+    if urlNext != None :
+        Response.Redirect( Page.ResolveUrl( urlNext ) )
+
+
+
+
+# ***********************************************************************************************************************************************
+# checkInput : check users input jobtype must be selcted
+#
+# 29.11.2011    bervie  initial realese
+# 08.02.2013    bervie  removed txtMain-Check on wish of stefan. user should be able to use only the header as complete text
+# ***********************************************************************************************************************************************
+def checkInput():
+    try:
+        if tool.ui.getCtrl('sel_type').SelectedIndex == 0:
+            errStr = tool.ui.getCtrl('msg_slectJobType').Text  
+            tool.errorMessage( errStr )
+            return False
+
+        if len(tool.ui.getCtrl('txbHeader').Text) < 1:
+            errStr = tool.ui.getCtrl('msg_defineHeader').Text  
+            tool.errorMessage( errStr )
+            return False
+
+        #if len(tool.ui.getCtrl('txtMain').Text) < 1:
+        #    errStr = tool.ui.getCtrl('msg_defineJobDescription').Text  
+        #    tool.errorMessage( errStr )
+        #    return False
+    
+        return True
+
+
+    except Exception,e:
+        tool.log.w2lgError(traceback.format_exc())

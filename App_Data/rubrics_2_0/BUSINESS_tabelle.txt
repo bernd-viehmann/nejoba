@@ -1,0 +1,116 @@
+BUSINESS  BUSINESS  BUSINESS  BUSINESS  BUSINESS  BUSINESS  BUSINESS  BUSINESS  BUSINESS  BUSINESS  BUSINESS  BUSINESS  
+Branchenbuch
+
+	
+Handel
+	allgemeiner Bedarf
+		Lebensmittel
+		Drogerieartikel
+	Einzelhandel
+		Spielwaren
+		Technik
+			Photo
+			Kommunikation
+			EDV
+		Photo und Video
+		Auto
+	Märkte
+
+Dienstleistung
+	Medizin und Pflege
+	Juristen
+	Geldgeschäfte
+		Steuerberater
+		Vermögensberatung
+		Börsenhandel
+	Bildung
+	Beratung
+	Verkehr und Reisen
+		Personenbeförderung
+	
+ 	
+Handwerk
+	Heim und Bau
+		Malerarbeiten
+		Gerüstbau
+		Maurer
+		Fliesenleger
+		Heizung
+		Elektrotechnik
+	Garten
+		Gartenbauer
+		Gartengestalltung
+		Pflasterer
+		Gartenarchitekt
+	Werkstatt
+		Auto,Motorad,Lkw
+		Fahrad
+		Elektrotechnik
+		Polsterer
+		
+	Kunsthandwerk
+		Schmuck
+			Goldschmied
+		Malerei
+		Bidhauer
+
+Behörden 
+	Strassenverkehrsamt
+	Arbeitsamt
+	Bürgerbüro
+	Einwohnermeldeamt
+	
+		
+Soziales
+	Altenpflege
+	Kinderbetreuung
+	Gesundheitswesen
+	
+	
+
+Freizeit
+	Sport und Fitness
+		Vereine
+		Sportstätten
+			Fitness-Strudio
+			Tennisplatz
+			Sporthalle
+	Gatronomie
+		Restaurant
+			FastFood
+				McDonalds
+				KFC
+				Burgerking
+				Grillmaster
+				Grillkönig
+			internationalle Küche
+				Grieche
+				Türke
+				Japaner
+				Spanier
+				Portugiese
+				Mediteran
+				Deutsch
+		Imbiss
+			Würstchenbude
+			mobiler Verkauf
+			Pommes-Bude
+			Curry-Wurst
+		Gaststätte
+			Kneipe
+			Bistrot
+	Spielen
+		Freizeitpark
+		Spielplatz
+		
+		Casino
+		Automatenspielhalle
+		Spielhaus für Familien
+	Hotellerie und Touristik
+	Hobby
+		Haustiere
+		Technik
+
+
+
+

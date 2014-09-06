@@ -1,0 +1,389 @@
+#  
+# joblist : MOST IMPORTANT WEBFORM 
+#           displays a list with jobs and makes them accesible
+#  
+# 16.11.2012        bv      started wit srious working
+#  
+#  HINT:  
+#   
+#  the webform uses the view-state to store all jobs for this webform.
+#  it displays only a part of it
+#
+# 
+import System.Data
+import System.Collections
+import clr
+import traceback                    # for better exception understanding
+import mongoDbMgr                   # father : the acces to the database
+from System import UriPartial
+from srvcs.ctrl_ItemClasses import *
+
+tool = mongoDbMgr.mongoMgr(Page)
+
+searchPattern = Page.Session['SEARCH_JOBS']
+Page.ViewState['SEARCH_JOBS'] = searchPattern
+Page.Session['SEARCH_JOBS']   = None
+search = Page.Request.QueryString['search']
+
+destUrl = None
+if not tool.usrDt.isLoggedIn():
+    destUrl = WebConfigurationManager.AppSettings['DetailsForStrangers']        # use the detail-viewer for visitors that aren't looged in
+else:
+    destUrl = WebConfigurationManager.AppSettings['AddToTrialThread']           # go to detail-viewer for logged in users
+
+# ### handler ############################################################################################################################################################################################################################################################
+
+# ***********************************************************************************************************************************************
+# Page_Load        : initializer of the webpage
+#
+# 07.01.2013  - bervie -     initial realese
+# ***********************************************************************************************************************************************
+def Page_Load(sender, e):
+    try:
+        # hide the main-user-interface after a button-click and show  a please-wait sedativ
+        tool.ui.getCtrlTree( Page.Master )
+        tool.ui.hideFormAfterClick()
+
+        if not Page.IsPostBack:
+            # the webforms debate_list.aspx and jobs_list.aspx can be called from different forrunners
+            #
+            # 1. the form can be called directly from the main-menue. than the location is given from user-configuration
+            #    in that case we have no URL-parameter "search=custom" 
+            #    the page_load function must check if user is already logged-in.
+            #
+            # 2. the user is a visitor. he is not logged in and the webform was called from the search-preselection-webform
+            #    the webform has an URL-parameter "search=custom" 
+            #    it can be viewed from any visitor. nor user-login check will be peformed
+            #
+            #    search = Page.Request.QueryString['search']
+            #
+            if not search:
+                tool.usrDt.checkUserRigths( Page, 'free' )
+
+            # fill the job-type-dropdown
+            selTypeOfJob = tool.ui.getCtrl('sel_type')
+            tool.fillJobTypes(selTypeOfJob, 'DE')
+
+            LoadDataIntoCtrls()         # insert list with locations and selected the type of job in the job-type select
+            LoadJobList()
+
+    except Exception,e:
+        tool.log.w2lgError(traceback.format_exc())
+
+
+# ***********************************************************************************************************************************************
+# HandlBtnClick   : handler for button-clix
+#
+# 07.01.2013  - bervie -     initial realese
+# ***********************************************************************************************************************************************
+def HandlBtnClick( sender,e ):
+    url = None
+    try:
+        url = None
+        buttonId = sender.ID
+
+        if 'createList' in buttonId:
+            # after parameter in dropdowns were changed list can be updated with this button
+            pass
+
+        elif 'changeLocation' in buttonId:
+            # go back to the debate_search-webform to change search-parameter
+            url = WebConfigurationManager.AppSettings["SearchJob"]
+            
+        elif 'openJobTrial' in buttonId:
+            # tool.log.w2lgDvlp( 'job_list-> openJobTrial was klicked : ' + sender.ClientID.ToString() )
+            #open the job-trial editor
+
+            clntIdComponents = sender.ClientID.ToString().split('_')
+            arrIdx = clntIdComponents[4]
+            dbIds = Page.ViewState['IdList']
+            listIdx = dbIds[ int(arrIdx) ]
+            # tool.log.w2lgDvlp( 'Index  in db-array     : ' + str(arrIdx) )
+            # tool.log.w2lgDvlp( 'Index  for cache-table : ' + str(listIdx) )
+
+            url = WebConfigurationManager.AppSettings['AddToTrialThread']               # search for debates
+            if not tool.usrDt.isLoggedIn():
+                url = WebConfigurationManager.AppSettings['DetailsForStrangers']   # use view-detail-dialog for not logged in users
+            url += '?item=' + listIdx
+
+        elif 'btn_Save' in buttonId:
+            LoadJobList()
+
+    except Exception,e:
+        tool.log.w2lgError(traceback.format_exc())
+
+    if url != None:
+        Response.Redirect( Page.ResolveUrl( url ) )
+
+
+
+
+# ### Data-Handling ############################################################################################################################################################################################################################################################
+
+
+# ***********************************************************************************************************************************************
+# LoadDataIntoCtrls   : fill controlls with data
+#                       if called from search-webform the session.cache object will be used
+#                       else the function uses the locations from the user-session-data-object
+#
+#
+#
+# 07.01.2013  - bervie -     initial realese
+# ***********************************************************************************************************************************************
+def LoadDataIntoCtrls():
+    try:
+        # if url-PARAM search was given the webform loads the list filtered by the settings from debate_search-webform
+            
+        if search == 'custom' :
+            LoadSettingsFromSearch()
+
+        # if no param given the function loads the settings for the logged in user
+        else:
+                #tool.usrDt.checkUserRigths(Page, 'free')       # user-specific search only makes sence if a user is logged - in
+                LoadLoctnsFromUser()                           # get data from the user-session-cache-data
+
+    except Exception,e:
+        tool.log.w2lgError(traceback.format_exc())
+
+
+
+
+# ***********************************************************************************************************************************************
+# LoadSettingsFromSearch   : get the settings for filtering the list from the session-var published by "search"-webform
+#
+# 08.01.2013  - bervie -     initial realese
+# ***********************************************************************************************************************************************
+def LoadSettingsFromSearch():
+    try:
+        # get data from the SEARCH_PATTERN 
+        drpDwn = tool.ui.getCtrl('sel_lctn')
+        for cityRow in searchPattern['cities']:
+            itmText = cityRow[3].ToString() + ' ' + cityRow[4].ToString() + '     [' + cityRow[2].ToString() + ']'          # 41836 Hueckelhoven [DE]
+            itmVal = cityRow[1].ToString()                                                                                  # mongo_id
+            lstItem = System.Web.UI.WebControls.ListItem( itmText, itmVal )
+            # tool.log.w2lgDvlp( 'thing_list->LoadLoctnsFromUser adding to sel_lctn DropDownBox   : ' + itmText + ' - ' + itmVal )
+            drpDwn.Items.Add( lstItem )
+
+        # preselect the jobtype
+        drpDwn = tool.ui.getCtrl('sel_type')
+        drpDwn.SelectedValue = searchPattern['jobtype']
+
+
+    except Exception,e:
+        tool.log.w2lgError(traceback.format_exc())
+
+
+# ***********************************************************************************************************************************************
+# LoadLoctnsFromUser   : get the locations from user-session-data and write it into the drop-down-box
+#
+# 07.01.2013  - bervie -     initial realese
+# ***********************************************************************************************************************************************
+def LoadLoctnsFromUser():
+    try:
+        drpDwn = tool.ui.getCtrl('sel_lctn')
+        cities = tool.usrDt.userDict['cities']
+
+        for item in cities:
+            mongoId = item.ToString()
+            rowFnd = tool.geoSrc.locTable.Rows.Find(mongoId)
+            itmText = rowFnd[3].ToString() + ' ' + rowFnd[4].ToString() + '     [' + rowFnd[2].ToString() + ']'          # 41836 Hueckelhoven [DE]
+            itmVal =  rowFnd[1].ToString()                                                                                  # mongo_id
+            lstItem = System.Web.UI.WebControls.ListItem( itmText, itmVal )
+            drpDwn.Items.Add( lstItem )
+            # tool.log.w2lgDvlp( 'jobs_list->LoadLoctnsFromUser try to load locations for ' + itmText.ToString() + ' - ' + itmVal.ToString() )
+
+    except Exception,e:
+        tool.log.w2lgError(traceback.format_exc())
+
+
+# ***********************************************************************************************************************************************
+# LoadJobeList   : load a list with debates filtered by controll-data
+#
+# 07.01.2013  - bervie -     initial realese
+# ***********************************************************************************************************************************************
+def LoadJobList():
+    try:
+        tagTable    = tool.appCch.dtSt.Tables["itemTags"]
+        itemTable   = tool.appCch.dtSt.Tables["items"]
+        resultTble  = itemTable.Clone()                                                                 # destination-table connected with the repeater
+
+        #minAmount = System.Convert.ToInt16( WebConfigurationManager.AppSettings["MinNumOfJobs"] )       # min of results that should be displayed
+        #jobTyp = tool.ui.getCtrl('sel_type').SelectedValue.ToString()           # get the wanted job-type from the job-type dropdown box
+
+        # if jobtype is selected we have to filter the results
+        selectJobType = tool.ui.getCtrl('sel_type')
+
+        if selectJobType.SelectedIndex > 0:
+            LoadJobsOfType()
+
+            #selectLocation = tool.ui.getCtrl('sel_lctn')
+            #selItmTxtArry = selectLocation.SelectedItem.Text.lower().split(' ')
+            #selStrng = selItmTxtArry[0] + '|' + selItmTxtArry[1]
+
+            #tool.log.w2lgDvlp( 'location selected in /wbf_functs/jobs_list.aspx->LoadJobList : ' + selStrng )
+
+        # if no job was selected we load all stuff
+        else:
+            LoadAllJobs()
+
+    except Exception,e:
+        tool.log.w2lgError(traceback.format_exc())
+
+
+
+
+
+
+# ******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+# LoadAllJobs   : when no job-type is selected this function loads all jobs for a given region
+#
+# 19.04.2013  - bervie -     initial realese
+# 
+# ***********************************************************************************************************************************************
+def LoadAllJobs():
+    try:
+        # 1. search-parameter from the UI
+        #    locations : get the selected location
+        tagTable    = tool.appCch.dtSt.Tables["itemTags"]
+        itemTable   = tool.appCch.dtSt.Tables["items"]
+        resultTble  = itemTable.Clone()
+        minAmount = System.Convert.ToInt16( WebConfigurationManager.AppSettings["MinNumOfDebates"] )
+
+        # 2. create a list o0f locations ordered by the distance from selected value
+        selectLocation = tool.ui.getCtrl('sel_lctn')
+        locList = []
+        for itm in selectLocation.Items : locList.Add( itm.Value.ToString() )
+
+        # helper-array to store all mongo-ids we have loaded from item-table
+        idList = []
+
+        for location in locList:
+            # select all jobs in this area
+            rows = tool.appCch.dtVwLoctn.FindRows( location )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            for row in rows:
+                if row['objectType'] == 0:              # get all jobs
+                    resultTble.ImportRow(row.Row)
+                    idList.Add( row['_ID'].ToString() )
+
+                    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+                    # tagZero will contain the link-address to open a detailview
+                    # added 11-08-2013 bervie
+                    itmLnk = destUrl + '?item=' + row['_ID'].ToString()
+                    resultTble.Rows[resultTble.Rows.Count - 1]['tagZero'] = itmLnk
+                    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+
+
+
+
+
+
+
+
+
+            if len(idList) >= minAmount : break
+
+        # store ids in order of apperance in the table into an array. we will get the _id by calling the index of this array
+        Page.ViewState['IdList'] = idList            
+
+        # 3. bind repeater to result data-table
+        if resultTble.DefaultView.Count == 0:
+            # no data was found
+            tool.errorMessage('<br/><br/>Es wurden keine Daten gefunden !<br/><br/><br/>')
+        else:
+            # bind repeater to result data-table
+            repeater = tool.gtCtl('repJobList')
+            repeater.DataSource = resultTble.DefaultView
+            repeater.DataBind()
+
+    except Exception,e:
+        tool.log.w2lgError(traceback.format_exc())
+
+
+
+
+
+# ***********************************************************************************************************************************************
+# LoadJobsOfType   : load a list with jobs matching a given job-type
+#
+# 19.04.2013  - bervie -     initial realese
+# ***********************************************************************************************************************************************
+def LoadJobsOfType():
+    try:
+        # get selected location from the dropdown 
+        selectLocation = tool.ui.getCtrl('sel_lctn')
+        selLoc = tool.taggs.getIndexForLocString(selectLocation.SelectedValue)
+
+        selectJobType = tool.ui.getCtrl('sel_type')
+        jobType = jobTypeSelcted = selectJobType.SelectedValue
+
+        tgLst = tool.ui.convertTagsFromInput(jobType)
+        #for tag in tgLst : 
+        #    tool.log.w2lgDvlp( 'tag used for query in LoadDebateList : ' +  unicode(tag) )
+
+        # 10-04-2012
+        # False for loadBaseItems : items of tags are OR-combined
+        # itmIds = tool.taggs.loadBaseItems( locSlct, tgLst, False ) # ++++++++++++++++++++++++++++++++++++++++++++++++
+        # True for loadBaseItems : items of tags are AND-combined
+        itmIds = tool.taggs.loadBaseItems( selLoc, tgLst, False )
+
+        itemTable   = tool.appCch.dtSt.Tables["items"]
+        resultTble  = itemTable.Clone()
+
+        for itm in itmIds:
+            row = itemTable.Rows.Find(itm)
+            resultTble.ImportRow(row)
+
+        # store ids in order of apperance in the table into an array. we will get the _id by calling the index of this array
+        Page.ViewState['IdList'] = itmIds
+
+        if resultTble.DefaultView.Count == 0:
+            # no data was found
+            tool.errorMessage('<br/><br/>Es wurden keine Daten gefunden !<br/><br/><br/>')
+        else:
+            # bind repeater to result data-table
+            repeater = tool.gtCtl('repJobList')
+            repeater.DataSource = resultTble.DefaultView
+            repeater.DataBind()
+
+    except Exception,e:
+        tool.log.w2lgError(traceback.format_exc())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+08:47:41 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\wbf_account\user_home.aspx.py", line 81, in Page_Load
+    tool.usrDt.checkUserRigths( Page, 'free')
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_UserData.py", line 304, in checkUserRigths
+    pge.Response.Redirect(urlNext)
+SystemError: Der Thread wurde abgebrochen.
+

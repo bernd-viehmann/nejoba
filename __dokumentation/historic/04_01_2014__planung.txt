@@ -1,0 +1,78 @@
+﻿## !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+##   !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+##     !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+
+03. http://localhost:3463/njb_2/wbf_functs/show_for_stranger.aspx?item=52bd1ffc773e6f0ff8acbca7
+	Bei einem Foreneintrag wird in show for strangers nicht die Überschrift angezeigt !! Bei der Job-Börse funktioniert es.
+	Über der Info-Box wie im debate-article-editor
+
+04. http://localhost:3463/njb_2/wbf_functs/job_trial_editor.aspx?item=52ca5820773e6f0fbc9554f9&offerer=c8377fbd22624d999c6708174ef3b4cc
+	Der Auftragnehmer bekommt keine email wenn der Auftraggeber geantwortet hat !
+
+
+##     !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+##   !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+## !! DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   DONE   
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+##  ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##    ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##      ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+
+01. http://localhost:3463/njb_2/wbf_account/user_abonnement.aspx
+	WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!
+	Nochmal checken ob beim Löschen eines Beitrages auch alle Abos gelöscht werden. Scheint nicht so zu sein !!!
+	WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!WICHTIG !!!
+
+02. Das teilen (FB- oder Diaspora JS sharing) funktioniert noch NICHT:
+	Folgender Link wird immer wieder ausgespuckt : SliceActive=0, danach dann nix mehr
+
+
+##      ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##    ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+##  ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@ ToDos @@@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+##   work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+##     work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+
+
+
+
+
+
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  
+
+##     work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+##   work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+## work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress @@@ work_in_progress
+
+
+
+

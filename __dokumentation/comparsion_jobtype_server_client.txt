@@ -1,0 +1,45 @@
+Server Beispiel
+/* 9 */
+{
+  "_id" : ObjectId("5214bf47e444b66ca087f5ca"),
+  "creationTime" : ISODate("2013-08-21T13:23:19.484Z"),
+  "till" : ISODate("0001-01-01T00:00:00Z"),
+  "_rootElemGUID" : "67ff08f834c144159090a69e24c96b33",
+  "_locationID" : "50c23433773e6f12e00754ee",
+  "_objectDetailID" : ObjectId("5214bf47e444b66ca087f5c9"),
+  "_creatorGUID" : "9a5ed795738d4c7697390554762bc94f",
+  "_parentID" : null,
+  "from" : ISODate("0001-01-01T00:00:00Z"),
+  "nickname" : "neJOBa Admin",
+  "locationname" : "41836 Hückelhoven",
+  "_followerID" : null,
+  "_hostGUID" : "BlueBerry",
+  "tagZero" : null,
+  "taggingLabels" : ["§*jtd01_craft"],
+  "objectType" : 0,
+  "lon" : null,
+  "lat" : null
+}
+
+
+Neuste Version/* 2 */
+{
+  "_id" : ObjectId("5295d76d773e6f0138dc6340"),
+  "creationTime" : ISODate("2013-11-27T11:28:45.247Z"),
+  "till" : ISODate("0001-01-01T00:00:00Z"),
+  "_rootElemGUID" : "0f11e48f042c4cc1997964a870c18435",
+  "_locationID" : "50c23447773e6f12e0075554",
+  "_objectDetailID" : ObjectId("5295d76d773e6f0138dc633f"),
+  "_creatorGUID" : "d7c0ffdbe48e4a6a8e00caf7321bd4bc",
+  "_parentID" : null,
+  "from" : ISODate("0001-01-01T00:00:00Z"),
+  "_followerID" : null,
+  "locationname" : "52222",
+  "nickname" : "Harald Fleischbrötchen",
+  "_hostGUID" : "BlueBerry",
+  "tagZero" : null,
+  "taggingLabels" : ["§*jtd01_transport"],
+  "objectType" : 0,
+  "lon" : null,
+  "lat" : null
+}

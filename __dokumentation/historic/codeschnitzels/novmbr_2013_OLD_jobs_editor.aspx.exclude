@@ -1,0 +1,143 @@
+﻿<%@ Page Title="" Language="IronPython" MasterPageFile="../MasterPage.master" AutoEventWireup="true" CodeFile="OLD_jobs_editor.aspx.py" validateRequest="false"%>
+
+<asp:Content ID="ContentHead" ContentPlaceHolderID="head" Runat="Server">
+    <script src="<%# ResolveUrl("~/style/tinymce/js/tinymce/tinymce.min.js") %>" type="text/javascript"></script>
+</asp:Content>
+
+<asp:Content ID="ContentTop" ContentPlaceHolderID="CoPlaTop" Runat="Server">
+</asp:Content>
+
+<asp:Content ID="ContentBottom" ContentPlaceHolderID="CoPlaBottom" Runat="Server">
+
+    <div class="row">
+        <div class="accordion" id="Div1">
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseHeader" >
+                        <h4>Ausschreibung erstellen</h4>
+                    </a>
+                </div>
+                <div id="collapseHeader" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <h5>
+                            <asp:Label ID="Label2" runat="server" Text="Jobs in deiner Umgebung "></asp:Label>
+                        </h5>
+                        <br />
+                        <asp:Label ID="Label10" runat="server" Text="Frag deine Nachbarschaft um Hilfe und stelle einen Job ein." />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <div class="span1"></div>
+            <div class=" span10" style="background-color:White;">
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/style/pic/jobmarket_head.jpg" ImageAlign="Middle" />
+            </div>
+            <div class="span1"></div>
+        </div>
+    </div>
+
+        <!-- # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+        <!-- # #   Heading                                                                                                                                                                                                     # # # -->
+        <!-- # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+        <div ID="SetUpFiltering" runat="server">
+            <!-- # # #  HEADER for tuning search-results # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+            <div class="span5">
+                <h3><asp:Label ID="lbl_head" runat="server" Text="Arbeit vergeben" /></h3>
+                <br />
+                <asp:Image ID="Image1" runat="server" class="img-polaroid" ImageUrl="~/style/pic/searchHelp.png" ToolTip="Bei dir gibt es etwas zu tun " />
+                        
+            </div>
+            <div class="span6 offset1">
+                <h5><asp:Label ID="Label5" runat="server" Text="Arbeitsbereich" /></h5>
+                <asp:DropDownList ID="sel_type" runat="server" class="span10"/>
+
+                <h5><asp:Label ID="Label4" runat="server" Text="Ort" /></h5>
+                <asp:DropDownList ID="sel_lctn" runat="server" class="span10" />
+
+                <br /><br />
+                <asp:Label ID="Label6" runat="server" Text="W&auml;hle oben den Arbeitsbereich aus. Gib an, in welchem Ort dies zu erledigen ist und beschreibe unten zumindest mit einer kurzen &Uuml;berschrift was zu tun. " />
+                <br /><br />
+                <asp:Button ID="btn_Save" runat="server" class="btn btn-large btn-primary" Text="Arbeit vergeben" onclick="HndlrButtonClick" ToolTip="Ver&ouml;ffentliche eine Anfrage auf Job-Börse oder biete eine Arbeit an." />
+            </div>
+        </div>
+
+        <div class="span12"><br /><br /></div>
+
+
+        <!-- # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+        <div id="divEditArea" runat="server">
+            <h5><asp:Label ID="Label1" runat="server" class="span12" Text="Kurze Erklärung (Pflichtfeld)"></asp:Label></h5>
+            <asp:TextBox ID="txbHeader" runat="server" class="span12" ></asp:TextBox>
+            <!-- # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+
+            <h5><asp:Label ID="lbl_hint" runat="server" Text="Genauere Beschreibung (optional)"></asp:Label></h5>
+            <asp:TextBox runat="server" ID="txtMain" TextMode="MultiLine" Rows="15" style="width:100%"></asp:TextBox>
+        </div>
+        <!-- # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+        <!-- # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # -->
+
+    <script type="text/javascript">
+        function ResolveUrl(url) {
+            if (url.indexOf("~/") == 0) {
+                url = baseUrl + url.substring(2);
+            }
+            return url;
+        }
+
+//        tinyMCE.init({
+//            // General options
+//            mode: "textareas",
+//            theme: "advanced",
+//            plugins: "autolink,lists,spellchecker,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template",
+
+//            // Theme options
+//            theme_advanced_buttons1: "save,newdocument,|,bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,styleselect,formatselect,fontselect,fontsizeselect",
+//            theme_advanced_buttons2: "cut,copy,paste,pastetext,pasteword,|,search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,anchor,image,cleanup,help,|,insertdate,inserttime,preview,|,forecolor,backcolor",
+//            theme_advanced_buttons3: "tablecontrols,|,hr,removeformat,visualaid,|,sub,sup,|,charmap,emotions,iespell,media,advhr,|,print,|,ltr,rtl,|,fullscreen",
+//            theme_advanced_buttons4: "insertlayer,moveforward,movebackward,absolute,|,styleprops,spellchecker,|,cite,abbr,acronym,del,ins,attribs,|,visualchars,nonbreaking,template,blockquote,pagebreak,|,insertfile,insertimage",
+//            theme_advanced_toolbar_location: "top",
+//            theme_advanced_toolbar_align: "left",
+//            theme_advanced_statusbar_location: "bottom",
+//            theme_advanced_resizing: true,
+
+//            // Skin options
+//            skin: "o2k7",
+//            skin_variant: "silver",
+
+//            // Example content CSS (should be your site CSS)
+//            content_css: ResolveUrl("http://ajax.aspnetcdn.com/ajax/bootstrap/2.3.2/css/bootstrap.min.css"),
+
+//            // Drop lists for link/image/media/template dialogs
+//            template_external_list_url: "js/template_list.js"
+//        });
+
+        tinymce.init({
+            selector: "textarea",
+            plugins: [
+                "advlist autolink lists link image charmap print preview anchor",
+                "searchreplace visualblocks code fullscreen",
+                "insertdatetime media table contextmenu paste "
+            ],
+            toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
+            language: 'de'
+        });
+
+    </script>
+    
+    
+
+<div class="thehidden">
+    <!-- hidden textfields used for statusmessages from the server (easier internationalization of the text -->
+    <asp:Label ID="msg_slectJobType" runat="server" Text="Bitte w&auml;hle einen Arbeitsbereich für Deine Anfrage aus" ></asp:Label>
+    <asp:Label ID="msg_defineHeader" runat="server" Text="Du hast keine &Uuml;berschrift angegeben" ></asp:Label>
+    <asp:Label ID="msg_defineJobDescription" runat="server" Text="Es fehlt noch die Beschreibung der Arbeit" ></asp:Label>
+</div>
+    
+    
+</asp:Content>
+

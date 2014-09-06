@@ -1,0 +1,83 @@
+12:21:10 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:21:12 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:21:13 | erro  -   LocDefiner->setLocByInpt : no location found for countryCode : * ;cityIdentifier : münster
+12:21:17 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:21:19 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:21:25 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:21:27 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:21:29 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:21:30 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:21:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:21:33 | erro  -   LocDefine.getMongoId : location not found ! country-code : LI ; waldniel
+12:21:33 | erro  -   LocDefiner->setLocByInpt : no location found for countryCode : LI ;cityIdentifier : waldniel
+12:22:01 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:22:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:22:09 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:22:11 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:22:13 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:22:15 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:22:19 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+

@@ -1,0 +1,135 @@
+    <add key="EventMatrixDefinition" value="~/App_Data/rbrcs" />
+    <add key="LocationMatrixDefinition" value="~/App_Data/LOCATION_MATRIX.txt" />
+    <add key="AnnonceMatrixDefinition" value="~/App_Data/ANNONCE_MATRIX.txt" />
+    <add key="InitiativeMatrixDefinition" value="~/App_Data/INITIATIVE_MATRIX.txt" />
+    <add key="BusinessMatrixDefinition" value="~/App_Data/BUSINESS_MATRIX.txt" />
+
+	
+	
+	
+	[ANNONCE_MATRIX] Kleinanzeigen 
+	[ASSOCIATION_MATRIX] Vereine 
+	[BUSINESS_MATRIX] Branchenbuch 
+	[DEMOCRACY_MATRIX] Mitmachdemokratie
+	[EVENT_MATRIX] Veranstalltungskalender 
+	[HOBBY_MATRIX] Hobby Verzeichniss 
+	[INITIATIVE_MATRIX] Initiativen 
+	[LOCATION_MATRIX] interessante Orte (POI) 
+	[LONELY_HEARTS_AD_MATRIX] Kontaktanzeigen 
+	[PET_MATRIX] Haustier-Infos
+	[RIDE_SHARING_MATRIX] Fahrgemeinschaften 
+	[STARTUP_MATRIX] Gründungen und Neueröffnungen 
+	[SWAP_MATRIX] Tauschen und Schenken 
+
+	
+
+'ANNONCE' : 'ANNONCE_MATRIX' ,
+'ASSOCIATION' : 'ASSOCIATION_MATRIX' ,
+'BUSINESS' : 'BUSINESS_MATRIX' ,
+'DEMOCRACY' : 'DEMOCRACY_MATRIX' ,
+'EVENT' : 'EVENT_MATRIX' ,
+'HOBBY' : 'HOBBY_MATRIX' ,
+'INITIATIVE' : 'INITIATIVE_MATRIX' ,
+'LOCATION' : 'LOCATION_MATRIX' ,
+'LONELY_HEARTS_AD' : 'LONELY_HEARTS_AD_MATRIX' ,
+'PET' : 'PET_MATRIX' ,
+'RIDE_SHARING' : 'RIDE_SHARING_MATRIX' ,
+'STARTUP' : 'STARTUP_MATRIX' ,
+'SWAP' : 'SWAP_MATRIX' ,
+
+
+ANNONCE_MATRIX
+ASSOCIATION_MATRIX
+BUSINESS_MATRIX
+DEMOCRACY_MATRIX
+EVENT_MATRIX
+HOBBY_MATRIX
+INITIATIVE_MATRIX
+LOCATION_MATRIX
+LONELY_HEARTS_AD_MATRIX
+PET_MATRIX
+RIDE_SHARING_MATRIX
+STARTUP_MATRIX
+SWAP_MATRIX
+
+Aus m Matrix-Manager
+
+
+        switch (typeButtonPressed) {
+			case "CoPlaBottom_hyli_select_ANNONCE":
+				matrix.tagPrefix = 'ANNONCE';
+				break;
+
+			case "CoPlaBottom_hyli_select_ASSOCIATION":
+				matrix.tagPrefix = 'ASSOCIATION';
+				break;
+
+			case "CoPlaBottom_hyli_select_BUSINESS":
+				matrix.tagPrefix = 'BUSINESS';
+				break;
+
+			case "CoPlaBottom_hyli_select_DEMOCRACY":
+				matrix.tagPrefix = 'DEMOCRACY';
+				break;
+
+			case "CoPlaBottom_hyli_select_EVENT":
+				matrix.tagPrefix = 'EVENT';
+				break;
+
+			case "CoPlaBottom_hyli_select_HOBBY":
+				matrix.tagPrefix = 'HOBBY';
+				break;
+
+			case "CoPlaBottom_hyli_select_INITIATIVE":
+				matrix.tagPrefix = 'INITIATIVE';
+				break;
+
+			case "CoPlaBottom_hyli_select_LOCATION":
+				matrix.tagPrefix = 'LOCATION';
+				break;
+
+			case "CoPlaBottom_hyli_select_LONELY_HEARTS_AD":
+				matrix.tagPrefix = 'LONELY_HEARTS_AD';
+				break;
+
+			case "CoPlaBottom_hyli_select_PET":
+				matrix.tagPrefix = 'PET';
+				break;
+
+			case "CoPlaBottom_hyli_select_RIDE_SHARING":
+				matrix.tagPrefix = 'RIDE_SHARING';
+				break;
+
+            case "CoPlaBottom_hyli_select_STARTUP":
+                matrix.tagPrefix = 'STARTUP';
+                break;
+
+            case "CoPlaBottom_hyli_select_SWAP":
+                matrix.tagPrefix = 'SWAP';
+                break;
+
+            default:
+                matrix.tagPrefix = ''
+                console.log("unknown button pressed for matrix-itm-type definition!");
+        }
+
+Frogen: wo wird das prefix gesetzt?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

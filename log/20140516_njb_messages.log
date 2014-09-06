@@ -1,0 +1,283 @@
+08:45:01 | mess  -   Application started : new LogCache was created
+08:45:02 | mess  -   new UiTools instance created !
+08:45:16 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+08:45:16 | deve  -   slice index                           : 0
+08:45:16 | deve  -   start-day    left  in timebeam        : 15.02.2014 06:45:16
+08:45:16 | deve  -   end-day      rigth in timebeam        : 16.05.2014 06:45:16
+08:45:16 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+08:45:16 | deve  -   number of slices cached                        :0
+08:45:16 | deve  -   CachedDataSource.fillTablesItems START (left)  :15.02.2014 06:45:16
+08:45:16 | deve  -   CachedDataSource.fillTablesItems END   (rigth) :16.05.2014 06:45:16
+08:45:16 | deve  -   ------- LOADING JOB_ROOT INTO cache ------
+08:45:16 | deve  -   _objectDetailID  : 0
+08:45:16 | mess  -   New UserData instance created with ID = zha1el0d0ea3dnm5wnebw3bb IP: ::1 Local: de-DE
+08:45:17 | deve  -   LocDefiner.uiInitLocDef was called 
+08:45:28 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+08:45:32 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+08:45:34 | deve  -   dataSource__city.aspx.py->Page_Load(sender, e) has been called !
+08:45:37 | debu  -   Default.aspx->HandlBtnClick URL: ~/micro_blog.aspx?Loc=DE,41836&City=Hückelhoven
+08:45:47 | deve  -   LOCALMapProjector( .. ) constructor called
+08:45:47 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c23433773e6f12e00754ee
+08:45:47 | deve  -   LocDefiner.uiInitProjector called with locn    50c23433773e6f12e00754ee
+08:45:50 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+08:45:50 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+08:45:50 | deve  -   self.param["Loc"]    :  "None"
+08:45:50 | deve  -   self.param["City"]   :  "Hückelhoven"
+08:45:50 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+08:45:50 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+08:45:50 | deve  -   CacheDataSource.createCityList( self ) loc url param   : DE,
+08:45:50 | deve  -   createCityList parameter :   country : DE ; postcode :  ; city : Hückelhoven ; areasize (form web.config ) : 17
+08:45:50 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+08:45:50 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+08:45:50 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+08:45:50 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+08:45:50 | deve  -   CachedDataSource.addConfigParam() called !
+08:51:27 | deve  -   LOCALMapProjector( .. ) constructor called
+08:51:27 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c23433773e6f12e00754ee
+08:51:27 | deve  -   LocDefiner.uiInitProjector called with locn    50c23433773e6f12e00754ee
+08:51:29 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+08:51:29 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+08:51:29 | deve  -   self.param["Loc"]    :  "None"
+08:51:29 | deve  -   self.param["City"]   :  "Hückelhoven"
+08:51:29 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+08:51:29 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+08:51:29 | deve  -   CacheDataSource.createCityList( self ) loc url param   : DE,
+08:51:29 | deve  -   createCityList parameter :   country : DE ; postcode :  ; city : Hückelhoven ; areasize (form web.config ) : 17
+08:51:29 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+08:51:29 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+08:51:29 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+08:51:29 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+08:51:29 | deve  -   CachedDataSource.addConfigParam() called !
+08:53:06 | deve  -   LOCALMapProjector( .. ) constructor called
+08:53:06 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c23433773e6f12e00754ee
+08:53:06 | deve  -   LocDefiner.uiInitProjector called with locn    50c23433773e6f12e00754ee
+08:53:08 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+08:53:08 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+08:53:08 | deve  -   self.param["Loc"]    :  "None"
+08:53:08 | deve  -   self.param["City"]   :  "Hückelhoven"
+08:53:08 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+08:53:08 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+08:53:08 | deve  -   CacheDataSource.createCityList( self ) loc url param   : DE,
+08:53:08 | deve  -   createCityList parameter :   country : DE ; postcode :  ; city : Hückelhoven ; areasize (form web.config ) : 17
+08:53:08 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+08:53:09 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+08:53:09 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+08:53:09 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+08:53:09 | deve  -   CachedDataSource.addConfigParam() called !
+08:57:52 | deve  -   LOCALMapProjector( .. ) constructor called
+08:57:52 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c23433773e6f12e00754ee
+08:57:52 | deve  -   LocDefiner.uiInitProjector called with locn    50c23433773e6f12e00754ee
+08:57:54 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+08:57:54 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+08:57:54 | deve  -   self.param["Loc"]    :  "None"
+08:57:54 | deve  -   self.param["City"]   :  "Hückelhoven"
+08:57:54 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+08:57:54 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+08:57:54 | deve  -   CacheDataSource.createCityList( self ) loc url param   : DE,
+08:57:54 | deve  -   createCityList parameter :   country : DE ; postcode :  ; city : Hückelhoven ; areasize (form web.config ) : 17
+08:57:54 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+08:57:54 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+08:57:54 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+08:57:54 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+08:57:54 | deve  -   CachedDataSource.addConfigParam() called !
+08:58:27 | deve  -   LOCALMapProjector( .. ) constructor called
+08:58:29 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+08:58:29 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+08:58:29 | deve  -   self.param["Loc"]    :  "None"
+08:58:29 | deve  -   self.param["City"]   :  "Hückelhoven"
+08:58:29 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+08:58:29 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+08:58:29 | deve  -   CacheDataSource.createCityList( self ) loc url param   : DE,
+08:58:29 | deve  -   createCityList parameter :   country : DE ; postcode :  ; city : Hückelhoven ; areasize (form web.config ) : 17
+08:58:29 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+08:58:29 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+08:58:29 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+08:58:29 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+08:58:29 | deve  -   CachedDataSource.addConfigParam() called !
+08:59:31 | deve  -   LOCALMapProjector( .. ) constructor called
+08:59:31 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c23433773e6f12e00754ee
+08:59:31 | deve  -   LocDefiner.uiInitProjector called with locn    50c23433773e6f12e00754ee
+08:59:32 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+08:59:32 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+08:59:32 | deve  -   self.param["Loc"]    :  "None"
+08:59:32 | deve  -   self.param["City"]   :  "Hückelhoven"
+08:59:32 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+08:59:32 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+08:59:32 | deve  -   CacheDataSource.createCityList( self ) loc url param   : DE,
+08:59:32 | deve  -   createCityList parameter :   country : DE ; postcode :  ; city : Hückelhoven ; areasize (form web.config ) : 17
+08:59:33 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+08:59:33 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+08:59:33 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+08:59:33 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+08:59:33 | deve  -   CachedDataSource.addConfigParam() called !
+09:05:59 | deve  -   LOCALMapProjector( .. ) constructor called
+09:06:00 | deve  -   LocDefiner.uiInitProjector called with mongoId 50c23433773e6f12e00754ee
+09:06:00 | deve  -   LocDefiner.uiInitProjector called with locn    50c23433773e6f12e00754ee
+09:06:02 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+09:06:02 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+09:06:02 | deve  -   self.param["Loc"]    :  "None"
+09:06:02 | deve  -   self.param["City"]   :  "Hückelhoven"
+09:06:02 | deve  -   CachedDataSource.idxLstByLocation( self ) called        TAGS is NONE & LOC is given    
+09:06:02 | deve  -   CacheDataSource.createCityList( self ) has been called ! 
+09:06:02 | deve  -   CacheDataSource.createCityList( self ) loc url param   : DE,
+09:06:02 | deve  -   createCityList parameter :   country : DE ; postcode :  ; city : Hückelhoven ; areasize (form web.config ) : 17
+09:06:02 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+09:06:02 | deve  -   GeoCache.getCoordsByPostcode() to get the coordinates of encoded:DE|41836
+09:06:02 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+09:06:02 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+09:06:02 | deve  -   CachedDataSource.addConfigParam() called !
+09:27:09 | deve  -   LocDefiner.uiInitLocDef was called 
+12:10:55 | mess  -   New UserData instance created with ID = zha1el0d0ea3dnm5wnebw3bb IP: ::1 Local: de-DE
+12:10:55 | deve  -   LOCALMapProjector( .. ) constructor called
+12:10:55 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+12:10:55 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+12:10:57 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+12:10:57 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+12:10:57 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+12:10:57 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+12:10:57 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+12:10:57 | deve  -   CachedDataSource.addConfigParam() called !
+12:14:27 | deve  -   LOCALMapProjector( .. ) constructor called
+12:14:27 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+12:14:27 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+12:14:29 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+12:14:29 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+12:14:29 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+12:14:29 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+12:14:29 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+12:14:29 | deve  -   CachedDataSource.addConfigParam() called !
+12:14:45 | deve  -   LOCALMapProjector( .. ) constructor called
+12:14:47 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+12:14:47 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+12:14:47 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+12:14:47 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+12:14:47 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+12:14:47 | deve  -   CachedDataSource.addConfigParam() called !
+13:50:54 | deve  -   LOCALMapProjector( .. ) constructor called
+13:50:54 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+13:50:54 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+13:50:57 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+13:50:57 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+13:50:57 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+13:50:57 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+13:50:57 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+13:50:57 | deve  -   CachedDataSource.addConfigParam() called !
+13:52:16 | deve  -   LOCALMapProjector( .. ) constructor called
+13:52:16 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+13:52:16 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+13:52:19 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+13:52:19 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+13:52:19 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+13:52:19 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+13:52:19 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+13:52:19 | deve  -   CachedDataSource.addConfigParam() called !
+13:53:32 | deve  -   LOCALMapProjector( .. ) constructor called
+13:53:32 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+13:53:32 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+13:53:37 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+13:53:37 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+13:53:37 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+13:53:37 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+13:53:37 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+13:53:37 | deve  -   CachedDataSource.addConfigParam() called !
+13:55:02 | deve  -   LOCALMapProjector( .. ) constructor called
+13:55:02 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+13:55:02 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+13:55:06 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+13:55:06 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+13:55:06 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+13:55:06 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+13:55:06 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+13:55:06 | deve  -   CachedDataSource.addConfigParam() called !
+13:57:36 | deve  -   LOCALMapProjector( .. ) constructor called
+13:57:36 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+13:57:36 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+13:57:39 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+13:57:39 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+13:57:39 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+13:57:39 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+13:57:39 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+13:57:39 | deve  -   CachedDataSource.addConfigParam() called !
+13:57:49 | deve  -   LOCALMapProjector( .. ) constructor called
+13:57:51 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+13:57:51 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+13:57:51 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+13:57:51 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+13:57:51 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+13:57:51 | deve  -   CachedDataSource.addConfigParam() called !
+14:24:29 | deve  -   LOCALMapProjector( .. ) constructor called
+14:24:29 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+14:24:29 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+14:24:31 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+14:24:31 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+14:24:31 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+14:24:31 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+14:24:31 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+14:24:31 | deve  -   CachedDataSource.addConfigParam() called !
+14:26:58 | deve  -   LOCALMapProjector( .. ) constructor called
+14:26:58 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+14:26:58 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+14:27:00 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+14:27:00 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+14:27:00 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+14:27:00 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+14:27:00 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+14:27:00 | deve  -   CachedDataSource.addConfigParam() called !
+14:27:39 | deve  -   LOCALMapProjector( .. ) constructor called
+14:27:39 | deve  -   LocDefiner.uiInitProjector called with mongoId not available
+14:27:39 | deve  -   LocDefiner.uiInitProjector called with locn    *|
+14:27:41 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+14:27:41 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+14:27:41 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+14:27:41 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+14:27:41 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+14:27:41 | deve  -   CachedDataSource.addConfigParam() called !
+14:27:55 | deve  -   LOCALMapProjector( .. ) constructor called
+14:27:57 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+14:27:57 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+14:27:57 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+14:27:57 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+14:27:57 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+14:27:57 | deve  -   CachedDataSource.addConfigParam() called !
+14:29:13 | deve  -   LOCALMapProjector( .. ) constructor called
+14:29:15 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+14:29:15 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+14:29:15 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+14:29:15 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+14:29:15 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+14:29:15 | deve  -   CachedDataSource.addConfigParam() called !
+14:31:22 | deve  -   DebateProjector( .. ) constructor called
+14:31:23 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+14:31:23 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+14:31:23 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+14:31:23 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+14:31:23 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+14:31:23 | deve  -   CachedDataSource.addConfigParam() called !
+14:32:56 | deve  -   DebateProjector( .. ) constructor called
+14:32:58 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+14:32:58 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+14:32:58 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+14:32:58 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+14:32:58 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+14:32:58 | deve  -   CachedDataSource.addConfigParam() called !
+14:33:46 | deve  -   DebateProjector( .. ) constructor called
+14:33:48 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+14:33:48 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+14:33:48 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+14:33:48 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+14:33:48 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+14:33:48 | deve  -   CachedDataSource.addConfigParam() called !
+14:33:59 | deve  -   DebateProjector( .. ) constructor called
+14:34:01 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+14:34:01 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+14:34:01 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+14:34:01 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+14:34:01 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+14:34:01 | deve  -   CachedDataSource.addConfigParam() called !
+14:34:07 | deve  -   LOCALMapProjector( .. ) constructor called
+14:34:09 | deve  -   # # # CachedDataSource.pgLoad( self ) has been called !
+14:34:09 | deve  -   # # # CachedDataSource.selQueryFunction( .. ) has been called !
+14:34:09 | deve  -   CachedDataSource.idxLstWithoutPreConditions( self ) called        TAGS is NONE & LOC is NONE    
+14:34:09 | deve  -   CachedDataSource.cutSlice( self ) has been called , len of the result-list : 0
+14:34:09 | deve  -   CachedDataSource.addDataItems( self ) has been called !
+14:34:09 | deve  -   CachedDataSource.addConfigParam() called !

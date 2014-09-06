@@ -1,0 +1,67 @@
+BÜRERINITIATIVEN
+
+Umwelt
+	Tierschutz
+		Wildtiere schützen
+		Patenschaften
+	Landschaftsschutz
+		Waldschutz
+		Parkschutz
+		Strassenbau
+	Protestbewegung
+		Anti-Atomkraft
+		Friedensbewegung
+		Gegen Tierversuche
+	Lärmbelästigung
+		Fluglärm
+		Straßenlärm
+Lokale Initiativen
+	Lebensmittel
+		Urbane Gärtner
+		Öko-Landwirtschaft
+	Wirtschaft
+		regionales Geld
+		Tauschgemeinschaft
+		Verleih-Gemeinschaft
+		Handwerker-Gemeinschaften
+		Wirtschaftskommune
+	Brauchtum
+		Kulturverein
+		Denkmalpflege
+		Mundart
+		Historische Vereine
+	Kommunales
+		kommunaler Wiederspruch
+		Bürgerverein
+		Mieterversammlungen
+		kommunale Planungen
+		Nachbarnetzwerk
+Politik
+	Demokratie
+		Volksentscheid
+		Anti-Koruption
+		Wahlverein
+	Friedensbewegung
+	Datenschutz
+Soziales
+	Menschenrechte
+		Flüchtlinge
+		Asylanten
+	Sozialsysteme
+		Tafeln
+		bedingungsloses Grundeinkommen
+Selbsthilfe
+	Gesundheit
+	Sucht- und Drogen
+	Gewalterfahrungen
+	Sektenaussteiger 
+	politischer Extremismuss
+Organisationen
+	Umwelt
+		Greenpeace
+		WWF
+	Wirtschaft
+		GCN
+	Politik
+		Occupy
+	

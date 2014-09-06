@@ -1,0 +1,188 @@
+﻿Auto, Flugzeug & Co
+	Auto
+	Motorrad
+	Motorroller 
+		Scooter 
+		Moped
+	Trike
+	Quad
+	Motorboot
+	Segeln
+	Eisenbahn
+	Flugzeuge
+	Hubschrauber
+	Segelfliegen
+	Trucks
+	LKW
+	Busse
+	Funkfernsteuerung
+		Fahrzeuge
+		Schwimmzeuge
+		Flugzeuge
+Bildung & Wissen
+	Archäologie
+	Geschichte
+	Astrologie
+	Esoterik
+	Astronomie
+	Raumfahrt
+	Chemie
+	Physik
+	Mathematik
+	Mystik (Hexen, Magie, Paranormales etc.)
+	Natur und Biologie
+	Philosophie
+	Psychologie
+	Programmieren und Hacken
+		Linux
+		Microcomputer und Controller
+		Hacking-Space
+	Sprachen
+	Erfinden
+	Elektronik basteln
+	Robotik
+Computer, Games & Internet
+	eSport
+	Casemodding
+	Internet
+	Videogames und Konsolenspiele
+		XBOX
+		Wii und Wii-U
+		Playstation
+		PC
+		Smartphone
+	Overclocker
+	Spieleprogrammierung
+Essen & Genuss
+	Backen
+	Feinkost & Delikatessen
+	Grillen und Kochen
+Gesundheit & Wellness
+	Ayurveda
+	Qigong
+	Tai Chi
+	Yoga
+	Meditation
+	Sauna
+Haus & Garten
+	Blumen und Pflanzen
+	Obstbäume
+	Deko/Einrichtung
+	Heimwerkern
+	Feng Shui
+	Kleingärten
+	Gartenteich
+	Urban Gardening
+	Ziergarten
+	Saatgut tauschen
+Kultur & Bühne
+	Brauchtum
+	Bräuche
+	Knappenverein
+	Denkmalpflege
+	Comedyclub
+	Festivals
+	Film
+	Kabarett
+	Konzerte
+	Museen und Ausstellungen
+	Musicals 
+	Oper
+	Theater
+	Marionettentheater
+Kunst & Kreativität
+	Bildende Kunst
+	Darstellende Kunst
+	Musik machen
+	Poetik Literatur und Poetik
+Look & Lifestyle
+	Bärte/Bartstyling
+	Cosplay
+	Fashion/Mode
+	Gothic/Schwarze Szene
+	Hairstyling
+	Kosmetik
+	Living History/Reenactment
+	Modeln
+	Naildesign/Nageldesign
+	Steampunk
+	Tattoo, Piercing & Co
+Handarbeiten
+	Modellbau
+	Basteln
+	Häkeln
+	Klöppeln
+	Nähen
+	Patchwork
+	Sticken
+	Stricken
+	Upcycling
+Urlaub & Reisen
+	Themenreisen
+	Urlaub in Deutschland
+	Urlaub in Österreich
+	Urlaub in der Schweiz
+Sammelleidenschaften
+	Abzeichen
+	Ansichtskarten
+	Antiquitäten
+	Autogramme
+	Briefmarken
+	historische Waffen
+	Knöpfe
+	Münzen
+	Puppen
+	Puppenstuben
+	Schallplatten
+	Schleichfiguren
+	Ü-Ei-Figuren (Überraschungseier)
+	Zinnfiguren
+Spiele & Spielzeug
+	Spiele
+	Spielzeug
+Sport
+	Ballsport
+	Behindertensport
+	Brettsport
+	Fitness und Kraftsport
+	Flugsport/Luftsport
+	Gedächtnissport
+	Geschicklichkeitssport
+	Hundesport
+	Kampfsport
+	Klettersport
+	Laufsport
+	Leichtathletik
+	Mehrkampfsport
+	Motorsport
+	Natursport
+	Pferdesport/Reitsport
+	Präzisionssport
+	Radsport
+	Schießsport
+	Tanzsport
+	Turnsport
+	Wassersport
+	Wintersport
+Zeitvertreib
+	Ausflüge
+	Discos/ Clubs
+	Erlebnis-Bäder
+	Fahrradfahren
+	Flohmärkte/Trödelmärkte
+	Freizeitparks
+	Hörbücher 
+	eBooks
+	Musik hören
+	Pilze sammeln
+	Karaoke
+	Kino
+	Labyrinthe
+	Restaurants
+	Schnäppchenjagd
+	Telefonieren
+	Spaziergänge
+Bildung und Unterricht
+	Musik
+	Tanz
+	Sport

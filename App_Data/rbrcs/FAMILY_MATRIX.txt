@@ -1,0 +1,24 @@
+﻿Veranstalltungen
+	Kinder
+		Lerngruppen
+		Nachhilfe
+		Tagesmutter
+		Spieltreff
+		Schulfahrgemeinschaft
+	Senioren
+		Pflegedienste
+		Essen auf Rädern
+		Freizeit
+		Vereine
+		betreutes Wohnen
+Anzeigen
+	Geburtsanzeigen
+	Traueranzeigen
+	Glückwünsche
+	Grüße
+	Abitur-Anzeige
+Familienmärkte
+Plätze
+	Spielplatz
+	Vergnügungspark
+	Seniorenheim

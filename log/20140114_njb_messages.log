@@ -1,0 +1,136 @@
+09:13:25 | mess  -   Application started : new LogCache was created
+09:13:25 | mess  -   new UiTools instance created !
+09:13:38 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+09:13:38 | deve  -   slice index                           : 0
+09:13:38 | deve  -   start-day    left  in timebeam        : 16.10.2013 08:13:38
+09:13:38 | deve  -   end-day      rigth in timebeam        : 14.01.2014 08:13:38
+09:13:38 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+09:13:38 | deve  -   number of slices cached                        :0
+09:13:38 | deve  -   CachedDataSource.fillTablesItems START (left)  :16.10.2013 08:13:38
+09:13:38 | deve  -   CachedDataSource.fillTablesItems END   (rigth) :14.01.2014 08:13:38
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_PERSONALHYGIENE ; position = 0  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §LONELY_HEARTS_AD_2_0_0 ; position = 1  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_21_116 ; position = 2  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = wintersport-vereine ; position = 3  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = Österreich ; position = 4  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CRAFT ; position = 5  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_OFFICE ; position = 6  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HUMAN2HUMAN ; position = 7  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_LEISURE ; position = 8  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CHILDREN ; position = 9  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOME ; position = 10  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOMEWORK ; position = 11  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_GARDEN ; position = 12  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_COMPUTER ; position = 13  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_NOTSPECIFIED ; position = 14  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §SWAP_0_0 ; position = 15  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_EDUCATION ; position = 16  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_4_124 ; position = 17  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = golfclub ; position = 18  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = youtube ; position = 19  
+09:13:39 | deve  -   TaggContainer.addTaggToList     : taggString = ottiefant ; position = 20  
+09:13:39 | deve  -   ------- LOADING JOB_ROOT INTO cache ------
+09:13:39 | deve  -   _objectDetailID  : 0
+09:13:39 | mess  -   New UserData instance created with ID = t0prfgcdins0da42ly3cv0a5 IP: ::1 Local: de-de
+09:13:39 | deve  -   LocDefiner.uiInitLocDef was called 
+09:13:58 | deve  -   constructor of class UserHome(Page) aufgefufen!
+09:13:58 | deve  -   UserHome( .. ) called FillUsrCache with mail njb04@t-online.de
+09:13:58 | deve  -   userData.createUserLocationString found for user-home-town : 50c24449773e6f12e0079690
+09:13:58 | deve  -   userData.createUserLocationString found for user-home-town    : [NL] 4320 Kerkwerve
+09:14:00 | deve  -   user-data read from mongo and copied into the user-dict !!
+09:14:00 | deve  -   KEY : website	  VALUE : http://de.wikipedia.org/wiki/Schouwen-Duiveland	
+09:14:00 | deve  -   KEY : locationname	  VALUE : [NL] 4320 Kerkwerve	
+09:14:00 | deve  -   KEY : post_code_key	  VALUE : NL|4320	
+09:14:00 | deve  -   KEY : languagecode	  VALUE : de	
+09:14:00 | deve  -   KEY : creation_time	  VALUE : 2013-07-24T10:24:52.487Z	
+09:14:00 | deve  -   KEY : nickname	  VALUE : Pit Klommpe	
+09:14:00 | deve  -   KEY : fax	  VALUE : 	
+09:14:00 | deve  -   KEY : google_plus	  VALUE : 	
+09:14:00 | deve  -   KEY : cities	  VALUE : [50c24449773e6f12e0079690, 50c24449773e6f12e0079691, 50c24449773e6f12e007968e, 50c24449773e6f12e0079683, 50c24449773e6f12e0079684, 50c24449773e6f12e0079685, 50c24449773e6f12e0079686, 50c24449773e6f12e007968f, 50c24449773e6f12e007968d, 50c24449773e6f12e00796b1, 50c24449773e6f12e007968c, 50c24449773e6f12e0079696, 50c24449773e6f12e0079697, 50c24449773e6f12e0079698, 50c24449773e6f12e0079692, 50c24449773e6f12e0079693, 50c24449773e6f12e0079695, 50c24449773e6f12e0079687, 50c24449773e6f12e0079689, 50c24449773e6f12e0079694, 50c24449773e6f12e007969b, 50c24449773e6f12e0079688, 50c24449773e6f12e0079666, 50c24449773e6f12e00796fb, 50c24449773e6f12e007969c, 50c24449773e6f12e007969d]	
+09:14:00 | deve  -   KEY : CAPTCHA	  VALUE : So-FklML	
+09:14:00 | deve  -   KEY : phone	  VALUE : 	
+09:14:00 | deve  -   KEY : account_roles	  VALUE : [free]	
+09:14:00 | deve  -   KEY : emailconfirm	  VALUE : njb04@t-online.de	
+09:14:00 | deve  -   KEY : item_type	  VALUE : human	
+09:14:00 | deve  -   KEY : _id	  VALUE : 51efab74773e6f0ab8354d5a	
+09:14:00 | deve  -   KEY : timeFrom	  VALUE : 01.10.2013	
+09:14:00 | deve  -   KEY : CRRNT_LCTN_ID	  VALUE : 50c24449773e6f12e0079690	
+09:14:00 | deve  -   KEY : facebook	  VALUE : 	
+09:14:00 | deve  -   KEY : forename	  VALUE : 	
+09:14:00 | deve  -   KEY : tagforitem	  VALUE : §EVT_2_1	
+09:14:00 | deve  -   KEY : postcode	  VALUE : 4320	
+09:14:00 | deve  -   KEY : CRRNT_POSTCODE	  VALUE : 4320	
+09:14:00 | deve  -   KEY : street	  VALUE : 	
+09:14:00 | deve  -   KEY : timeTo	  VALUE : 	
+09:14:00 | deve  -   KEY : countrycode	  VALUE : NL	
+09:14:00 | deve  -   KEY : picturl	  VALUE : http://guikblog.com/wp-content/uploads/2012/08/anonymus-logo-.png	
+09:14:00 | deve  -   KEY : marker_line	  VALUE : 	
+09:14:00 | deve  -   KEY : familyname	  VALUE : 	
+09:14:00 | deve  -   KEY : CRRNT_CITYNAME	  VALUE : 	
+09:14:00 | deve  -   KEY : email	  VALUE : njb04@t-online.de	
+09:14:00 | deve  -   KEY : mobile	  VALUE : 	
+09:14:00 | deve  -   KEY : info	  VALUE : 	
+09:14:00 | deve  -   KEY : areasize	  VALUE : 17	
+09:14:00 | deve  -   KEY : skype	  VALUE : 	
+09:14:00 | deve  -   KEY : twitter	  VALUE : 	
+09:14:00 | deve  -   KEY : itemname	  VALUE : 	
+09:14:00 | deve  -   KEY : lat	  VALUE : 51.6746155023	
+09:14:00 | deve  -   KEY : housenumber	  VALUE : 	
+09:14:00 | deve  -   KEY : CRRNT_LCTNCNTRY	  VALUE : NL	
+09:14:00 | deve  -   KEY : password	  VALUE : Y2TPAEVTJDscoNnhGbxHN5qHTRcy90TN0uxp+7ZjaDmzrtDShs2o+/wFwD7lcshOtJ0nACDQO9SKuryuv6HO0Q==	
+09:14:00 | deve  -   KEY : GUID	  VALUE : ae725a7385df4396a528d56e6a00d1f9	
+09:14:00 | deve  -   KEY : lon	  VALUE : 3.90826426107	
+09:14:00 | deve  -   measurePeformance                      -> 
+09:14:00 | deve  -   measurePeformance    last message was  -> user-data-constructor (initial creation in app-cache)
+09:14:00 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+09:14:00 | deve  -   measurePeformance - - - - - - - - - - --> 437
+09:14:00 | deve  -   measurePeformance                      -> 
+09:14:00 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+09:14:00 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+09:14:00 | deve  -   measurePeformance - - - - - - - - - - --> 15
+09:14:15 | deve  -   measurePeformance                      -> 
+09:14:15 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+09:14:15 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+09:14:15 | deve  -   measurePeformance - - - - - - - - - - --> 439
+09:14:15 | deve  -   measurePeformance                      -> 
+09:14:15 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+09:14:15 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+09:14:15 | deve  -   measurePeformance - - - - - - - - - - --> 0
+09:14:15 | deve  -   LocDefiner.uiInitLocDef was called 
+09:15:07 | deve  -   LocDefiner.uiInitLocDef was called 
+09:15:09 | debu  -   Default.aspx->HandlBtnClick URL: ~/job_market.aspx
+09:22:03 | deve  -   LocDefiner.uiInitLocDef was called 
+09:22:03 | deve  -   job_search.aspx.py->JobSearch.load(self) - - - - - - - - - - - - - - - 
+09:22:03 | deve  -   job_search.aspx.py- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+09:22:03 | deve  -   job_search.aspx.py->createSlice       : direction    
+09:22:03 | deve  -   job_search.aspx.py->createSlice       : firstRow     9
+09:22:03 | deve  -   job_search.aspx.py->createSlice       : lastRow      24
+09:22:03 | deve  -   job_search.aspx.py- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+09:25:36 | deve  -   LocDefiner.uiInitLocDef was called 
+09:25:36 | deve  -   job_search.aspx.py->JobSearch.load(self) - - - - - - - - - - - - - - - 
+09:25:36 | deve  -   job_search.aspx.py- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+09:25:36 | deve  -   job_search.aspx.py->createSlice       : direction    
+09:25:36 | deve  -   job_search.aspx.py->createSlice       : firstRow     9
+09:25:36 | deve  -   job_search.aspx.py->createSlice       : lastRow      24
+09:25:36 | deve  -   job_search.aspx.py- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+09:26:11 | deve  -   LocDefiner.uiInitLocDef was called 
+09:26:11 | deve  -   job_search.aspx.py->JobSearch.load(self) - - - - - - - - - - - - - - - 
+09:26:11 | deve  -   job_search.aspx.py- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+09:26:11 | deve  -   job_search.aspx.py->createSlice       : direction    BACKWARD
+09:26:11 | deve  -   job_search.aspx.py->createSlice       : firstRow     0
+09:26:11 | deve  -   job_search.aspx.py->createSlice       : lastRow      9
+09:26:11 | deve  -   job_search.aspx.py- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+09:26:15 | deve  -   LocDefiner.uiInitLocDef was called 
+09:26:15 | deve  -   job_search.aspx.py->JobSearch.load(self) - - - - - - - - - - - - - - - 
+09:26:15 | deve  -   job_search.aspx.py- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+09:26:15 | deve  -   job_search.aspx.py->createSlice       : direction    FORWARD
+09:26:15 | deve  -   job_search.aspx.py->createSlice       : firstRow     15
+09:26:15 | deve  -   job_search.aspx.py->createSlice       : lastRow      24
+09:26:15 | deve  -   job_search.aspx.py- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+09:26:21 | deve  -   LocDefiner.uiInitLocDef was called 
+09:26:21 | deve  -   job_search.aspx.py->JobSearch.load(self) - - - - - - - - - - - - - - - 
+09:26:21 | deve  -   job_search.aspx.py- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+09:26:21 | deve  -   job_search.aspx.py->createSlice       : direction    BACKWARD
+09:26:21 | deve  -   job_search.aspx.py->createSlice       : firstRow     0
+09:26:21 | deve  -   job_search.aspx.py->createSlice       : lastRow      15
+09:26:21 | deve  -   job_search.aspx.py- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 

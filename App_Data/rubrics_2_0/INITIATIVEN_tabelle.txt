@@ -1,0 +1,88 @@
+Tiere und Landschaft
+	Tierschutz
+		Keine Tierversuche
+	Landschaftsschutz
+	Patenschaften
+Umweltschutz
+	Organisation Standort
+	Demonstration
+	Diskussionen und Treffen
+	Spenden
+Entwicklungshilfe
+	Organisation Standort
+	Demonstration
+	Diskussionen und Treffen
+	Spenden
+	Organisationen
+	private Aktivitäten
+Soziales
+	Integration
+	Menschen in Not
+		Katastrophenhilfe
+			Helfer gesucht
+			Spendenaufruf
+			Unterbringung
+			Vermissten-Stelle
+		Armut
+			Suppenküche
+			Grundversorgung
+			Unterbringung
+	Für Behinderte
+		körperliche Behinderung
+			Rollstuhlfahrer-freundliche Orte
+		Sinnesbehinderung
+			Blindheit
+			Gehörlosigkeit
+			Schwerhörigkeit
+			Taubblindheit
+		Sprachbehinderung
+		psychische (seelische) Behinderung
+		Lernbehinderung
+		geistige Behinderung
+Lokale Initiativen
+	Lebensmittel
+		Urbane Gärtner
+		Öko-Landwirtschaft
+	Wirtschaft
+		regionales Geld
+		Tauschringe
+		Gemeinschaften alternatives Leben
+		Verleih-Gemeinschaft
+		Handwerker-Gemeinschaften
+		Wirtschaftskommune
+	Brauchtum
+		Kulturverein
+		Denkmalpflege
+		Mundart
+		Historische Vereine
+	Kommunales
+		kommunaler Widerspruch
+		Bürgerverein
+		Mieter-Versammlungen
+		kommunale Planungen
+		Nachbarnetzwerke
+politisches Engagement
+	Menschenrechte
+	kommunale Politik
+	Landespolitik
+	Bundespolitik
+	Parteien Standort
+	Demonstration
+	Diskussionen und Treffen
+Selbsthilfe
+	Gesundheit
+	Sucht- und Drogen
+	Gewalterfahrungen
+	Sekten-aussteiger 
+	politischer Extremismus
+Organisationen
+	Umwelt / Tierschutz
+		Greenpeace
+		WWF
+	Wirtschaft
+		GCN
+	Frieden
+		Anti-Atom
+		Friedensbewegung
+		Ärzte ohne Grenzen
+	occupy

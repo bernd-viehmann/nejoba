@@ -1,0 +1,24 @@
+﻿Fahrgemeinschaft für Pendler
+	Fahrt suchen
+	Fahrt anbieten
+	Fahrgemeinschaft gründen
+Fahrgemeinschaft für den Schulweg
+	Fahrt suchen
+	Fahrt anbieten
+	Fahrgemeinschaft gründen
+Mitfahrgelegenheit
+	Fahrt suchen
+	Fahrt anbieten
+Car Sharing
+	Fahrzeug suchen
+	Fahrzeug anbieten
+	Gründung
+Radtouren
+	Ankündigung einer Radtour 
+	Planungen und Empfehlungen
+Reisegruppe bilden
+	Busreise
+	Bahnfahrt
+	Begleitetes Fahren
+	Schiffsreise
+	Flugreise

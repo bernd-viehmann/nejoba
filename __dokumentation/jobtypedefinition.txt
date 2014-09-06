@@ -1,0 +1,38 @@
+hyLink_human2human
+hyLink_leisure
+hyLink_personalhygiene
+hyLink_children
+hyLink_education
+hyLink_bringservice
+hyLink_vehicles
+hyLink_transport
+hyLink_craft
+hyLink_computer
+hyLink_homework
+hyLink_office
+hyLink_home
+hyLink_garden
+hyLink_pets
+hyLink_notspecified
+
+
+hyLink_human2human,§*JTD01_human2human,Menschen;
+hyLink_leisure,§*JTD01_leisure,Freizeit;
+hyLink_personalhygiene,§*JTD01_personalhygiene,Körperpflege;
+hyLink_children,§*JTD01_children,Kinder;
+hyLink_education,§*JTD01_education,Bildung;
+hyLink_bringservice,§*JTD01_bringservice,Bringdienste;
+hyLink_vehicles,§*JTD01_vehicles,Auto und Motorrad;
+hyLink_transport,§*JTD01_transport,Transport;
+hyLink_craft,§*JTD01_craft,Handwerker gesucht;
+hyLink_computer,§*JTD01_computer,PC und Internet;
+hyLink_homework,§*JTD01_homework,Heimarbeit;
+hyLink_office,§*JTD01_office,Büroarbeiten;
+hyLink_home,§*JTD01_home,Hausarbeit;
+hyLink_garden,§*JTD01_garden,Gartenarbeit;
+hyLink_pets,§*JTD01_pets,Haustiere;
+hyLink_notspecified,§*JTD01_notspecified,Sonstiges;
+
+
+    <add key="jobType_DE" value='Bitte wählen;Haus;Garten;Handwerk;Menschen;Bringdienste;Körperpflege;Haustiere;Kinder;PC und Internet;Transport;Heimarbeit;Bildung;Büro;Auto und Motorad;Freizeit;Sonstiges' />
+    <add key="jobTypeValue" value='-1;§*JTD01_home;§*JTD01_garden;§*JTD01_craft;§*JTD01_human2human;§*JTD01_bringservice;§*JTD01_personalhygiene;§*JTD01_pets;§*JTD01_children;§*JTD01_computer;§*JTD01_transport;§*JTD01_homework;§*JTD01_education;§*JTD01_office;§*JTD01_vehicles;§*JTD01_leisure;§*JTD01_notspecified' />

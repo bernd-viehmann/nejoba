@@ -1,0 +1,100 @@
+﻿Planung für zukünftige nejoba Erweiterungen
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+1. Anzeige der Elemente eines Users:
+
+Sowohl aud der Karte als auch in der Liste (und später atürlich im Kalender) sollen die Beiträge eines Users 
+angezeigt werden können. So kann eine Firma, ein Verein oder Initiative auf die eigenen Aktionen, Events, Orte 
+und Termine hinweisen. Dabei wird der Ort und die User-ID angegeben. So durchsucht nejoba nur den Heimatort 
+und die Nachbarorte nach Einträgen des users und nicht den gesamten Cache
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+2. Vollanzeige zum Einbiden in ein IFRAME für andere Webseiten.
+
+Liste, Karte und Kalender sollen sich auf anderen Webseiten wiederverwenden lassen. So bietet nejoba eine 
+Vollbildschirm-Anzeige für diese an. Sie können dann als IFRAM wiedervewrwendet werden. Zum Beispiel 
+auf facebook.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+3. Klasse UserData
+
+Derzeit werden die Nachbarorte eines User im UserCache gespeichert. Das ist aber in Zukunft sinnlos.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+4  Home-Button für die Editoren : 
+
+Wenn ein User eine neue Debate anfängt oder einen neuen Job ausschreibtsollte es einen Button geben der den aktuell selektierten Ort wechselt zum Heimatort, 
+der im Benutzerkonto hiterlegt ist
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+25 URL-Parameter nicht über Controls an das JS in den Projektoren schicken . Stattdessen die URL-Parameter mit JavaScript direkt auslesen.
+   special-case : Wenn keine Location per URL bestimmt wurde soll der jeweilige Projector auch die Location aus LocDefiner nehmen.
+   Anleitung : http://jquery-howto.blogspot.de/2009/09/get-url-parameters-values-with-jquery.html
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+20 Allgemein:
+	Wenn der User sich einloggt sollte das System checken ob er schon eine Location ausgewählt hat.
+	Falls nicht sollte sein Heimatort vorselektiert werden.
+	Falls eine Location im Session-Cache vorhanden ist wird diese weiter genutzt
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+04 Das Öffnen von Forumsbeitragen in einem neuen Fenster herausnehmen
+	Das ist nervig immer das Fenster wechseln zu müssen
+	Allerdings "vergißt" die Liste nachdem Back-Button welche Position sie hatte : verschieben !!
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+
+
+
+
+
+
+

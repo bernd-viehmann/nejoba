@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Test geocoding </title>
+    <script src="../style/jquery-1.10.2.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+
+    //QueUrl = 'http://nominatim.openstreetmap.org/search?q=135+pilkington+avenue,+birmingham&format=json&polygon=1&addressdetails=1'
+    QueUrl = 'http://nominatim.openstreetmap.org/search?q=+Merianstraße,+Salzburg,+at&format=json&polygon=1&addressdetails=1'
+
+    $(document).ready(function() {
+        $.getJSON( QueUrl , function (data) {
+            var items = [];
+            $.each(data[0], function (key, val) {
+                items.push('<li id="' + key + '">' + val + '</li>');
+            });
+            $('<ul/>', {
+                'class': 'my-new-list',
+                html: items.join('')
+            }).appendTo('body');
+        });
+    });
+
+
+
+//    window.cb = function cb(json) {
+//        //do what you want with the json
+//        // document.getElementById('output').innerHTML = json.lat + ',' + json.lon;
+
+//        // get data in the object
+//        var Temp = ''
+//        for (furz in json) {
+//            for (itm in furz) {
+//                //console.log(json.toString());
+//                console.log(itm + ' - ' + furz[itm]);
+//            }
+//        }
+
+//        document.getElementById('output').innerHTML = json
+//    }
+
+//    window.search = function search() {
+//        var s = document.createElement('script');
+
+//        // cb({"place_id":"31108012","licence":"Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http:\/\/www.openstreetmap.org\/copyright","osm_type":"way","osm_id":"16257478","lat":"-23.563446","lon":"-46.6614479","display_name":"Alameda Ministro Rocha Azevedo, Bixiga, Jardim Paulista, S\u00e3o Paulo, RMSP, S\u00e3o Paulo, 01424-002, Brasilien","address":{"road":"Alameda Ministro Rocha Azevedo","neighbourhood":"Bixiga","suburb":"Jardim Paulista","city":"S\u00e3o Paulo","county":"RMSP","state":"S\u00e3o Paulo","postcode":"01424-002","country":"Brasilien","country_code":"br"}})
+
+//        
+//        //s.src = 'http://nominatim.openstreetmap.org/search/46+mahrweg+41836+deutschland&?json_callback=cb&format=json&addressdetails=1';
+//        
+//        document.getElementsByTagName('head')[0].appendChild(s);
+
+
+//    
+    
+</script>
+
+</body>
+</html>

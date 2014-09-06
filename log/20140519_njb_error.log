@@ -1,0 +1,1496 @@
+07:44:13 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:44:16 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:44:18 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:44:26 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:44:44 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:44:46 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:44:48 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:44:50 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:48:38 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:48:40 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:48:41 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:48:43 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:48:45 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:48:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:17 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:19 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:26 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:28 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:30 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:38 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:40 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:41 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:43 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:45 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:52:49 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:56:53 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:56:54 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:56:56 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:56:58 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:56:59 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:57:01 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:57:03 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:57:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:57:07 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:57:09 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:57:11 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+07:57:13 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:01:44 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:01:45 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:01:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:01:49 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:01:51 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:01:52 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:02:14 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:02:15 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:02:16 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:02:17 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|41812
+
+09:02:18 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:02:19 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:02:20 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:02:28 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+09:02:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|41812
+
+09:08:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:08:49 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:09:01 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:09:03 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:09:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:13:22 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:13:23 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:13:25 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:13:27 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:14:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:14:48 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:14:50 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:15:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+09:15:22 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:15:24 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:15:28 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:15:30 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:15:31 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:15:33 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:15:35 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:15:37 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:15:39 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:15:41 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+09:17:00 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:17:01 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:17:03 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:17:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:17:05 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:17:07 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+09:17:28 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+09:17:43 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+09:18:30 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+09:20:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+09:35:17 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:35:53 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:35:54 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+09:36:07 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+09:36:11 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+09:36:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+09:36:35 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+09:36:58 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:37:00 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:37:02 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:37:03 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:37:05 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|41812
+
+09:37:08 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:37:45 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:37:46 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:37:50 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|41812
+
+09:38:03 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:38:05 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:38:06 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:38:08 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:38:10 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+09:38:12 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:38:14 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:39:39 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:39:41 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:39:43 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:39:44 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:39:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:39:49 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:39:51 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:40:03 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:40:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:40:34 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:40:36 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:40:38 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:40:40 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:40:42 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:40:43 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:42:56 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:42:58 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:43:00 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:43:08 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:43:10 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:43:12 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:45:37 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:45:38 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:45:40 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:45:42 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:45:43 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:46:13 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\Item.py", line 737, in load
+    self.log.w2lgDvlp("Item.load called for ItemBaseId  " + itemBaseRow['_ID'].ToString() )
+TypeError: 'NoneType' object is unsubscriptable
+
+09:46:13 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\wbf_account\user_offer_cancel.aspx.py", line 45, in Page_Load
+    canvas.InnerHtml = tool.data['html']
+KeyError: html
+
+09:46:14 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\Item.py", line 737, in load
+    self.log.w2lgDvlp("Item.load called for ItemBaseId  " + itemBaseRow['_ID'].ToString() )
+TypeError: 'NoneType' object is unsubscriptable
+
+09:46:14 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\wbf_account\user_offer_cancel.aspx.py", line 45, in Page_Load
+    canvas.InnerHtml = tool.data['html']
+KeyError: html
+
+09:46:37 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:46:39 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:46:41 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:46:42 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:46:44 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:46:45 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:46:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:47:43 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:47:44 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:47:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:47:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:47:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:47:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:47:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+09:47:48 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:47:51 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:48:03 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:48:05 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:48:05 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:48:05 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:48:05 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:48:05 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+09:48:06 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+09:48:15 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_DebateMap.aspx.py", line 170, in storeUrlParams
+    self.param['ResultLength'] = System.Convert.ToInt32( self.Page.Request.QueryString['ResultLength'])
+SystemError: Die Eingabezeichenfolge hat das falsche Format.
+
+09:48:15 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_DebateMap.aspx.py", line 209, in insrtLocConfg
+    locLst = self.param['Loc'].strip().split(',')
+AttributeError: 'NoneType' object has no attribute 'strip'
+
+09:49:05 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+09:49:09 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:49:09 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:49:09 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:49:09 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:49:09 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+09:49:33 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+09:49:36 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:49:36 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:49:36 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:49:36 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+09:49:36 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+09:49:45 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_DebateMap.aspx.py", line 170, in storeUrlParams
+    self.param['ResultLength'] = System.Convert.ToInt32( self.Page.Request.QueryString['ResultLength'])
+SystemError: Die Eingabezeichenfolge hat das falsche Format.
+
+09:49:45 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_DebateMap.aspx.py", line 209, in insrtLocConfg
+    locLst = self.param['Loc'].strip().split(',')
+AttributeError: 'NoneType' object has no attribute 'strip'
+
+10:00:29 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+10:01:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+10:04:06 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:04:10 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+10:04:27 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+10:04:28 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+10:10:10 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:10:13 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+10:10:35 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+10:10:53 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:10:58 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+10:11:19 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+10:12:18 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:12:19 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:12:22 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+10:12:37 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:12:37 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:12:37 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:12:37 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:12:38 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:12:39 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:12:39 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:12:42 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+10:13:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:13:05 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:13:09 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+10:14:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:14:07 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+10:14:38 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+10:14:55 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+10:15:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+10:15:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+10:16:12 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:16:17 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+10:16:42 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|41812
+
+10:17:03 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:17:07 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|41812
+
+10:17:49 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: NL|6104
+
+10:18:56 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_DebateMap.aspx.py", line 209, in insrtLocConfg
+    locLst = self.param['Loc'].strip().split(',')
+AttributeError: 'NoneType' object has no attribute 'strip'
+
+10:19:04 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:19:07 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+10:19:07 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+10:19:07 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+10:19:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|41812
+
+10:25:13 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+10:25:15 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|41812
+
+10:25:34 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:25:34 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:25:38 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+10:26:17 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25813
+
+10:28:23 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+10:28:26 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+10:28:26 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|31628
+
+10:28:52 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4228, in checkParamMatch
+    rowToCheck = self.appCch.dtSt.Tables["items"].Rows[rowIndx]
+IndexError: An der Position -1 befindet sich keine Zeile.
+
+10:28:52 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|31628
+
+12:04:27 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\Default.aspx.py", line 62, in HandlBtnClick
+    tool.log.w2lgDbg( 'Default.aspx->HandlBtnClick URL: ' + url)
+TypeError: unsupported operand type(s) for +: 'str' and 'NoneType'
+
+12:04:31 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\Default.aspx.py", line 62, in HandlBtnClick
+    tool.log.w2lgDbg( 'Default.aspx->HandlBtnClick URL: ' + url)
+TypeError: unsupported operand type(s) for +: 'str' and 'NoneType'
+
+12:08:48 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\Default.aspx.py", line 62, in HandlBtnClick
+    tool.log.w2lgDbg( 'Default.aspx->HandlBtnClick URL: ' + url)
+TypeError: unsupported operand type(s) for +: 'str' and 'NoneType'
+
+12:09:02 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\Default.aspx.py", line 62, in HandlBtnClick
+    tool.log.w2lgDbg( 'Default.aspx->HandlBtnClick URL: ' + url)
+TypeError: unsupported operand type(s) for +: 'str' and 'NoneType'
+
+12:09:16 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\Default.aspx.py", line 62, in HandlBtnClick
+    tool.log.w2lgDbg( 'Default.aspx->HandlBtnClick URL: ' + url)
+TypeError: unsupported operand type(s) for +: 'str' and 'NoneType'
+
+12:09:53 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\Default.aspx.py", line 62, in HandlBtnClick
+    tool.log.w2lgDbg( 'Default.aspx->HandlBtnClick URL: ' + url)
+TypeError: unsupported operand type(s) for +: 'str' and 'NoneType'
+
+12:10:57 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\Default.aspx.py", line 62, in HandlBtnClick
+    tool.log.w2lgDbg( 'Default.aspx->HandlBtnClick URL: ' + url)
+TypeError: unsupported operand type(s) for +: 'str' and 'NoneType'
+
+12:14:27 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+12:14:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+12:14:55 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+12:18:24 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\wbf_functs\jobs_search.aspx.py", line 584, in HandlBtnClick
+    tool.HandlBtnClick(sender, e)
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 5179, in HandlBtnClick
+    self.Page.Response.Redirect( self.Page.ResolveUrl( urlNext ) )
+SystemError: Der Thread wurde abgebrochen.
+
+12:18:35 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\wbf_functs\jobs_search.aspx.py", line 597, in HandlLnkBtn
+    tool.HandlLnkBtn( sender, e)
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 5215, in HandlLnkBtn
+    self.Page.Response.Redirect( self.Page.ResolveUrl( urlNext ) )
+SystemError: Der Thread wurde abgebrochen.
+
+12:18:38 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\wbf_functs\jobs_search.aspx.py", line 584, in HandlBtnClick
+    tool.HandlBtnClick(sender, e)
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 5179, in HandlBtnClick
+    self.Page.Response.Redirect( self.Page.ResolveUrl( urlNext ) )
+SystemError: Der Thread wurde abgebrochen.
+
+12:25:16 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:25:18 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:25:18 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:25:19 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+12:25:20 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:39:54 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_UiHelper.py", line 940, in uiInitLocIntfc
+    currntCntry = self.select.split('|')[0]
+AttributeError: 'BsonString' object has no attribute 'split'
+
+13:39:54 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\wbf_functs\debate_editor.aspx.py", line 194, in Page_PreRender
+    tool.ui.getCtrl('txbx_location_id').Text = lcDfnr.mongoId
+TypeError: expected str, got BsonString
+
+13:40:10 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:40:11 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:41:43 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:41:44 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:41:49 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:44:30 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:44:31 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:44:31 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:44:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:44:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:44:38 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:44:39 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:44:45 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:46:08 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:46:14 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|47053
+
+13:46:32 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+13:46:34 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|47053
+
+13:46:45 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|47053
+
+13:50:12 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:53:47 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:53:48 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:53:52 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:55:33 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:56:52 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:56:53 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:56:55 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:58:12 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:58:39 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:58:39 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:58:41 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4762, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:59:54 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+13:59:55 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+14:00:19 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|31628
+
+14:00:35 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\projector_debateList.aspx.py", line 73, in insrtLocConfg
+    self.ui.getCtrl('txbx_city').Text = self.param['City']
+AttributeError: LOCALDebateProjector instance has no attribute 'param'
+
+14:00:37 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|31628
+
+14:00:42 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|31628
+
+14:00:59 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|25866
+
+15:01:35 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+15:01:35 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+15:01:36 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+15:01:51 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+15:01:52 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4536, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+15:02:22 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4611, in pgLoad
+    context.Response.End()
+SystemError: Der Thread wurde abgebrochen.
+
+15:02:26 | erro  -   Traceback (most recent call last):
+  File "C:\Develop\njb_2\App_Script\srvcs\tls_WbFrmClasses.py", line 4005, in idxLstByLocatedTags
+    ItemDct = self.taggs.LocDict[LocationIdentifier]    # ItemDct is a dict where the tagname-ids are the keys
+KeyError: DE|41812
+

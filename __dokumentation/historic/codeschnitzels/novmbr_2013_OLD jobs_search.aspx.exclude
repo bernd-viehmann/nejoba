@@ -1,0 +1,81 @@
+﻿<%@ Page Title="Suche Arbeitsangebote" Language="IronPython" MasterPageFile="../MasterPage.master" AutoEventWireup="True" CodeFile="OLD jobs_search.aspx.py" %>
+
+<asp:Content ID="ContentHead" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+
+<asp:Content ID="ContentTop" ContentPlaceHolderID="CoPlaTop" Runat="Server">
+</asp:Content>
+
+<asp:Content ID="ContentBottom" ContentPlaceHolderID="CoPlaBottom" Runat="Server">
+
+    <div class="row">
+        <div class="accordion" id="Div1">
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseHeader" >
+                        <h4>Arbeitssuche</h4>
+                    </a>
+                </div>
+                <div id="collapseHeader" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                        <h5>
+                            <asp:Label ID="Label1" runat="server" Text="Finde Jobausschreibungen deiner Nachbarn."></asp:Label>
+                        </h5>
+                        <br />
+                        <asp:Label ID="Label10" runat="server" Text="W&auml;hle oben die T&auml;tigkeit aus, die du suchst. Wenn du unter Arbeitsbereich 'Bitte wählen' anklickst, werden alle Angebote angezeigt.<br/><br/>Zusätzlich ist zumindest die Postleitzahl erforderlich. Dabei werden auch umliegende Orte berücksichtigt.<br/><br/>Dann klicke auf 'Arbeit suchen'. " />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <div class="span1"></div>
+            <div class=" span10" style="background-color:White;">
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/style/pic/jobmarket_head.jpg" ImageAlign="Middle" />
+            </div>
+            <div class="span1"></div>
+        </div>
+    </div>
+
+
+    <div ID="SetUpFiltering" runat="server">
+        <div class="span3 offset1">
+            <h3><asp:Label ID="lbl_head" runat="server" Text="Arbeit suchen" /></h3>
+            <br />
+            <asp:Image ID="Image1" runat="server" class="img-polaroid" ImageUrl="~/style/pic/searchJob.png" ToolTip="Hier findest du etwas zu tun " />
+        </div>
+        <div class="span6 offset1">
+            <h5><asp:Label ID="Label5" runat="server" Text="Arbeitsbereich" /></h5>
+            <asp:DropDownList ID="sel_type" runat="server" class="span10"/>
+
+            <div id="kaese" runat="server" visible="true" >
+                <div id="PostCodeText" runat="server" visible="true">
+                    <h5><asp:Label ID="lblPstCode" runat="server" Text="Postleitzahl" /></h5>
+                    <asp:TextBox ID="txbx_postCode" runat="server" class="span10"/>
+                </div>
+                <div class="label label-warning" id="PostCodeSelect" runat="server" visible="false">
+                    <h5><asp:Label ID="lblMultiSelCode" runat="server" Text="Postleitzahl" /></h5>
+                    <asp:DropDownList ID="sel_mulitPostCode" runat="server" class="span10"/>
+                </div>
+            </div>
+
+            <h5><asp:Label ID="Label2" runat="server" Text="Ortsname" /></h5>
+            <asp:TextBox ID="txb_cityname" runat="server" class="span10" />
+            <h5><asp:Label ID="Label3" runat="server" Text="Land" /></h5>
+            <asp:DropDownList ID="sel_country" runat="server" class="span10" />
+            <br /><br />
+            <br /><br />
+            <asp:Button ID="btn_Save" runat="server" class="btn btn-large btn-primary" Text="Arbeit suchen" onclick="HndlrButtonClick" ToolTip="Suche Arbeit in deiner Umgebung und hilf deinen Nachbarn " />
+        </div>
+    </div>
+
+    <div class="thehidden">
+        <!-- hidden textfields used for statusmessages from the server (easier internationalization of the text -->
+        <asp:Label ID="msg_pleaseSelPostCode" runat="server" Text="Bitte Postleitzahl bestimmen...." ></asp:Label>
+        <asp:Label ID="msg_unknownPostCode" runat="server" Text="Aus Deiner Eingabe konnte keine Postleitzahl gewonnen werden. <br />Bitte &uuml;berpr&uuml;fe den Namen der Stadt und suche (z.B. bei Wikipedia) <br />nach der Postleitzahl des gesuchten Ortes." ></asp:Label>
+    </div>
+</asp:Content>
+

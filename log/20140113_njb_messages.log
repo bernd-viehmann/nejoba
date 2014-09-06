@@ -1,0 +1,273 @@
+08:40:05 | mess  -   Application started : new LogCache was created
+08:40:05 | mess  -   new UiTools instance created !
+08:40:18 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+08:40:18 | deve  -   slice index                           : 0
+08:40:18 | deve  -   start-day    left  in timebeam        : 15.10.2013 07:40:18
+08:40:18 | deve  -   end-day      rigth in timebeam        : 13.01.2014 07:40:18
+08:40:18 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+08:40:18 | deve  -   number of slices cached                        :0
+08:40:18 | deve  -   CachedDataSource.fillTablesItems START (left)  :15.10.2013 07:40:18
+08:40:18 | deve  -   CachedDataSource.fillTablesItems END   (rigth) :13.01.2014 07:40:18
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_PERSONALHYGIENE ; position = 0  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §LONELY_HEARTS_AD_2_0_0 ; position = 1  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_21_116 ; position = 2  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = wintersport-vereine ; position = 3  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = Österreich ; position = 4  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CRAFT ; position = 5  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_OFFICE ; position = 6  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HUMAN2HUMAN ; position = 7  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_LEISURE ; position = 8  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CHILDREN ; position = 9  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOME ; position = 10  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOMEWORK ; position = 11  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_GARDEN ; position = 12  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_COMPUTER ; position = 13  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_NOTSPECIFIED ; position = 14  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §SWAP_0_0 ; position = 15  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_EDUCATION ; position = 16  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_4_124 ; position = 17  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = golfclub ; position = 18  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = youtube ; position = 19  
+08:40:18 | deve  -   TaggContainer.addTaggToList     : taggString = ottiefant ; position = 20  
+08:40:18 | deve  -   ------- LOADING JOB_ROOT INTO cache ------
+08:40:18 | deve  -   _objectDetailID  : 0
+08:40:19 | mess  -   New UserData instance created with ID = xhgkv0bf2zg2moydttl12foj IP: ::1 Local: de-de
+08:40:19 | deve  -   LocDefiner.uiInitLocDef was called 
+08:40:37 | deve  -   LocDefiner.uiInitLocDef was called 
+08:40:46 | deve  -   constructor of class UserHome(Page) aufgefufen!
+08:40:46 | deve  -   UserHome( .. ) called FillUsrCache with mail njb03@t-online.de
+08:40:46 | deve  -   userData.createUserLocationString found for user-home-town : 50c2317e773e6f12e0074785
+08:40:46 | deve  -   userData.createUserLocationString found for user-home-town    : [DE] 20095 Hamburg Altstadt
+08:40:49 | deve  -   user-data read from mongo and copied into the user-dict !!
+08:40:49 | deve  -   KEY : website	  VALUE : http://de.wikipedia.org/wiki/Hamburg	
+08:40:49 | deve  -   KEY : locationname	  VALUE : [DE] 20095 Hamburg Altstadt	
+08:40:49 | deve  -   KEY : post_code_key	  VALUE : DE|20095 	
+08:40:49 | deve  -   KEY : languagecode	  VALUE : de	
+08:40:49 | deve  -   KEY : creation_time	  VALUE : 2013-07-24T10:20:04.127Z	
+08:40:49 | deve  -   KEY : nickname	  VALUE : Harald Fleischbrötchen	
+08:40:49 | deve  -   KEY : fax	  VALUE : 	
+08:40:49 | deve  -   KEY : google_plus	  VALUE : 	
+08:40:49 | deve  -   KEY : hashtag	  VALUE : 	
+08:40:49 | deve  -   KEY : cities	  VALUE : [50c2317e773e6f12e0074785, 50c23180773e6f12e007478d, 50c2318c773e6f12e00747c9, 50c2318e773e6f12e00747d2, 50c23180773e6f12e007478e, 50c23183773e6f12e007479a, 50c23183773e6f12e007479c, 50c23184773e6f12e007479f, 50c23188773e6f12e00747b4, 50c2318a773e6f12e00747bd, 50c2318b773e6f12e00747c2, 50c2318d773e6f12e00747cc, 50c23191773e6f12e00747e3, 50c23191773e6f12e00747e5, 50c23192773e6f12e00747ea, 50c23193773e6f12e00747ed, 50c23193773e6f12e00747f0, 50c23195773e6f12e00747fa, 50c23196773e6f12e0074800, 50c23196773e6f12e0074802, 50c2319d773e6f12e0074824, 50c2319e773e6f12e0074827, 50c231a7773e6f12e0074851, 50c231a9773e6f12e007485a, 50c231a9773e6f12e007485b, 50c231a9773e6f12e007485e, 50c231aa773e6f12e0074860, 50c231ac773e6f12e007486a, 50c231ae773e6f12e0074874, 50c231b3773e6f12e007488c, 50c231b3773e6f12e007488e, 50c231b4773e6f12e0074895, 50c231b5773e6f12e0074899, 50c231b6773e6f12e007489e, 50c231b8773e6f12e00748a5, 50c231b8773e6f12e00748a7, 50c231b9773e6f12e00748ab, 50c231ba773e6f12e00748af, 50c231ba773e6f12e00748b3, 50c231bb773e6f12e00748b8, 50c231bc773e6f12e00748bb, 50c231bd773e6f12e00748bf, 50c231c3773e6f12e00748de, 50c231c3773e6f12e00748df, 50c231c4773e6f12e00748e1, 50c231c5773e6f12e00748e9, 50c231c6773e6f12e00748ec, 50c2368e773e6f12e007609d, 50c2369a773e6f12e00760e2, 50c2317e773e6f12e0074786, 50c2318d773e6f12e00747cf, 50c2317e773e6f12e0074783, 50c2317e773e6f12e0074784, 50c23189773e6f12e00747b7, 50c23189773e6f12e00747ba, 50c2318a773e6f12e00747bc, 50c2318c773e6f12e00747c7, 50c2318d773e6f12e00747cd, 50c2318e773e6f12e00747d1, 50c2317f773e6f12e0074788, 50c23180773e6f12e007478c, 50c2318d773e6f12e00747ce, 50c23189773e6f12e00747bb, 50c2317f773e6f12e007478a, 50c2317f773e6f12e0074787, 50c2317f773e6f12e0074789, 50c23180773e6f12e007478f, 50c23189773e6f12e00747b9, 50c2318a773e6f12e00747be, 50c2318a773e6f12e00747bf, 50c2318c773e6f12e00747c6, 50c2318d773e6f12e00747d0, 50c231cb773e6f12e0074906, 50c231cb773e6f12e0074907, 50c2318d773e6f12e00747cb, 50c2318f773e6f12e00747db, 50c2318c773e6f12e00747c8, 50c2318c773e6f12e00747ca, 50c2319a773e6f12e0074816, 50c2317f773e6f12e007478b, 50c2318f773e6f12e00747d7, 50c23182773e6f12e0074797, 50c23190773e6f12e00747dd, 50c2319b773e6f12e0074819, 50c23190773e6f12e00747de, 50c2318e773e6f12e00747d5, 50c2318f773e6f12e00747d9, 50c23181773e6f12e0074794, 50c23182773e6f12e0074795, 50c23183773e6f12e0074799, 50c23183773e6f12e007479b, 50c23189773e6f12e00747b8, 50c2318b773e6f12e00747c4, 50c231a4773e6f12e0074844, 50c231a5773e6f12e007484b, 50c23190773e6f12e00747df, 50c231a4773e6f12e0074843, 50c231cc773e6f12e007490a, 50c231a2773e6f12e007483c, 50c231a3773e6f12e0074841, 50c231a4773e6f12e0074845, 50c23181773e6f12e0074792, 50c23181773e6f12e0074793, 50c23182773e6f12e0074796, 50c23182773e6f12e0074798, 50c23183773e6f12e007479d, 50c23184773e6f12e007479e, 50c23186773e6f12e00747a8, 50c231cb773e6f12e0074905, 50c2318f773e6f12e00747d8, 50c2318f773e6f12e00747da, 50c23188773e6f12e00747b2, 50c2318a773e6f12e00747c0, 50c231ca773e6f12e0074902, 50c231cc773e6f12e007490c, 50c2318e773e6f12e00747d4, 50c231a3773e6f12e007483f, 50c23188773e6f12e00747b5, 50c231ca773e6f12e00748ff, 50c2318b773e6f12e00747c1, 50c2318b773e6f12e00747c5, 50c231ca773e6f12e0074900, 50c231cb773e6f12e0074904, 50c231cc773e6f12e007490d, 50c2318e773e6f12e00747d3, 50c231a3773e6f12e0074842, 50c231a4773e6f12e0074847, 50c2319a773e6f12e0074814, 50c2318f773e6f12e00747d6, 50c231a4773e6f12e0074846, 50c231a6773e6f12e007484c, 50c231a2773e6f12e007483e, 50c23181773e6f12e0074791, 50c23185773e6f12e00747a7, 50c23187773e6f12e00747b0, 50c23188773e6f12e00747b3, 50c23188773e6f12e00747b6, 50c2318b773e6f12e00747c3, 50c231bf773e6f12e00748c8, 50c231c0773e6f12e00748cd, 50c231cb773e6f12e0074908, 50c23181773e6f12e0074790, 50c23184773e6f12e00747a0, 50c23185773e6f12e00747a6, 50c23186773e6f12e00747ab, 50c23185773e6f12e00747a5, 50c23186773e6f12e00747a9, 50c23187773e6f12e00747ae, 50c231c1773e6f12e00748d4, 50c23186773e6f12e00747ac, 50c23187773e6f12e00747af, 50c231ae773e6f12e0074877, 50c231a2773e6f12e007483a, 50c231a5773e6f12e0074849, 50c23184773e6f12e00747a2, 50c23185773e6f12e00747a3, 50c231c0773e6f12e00748d1, 50c231a2773e6f12e007483b, 50c231a2773e6f12e007483d, 50c231a3773e6f12e0074840, 50c231af773e6f12e007487a, 50c2319b773e6f12e0074818, 50c2319c773e6f12e007481e, 50c231c9773e6f12e00748fc, 50c231ca773e6f12e0074901, 50c231ca773e6f12e0074903, 50c23190773e6f12e00747dc, 50c2319a773e6f12e0074815, 50c2319b773e6f12e0074817, 50c231ad773e6f12e0074872, 50c23184773e6f12e00747a1, 50c231ad773e6f12e007486e, 50c231ad773e6f12e0074871, 50c231ae773e6f12e0074873, 50c231ae773e6f12e0074875, 50c231af773e6f12e0074878, 50c231a1773e6f12e0074838, 50c231c9773e6f12e00748fd, 50c231af773e6f12e007487b, 50c231c9773e6f12e00748fb, 50c231a1773e6f12e0074839, 50c2319e773e6f12e0074828, 50c2319f773e6f12e007482e, 50c231a5773e6f12e0074848, 50c2319e773e6f12e0074829, 50c23187773e6f12e00747ad, 50c231be773e6f12e00748c5, 50c231bf773e6f12e00748cc, 50c231c0773e6f12e00748d0, 50c231cc773e6f12e007490b, 50c231be773e6f12e00748c6, 50c231c2773e6f12e00748d7, 50c231c3773e6f12e00748dc, 50c231c6773e6f12e00748ef, 50c231c7773e6f12e00748f2, 50c231c9773e6f12e00748fa, 50c231cc773e6f12e0074909, 50c231bf773e6f12e00748ca, 50c231ac773e6f12e007486c, 50c2319b773e6f12e007481a, 50c231af773e6f12e007487c, 50c231ad773e6f12e007486f, 50c231ae773e6f12e0074876, 50c231af773e6f12e0074879, 50c231b0773e6f12e007487d, 50c231b0773e6f12e007487e, 50c231a6773e6f12e0074850, 50c23699773e6f12e00760da, 50c231c1773e6f12e00748d2, 50c23186773e6f12e00747aa, 50c23187773e6f12e00747b1, 50c231bf773e6f12e00748cb, 50c231c1773e6f12e00748d3, 50c2319c773e6f12e007481c, 50c23698773e6f12e00760d5, 50c231ac773e6f12e007486d, 50c231b2773e6f12e0074887, 50c231bb773e6f12e00748b5, 50c231c1773e6f12e00748d5, 50c2319e773e6f12e007482a, 50c231a1773e6f12e0074836, 50c231a1773e6f12e0074837, 50c231a5773e6f12e007484a, 50c231a6773e6f12e007484d, 50c231c6773e6f12e00748ee, 50c231c7773e6f12e00748f0, 50c231c8773e6f12e00748f9, 50c231c9773e6f12e00748fe, 50c231a6773e6f12e007484f, 50c231a8773e6f12e0074858, 50c23698773e6f12e00760d7, 50c231be773e6f12e00748c4, 50c231bb773e6f12e00748b4, 50c23185773e6f12e00747a4, 50c231ad773e6f12e0074870, 50c231b1773e6f12e0074885, 50c231b2773e6f12e0074888, 50c231a8773e6f12e0074856, 50c231b0773e6f12e0074881, 50c23198773e6f12e007480b, 50c2319c773e6f12e007481f, 50c231a0773e6f12e0074833, 50c231c6773e6f12e00748ed, 50c231c7773e6f12e00748f1, 50c231c8773e6f12e00748f6, 50c23194773e6f12e00747f4, 50c231ab773e6f12e0074867, 50c2369a773e6f12e00760dd, 50c231bd773e6f12e00748be, 50c231be773e6f12e00748c3, 50c231bf773e6f12e00748c9, 50c231c0773e6f12e00748ce, 50c231c2773e6f12e00748da, 50c231bb773e6f12e00748b7, 50c231bc773e6f12e00748ba, 50c231bc773e6f12e00748bc, 50c231bd773e6f12e00748c0, 50c231c0773e6f12e00748cf, 50c231c7773e6f12e00748f3, 50c2319b773e6f12e007481b, 50c23194773e6f12e00747f3, 50c231a6773e6f12e007484e, 50c231a7773e6f12e0074853, 50c231a7773e6f12e0074854, 50c231a8773e6f12e0074857, 50c23699773e6f12e00760d9, 50c2319f773e6f12e007482f, 50c231c4773e6f12e00748e3, 50c231c7773e6f12e00748f4, 50c231c8773e6f12e00748f8, 50c231a7773e6f12e0074855, 50c231ac773e6f12e0074869, 50c231b0773e6f12e0074880, 50c231c2773e6f12e00748d9, 50c23198773e6f12e0074809, 50c231c8773e6f12e00748f5, 50c231b0773e6f12e007487f, 50c231b1773e6f12e0074886, 50c231b2773e6f12e0074889, 50c231b4773e6f12e0074893, 50c231b1773e6f12e0074883, 50c23195773e6f12e00747f9, 50c23196773e6f12e0074801, 50c23199773e6f12e007480f, 50c2319e773e6f12e007482b, 50c2319f773e6f12e007482d, 50c2319f773e6f12e0074830, 50c231a1773e6f12e0074835, 50c231aa773e6f12e007485f, 50c231aa773e6f12e0074863, 50c23198773e6f12e007480c, 50c231b1773e6f12e0074884, 50c231b3773e6f12e007488d, 50c231b9773e6f12e00748ac, 50c231bb773e6f12e00748b6, 50c2319f773e6f12e007482c, 50c231a0773e6f12e0074832, 50c231be773e6f12e00748c2, 50c231b2773e6f12e007488a, 50c23192773e6f12e00747e8, 50c23193773e6f12e00747ee, 50c23699773e6f12e00760db, 50c23195773e6f12e00747f8, 50c23196773e6f12e00747fd, 50c23199773e6f12e0074810, 50c231a0773e6f12e0074831, 50c231be773e6f12e00748c7, 50c231c1773e6f12e00748d6, 50c231c3773e6f12e00748dd, 50c231a0773e6f12e0074834, 50c231ab773e6f12e0074864, 50c231ab773e6f12e0074865, 50c231ab773e6f12e0074868, 50c231ac773e6f12e007486b, 50c231b1773e6f12e0074882, 50c231b4773e6f12e0074892, 50c231b6773e6f12e007489d, 50c231c2773e6f12e00748d8, 50c231c2773e6f12e00748db, 50c231c5773e6f12e00748e6, 50c231c6773e6f12e00748eb, 50c231c8773e6f12e00748f7, 50c2319d773e6f12e0074821, 50c231ab773e6f12e0074866, 50c23193773e6f12e00747ef, 50c23199773e6f12e007480d, 50c23196773e6f12e00747fe, 50c23199773e6f12e007480e, 50c2319d773e6f12e0074822, 50c2319d773e6f12e0074825, 50c23192773e6f12e00747eb, 50c23194773e6f12e00747f6, 50c23699773e6f12e00760d8, 50c231bc773e6f12e00748b9, 50c231bc773e6f12e00748bd, 50c231bd773e6f12e00748c1, 50c2369c773e6f12e00760ea, 50c231aa773e6f12e0074862, 50c2369a773e6f12e00760e0, 50c23195773e6f12e00747fb, 50c23196773e6f12e00747ff, 50c23197773e6f12e0074804, 50c23195773e6f12e00747fc, 50c23197773e6f12e0074803, 50c2319a773e6f12e0074813, 50c231c5773e6f12e00748e7, 50c23698773e6f12e00760d6, 50c2369c773e6f12e00760e8, 50c2319d773e6f12e0074823, 50c2319e773e6f12e0074826, 50c231b5773e6f12e0074897, 50c231b6773e6f12e007489c, 50c231a9773e6f12e007485c, 50c231a9773e6f12e007485d, 50c231b4773e6f12e0074891, 50c2369a773e6f12e00760e1, 50c23194773e6f12e00747f5, 50c2372e773e6f12e00763b9, 50c2372e773e6f12e00763ba, 50c231aa773e6f12e0074861, 50c231b5773e6f12e0074898, 50c231b5773e6f12e007489a, 50c231b7773e6f12e00748a1, 50c2372e773e6f12e00763bb, 50c23194773e6f12e00747f7]	
+08:40:49 | deve  -   KEY : CAPTCHA	  VALUE : zmHZBCig	
+08:40:49 | deve  -   KEY : phone	  VALUE : 	
+08:40:49 | deve  -   KEY : account_roles	  VALUE : [free]	
+08:40:49 | deve  -   KEY : emailconfirm	  VALUE : njb03@t-online.de	
+08:40:49 | deve  -   KEY : item_type	  VALUE : human	
+08:40:49 | deve  -   KEY : _id	  VALUE : 51efaa54773e6f0ab8354d56	
+08:40:49 | deve  -   KEY : timeFrom	  VALUE : 	
+08:40:49 | deve  -   KEY : CRRNT_LCTN_ID	  VALUE : 50c2317e773e6f12e0074785	
+08:40:49 | deve  -   KEY : facebook	  VALUE : 	
+08:40:49 | deve  -   KEY : forename	  VALUE : 	
+08:40:49 | deve  -   KEY : tagforitem	  VALUE : 	
+08:40:49 | deve  -   KEY : postcode	  VALUE : 20095 	
+08:40:49 | deve  -   KEY : CRRNT_POSTCODE	  VALUE : 20095 	
+08:40:49 | deve  -   KEY : street	  VALUE : 	
+08:40:49 | deve  -   KEY : timeTo	  VALUE : 	
+08:40:49 | deve  -   KEY : countrycode	  VALUE : DE	
+08:40:49 | deve  -   KEY : picturl	  VALUE : http://guikblog.com/wp-content/uploads/2012/08/anonymus-logo-.png	
+08:40:49 | deve  -   KEY : marker_line	  VALUE : 	
+08:40:49 | deve  -   KEY : familyname	  VALUE : 	
+08:40:49 | deve  -   KEY : CRRNT_CITYNAME	  VALUE : 	
+08:40:49 | deve  -   KEY : email	  VALUE : njb03@t-online.de	
+08:40:49 | deve  -   KEY : mobile	  VALUE : 	
+08:40:49 | deve  -   KEY : info	  VALUE : 	
+08:40:49 | deve  -   KEY : areasize	  VALUE : 17	
+08:40:49 | deve  -   KEY : twitter	  VALUE : 	
+08:40:49 | deve  -   KEY : skype	  VALUE : 	
+08:40:49 | deve  -   KEY : itemname	  VALUE : 	
+08:40:49 | deve  -   KEY : lat	  VALUE : 53.5415945445	
+08:40:49 | deve  -   KEY : housenumber	  VALUE : 	
+08:40:49 | deve  -   KEY : CRRNT_LCTNCNTRY	  VALUE : DE	
+08:40:49 | deve  -   KEY : password	  VALUE : Y2TPAEVTJDscoNnhGbxHN5qHTRcy90TN0uxp+7ZjaDmzrtDShs2o+/wFwD7lcshOtJ0nACDQO9SKuryuv6HO0Q==	
+08:40:49 | deve  -   KEY : GUID	  VALUE : d7c0ffdbe48e4a6a8e00caf7321bd4bc	
+08:40:49 | deve  -   KEY : lon	  VALUE : 9.98707504002	
+08:40:49 | deve  -   measurePeformance                      -> 
+08:40:49 | deve  -   measurePeformance    last message was  -> user-data-constructor (initial creation in app-cache)
+08:40:49 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+08:40:49 | deve  -   measurePeformance - - - - - - - - - - --> 991
+08:40:49 | deve  -   measurePeformance                      -> 
+08:40:49 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+08:40:49 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+08:40:49 | deve  -   measurePeformance - - - - - - - - - - --> 17
+08:40:57 | deve  -   measurePeformance                      -> 
+08:40:57 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+08:40:57 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+08:40:57 | deve  -   measurePeformance - - - - - - - - - - --> 965
+08:40:57 | deve  -   measurePeformance                      -> 
+08:40:57 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+08:40:57 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+08:40:57 | deve  -   measurePeformance - - - - - - - - - - --> 3
+08:40:57 | deve  -   LocDefiner.uiInitLocDef was called 
+08:41:45 | deve  -   measurePeformance                      -> 
+08:41:45 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+08:41:45 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+08:41:45 | deve  -   measurePeformance - - - - - - - - - - --> 633
+08:41:45 | deve  -   measurePeformance                      -> 
+08:41:45 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+08:41:45 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+08:41:45 | deve  -   measurePeformance - - - - - - - - - - --> 2
+08:41:45 | deve  -   LocDefiner.uiInitLocDef was called 
+08:42:53 | deve  -   measurePeformance                      -> 
+08:42:53 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+08:42:53 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+08:42:53 | deve  -   measurePeformance - - - - - - - - - - --> 423
+08:42:53 | deve  -   measurePeformance                      -> 
+08:42:53 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+08:42:53 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+08:42:53 | deve  -   measurePeformance - - - - - - - - - - --> 0
+08:42:53 | deve  -   LocDefiner.uiInitLocDef was called 
+08:44:33 | deve  -   measurePeformance                      -> 
+08:44:33 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+08:44:33 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+08:44:33 | deve  -   measurePeformance - - - - - - - - - - --> 93
+08:44:33 | deve  -   measurePeformance                      -> 
+08:44:33 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+08:44:33 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+08:44:33 | deve  -   measurePeformance - - - - - - - - - - --> 0
+08:44:33 | deve  -   LocDefiner.uiInitLocDef was called 
+08:45:14 | deve  -   measurePeformance                      -> 
+08:45:14 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+08:45:14 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+08:45:14 | deve  -   measurePeformance - - - - - - - - - - --> 125
+08:45:14 | deve  -   measurePeformance                      -> 
+08:45:14 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+08:45:14 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+08:45:14 | deve  -   measurePeformance - - - - - - - - - - --> 0
+08:45:14 | deve  -   LocDefiner.uiInitLocDef was called 
+08:45:33 | deve  -   measurePeformance                      -> 
+08:45:33 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+08:45:33 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+08:45:33 | deve  -   measurePeformance - - - - - - - - - - --> 250
+08:45:33 | deve  -   measurePeformance                      -> 
+08:45:33 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+08:45:33 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+08:45:33 | deve  -   measurePeformance - - - - - - - - - - --> 0
+08:45:33 | deve  -   LocDefiner.uiInitLocDef was called 
+08:47:18 | deve  -   LocDefiner.uiInitLocDef was called 
+08:47:39 | deve  -   constructor of class UserHome(Page) aufgefufen!
+08:47:39 | deve  -   measurePeformance                      -> 
+08:47:39 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+08:47:39 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - begin 
+08:47:39 | deve  -   measurePeformance - - - - - - - - - - --> 890
+08:47:39 | deve  -   measurePeformance                      -> 
+08:47:39 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - begin 
+08:47:39 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - end-of-try 
+08:47:39 | deve  -   measurePeformance - - - - - - - - - - --> 0
+08:47:39 | deve  -   measurePeformance                      -> 
+08:47:39 | deve  -   measurePeformance    last message was  -> Userdata.checkUserRigths - end-of-try 
+08:47:39 | deve  -   measurePeformance    new meaasage is   -> Userdata.checkUserRigths - before redirect 
+08:47:39 | deve  -   measurePeformance - - - - - - - - - - --> 0
+08:47:42 | deve  -   constructor of class ConfirmUser(Page) aufgefufen!
+08:50:19 | deve  -   constructor of class ConfirmUser(Page) aufgefufen!
+08:59:53 | deve  -   LocDefiner.uiInitLocDef was called 
+10:41:11 | debu  -   Default.aspx->HandlBtnClick URL: ~/micro_blog.aspx?
+10:43:26 | deve  -   LocDefiner.uiInitLocDef was called 
+10:48:49 | deve  -   LocDefiner.uiInitLocDef was called 
+10:49:13 | deve  -   LocDefiner.uiInitLocDef was called 
+11:10:26 | deve  -   LocDefiner.uiInitLocDef was called 
+11:12:02 | mess  -   Application started : new LogCache was created
+11:12:03 | mess  -   new UiTools instance created !
+11:12:14 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+11:12:14 | deve  -   slice index                           : 0
+11:12:14 | deve  -   start-day    left  in timebeam        : 15.10.2013 10:12:14
+11:12:14 | deve  -   end-day      rigth in timebeam        : 13.01.2014 10:12:14
+11:12:14 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+11:12:14 | deve  -   number of slices cached                        :0
+11:12:14 | deve  -   CachedDataSource.fillTablesItems START (left)  :15.10.2013 10:12:14
+11:12:14 | deve  -   CachedDataSource.fillTablesItems END   (rigth) :13.01.2014 10:12:14
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_PERSONALHYGIENE ; position = 0  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §LONELY_HEARTS_AD_2_0_0 ; position = 1  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_21_116 ; position = 2  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = wintersport-vereine ; position = 3  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = Österreich ; position = 4  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CRAFT ; position = 5  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_OFFICE ; position = 6  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HUMAN2HUMAN ; position = 7  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_LEISURE ; position = 8  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CHILDREN ; position = 9  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOME ; position = 10  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOMEWORK ; position = 11  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_GARDEN ; position = 12  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_COMPUTER ; position = 13  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_NOTSPECIFIED ; position = 14  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §SWAP_0_0 ; position = 15  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_EDUCATION ; position = 16  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_4_124 ; position = 17  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = golfclub ; position = 18  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = youtube ; position = 19  
+11:12:14 | deve  -   TaggContainer.addTaggToList     : taggString = ottiefant ; position = 20  
+11:12:14 | deve  -   ------- LOADING JOB_ROOT INTO cache ------
+11:12:14 | deve  -   _objectDetailID  : 0
+11:12:14 | mess  -   New UserData instance created with ID = xhgkv0bf2zg2moydttl12foj IP: ::1 Local: de-de
+11:12:15 | deve  -   LocDefiner.uiInitLocDef was called 
+14:44:13 | mess  -   Application started : new LogCache was created
+14:44:14 | mess  -   new UiTools instance created !
+14:44:28 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+14:44:28 | deve  -   slice index                           : 0
+14:44:28 | deve  -   start-day    left  in timebeam        : 15.10.2013 13:44:28
+14:44:28 | deve  -   end-day      rigth in timebeam        : 13.01.2014 13:44:28
+14:44:28 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+14:44:28 | deve  -   number of slices cached                        :0
+14:44:28 | deve  -   CachedDataSource.fillTablesItems START (left)  :15.10.2013 13:44:28
+14:44:28 | deve  -   CachedDataSource.fillTablesItems END   (rigth) :13.01.2014 13:44:28
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_PERSONALHYGIENE ; position = 0  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §LONELY_HEARTS_AD_2_0_0 ; position = 1  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_21_116 ; position = 2  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = wintersport-vereine ; position = 3  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = Österreich ; position = 4  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CRAFT ; position = 5  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_OFFICE ; position = 6  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HUMAN2HUMAN ; position = 7  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_LEISURE ; position = 8  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CHILDREN ; position = 9  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOME ; position = 10  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOMEWORK ; position = 11  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_GARDEN ; position = 12  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_COMPUTER ; position = 13  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_NOTSPECIFIED ; position = 14  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §SWAP_0_0 ; position = 15  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_EDUCATION ; position = 16  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_4_124 ; position = 17  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = golfclub ; position = 18  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = youtube ; position = 19  
+14:44:28 | deve  -   TaggContainer.addTaggToList     : taggString = ottiefant ; position = 20  
+14:44:28 | deve  -   ------- LOADING JOB_ROOT INTO cache ------
+14:44:28 | deve  -   _objectDetailID  : 0
+14:44:28 | mess  -   New UserData instance created with ID = ku4renyby2czuirj1hxt4vwq IP: ::1 Local: de-de
+14:44:28 | deve  -   LocDefiner.uiInitLocDef was called 
+15:12:48 | mess  -   Application started : new LogCache was created
+15:12:49 | mess  -   new UiTools instance created !
+15:13:03 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+15:13:03 | deve  -   slice index                           : 0
+15:13:03 | deve  -   start-day    left  in timebeam        : 15.10.2013 14:13:03
+15:13:03 | deve  -   end-day      rigth in timebeam        : 13.01.2014 14:13:03
+15:13:03 | deve  -   -----------------------------------    getSliceBounce     -----------------------------------------
+15:13:03 | deve  -   number of slices cached                        :0
+15:13:03 | deve  -   CachedDataSource.fillTablesItems START (left)  :15.10.2013 14:13:03
+15:13:03 | deve  -   CachedDataSource.fillTablesItems END   (rigth) :13.01.2014 14:13:03
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_PERSONALHYGIENE ; position = 0  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §LONELY_HEARTS_AD_2_0_0 ; position = 1  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_21_116 ; position = 2  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = wintersport-vereine ; position = 3  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = Österreich ; position = 4  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CRAFT ; position = 5  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_OFFICE ; position = 6  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HUMAN2HUMAN ; position = 7  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_LEISURE ; position = 8  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_CHILDREN ; position = 9  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOME ; position = 10  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_HOMEWORK ; position = 11  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_GARDEN ; position = 12  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_COMPUTER ; position = 13  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_NOTSPECIFIED ; position = 14  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §SWAP_0_0 ; position = 15  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §*JTD01_EDUCATION ; position = 16  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = §BUSINESS_4_124 ; position = 17  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = golfclub ; position = 18  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = youtube ; position = 19  
+15:13:03 | deve  -   TaggContainer.addTaggToList     : taggString = ottiefant ; position = 20  
+15:13:03 | deve  -   ------- LOADING JOB_ROOT INTO cache ------
+15:13:03 | deve  -   _objectDetailID  : 0
+15:13:03 | mess  -   New UserData instance created with ID = ku4renyby2czuirj1hxt4vwq IP: ::1 Local: de-de
+15:13:03 | deve  -   LocDefiner.uiInitLocDef was called 
